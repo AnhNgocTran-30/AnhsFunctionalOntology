@@ -625,9 +625,8 @@ fo:IsProcessOf
 fo:IsSubFunctionOf
   rdf:type owl:ObjectProperty ;
   rdfs:domain fo:Level-2-Sub-functions ;
-  rdfs:label "Communicate strategy internally and externally" ;
+  rdfs:label "is sub-function of" ;
   rdfs:range fo:Level-1-Functions ;
-  rdfs:subPropertyOf fo:ObjectProperty_2 ;
 .
 fo:IsSubFunctionOf1
   rdf:type owl:ObjectProperty ;
@@ -652,14 +651,18 @@ fo:Level-2-Sub-functions
   rdfs:label "Sub-functions" ;
   rdfs:subClassOf fo:AnhsFunction ;
 .
+fo:Level-2-Sub-functions_1
+  rdf:type fo:Level-2-Sub-functions ;
+  rdfs:label "Monitor EHS Program" ;
+.
 fo:Level-3-Processes
   rdf:type owl:Class ;
   rdfs:label "Processes" ;
   rdfs:subClassOf fo:AnhsFunction ;
 .
-fo:ObjectProperty_2
-  rdf:type owl:ObjectProperty ;
-  rdfs:label "fo properties" ;
+fo:Level-3-Processes_1
+  rdf:type fo:Level-3-Processes ;
+  rdfs:label "Monitor EHS Program" ;
 .
 fo:StrategicManagement1
   rdf:type owl:Class ;
@@ -687,21 +690,27 @@ fo:hasDefinition
   rdf:type owl:DatatypeProperty ;
   rdfs:domain fo:AnhsFunction ;
   rdfs:domain fo:Funtions ;
+  rdfs:domain fo:Level-1-Functions ;
+  rdfs:domain fo:Level-2-Sub-functions ;
+  rdfs:domain fo:Level-3-Processes ;
   rdfs:label "functionDefinition" ;
   rdfs:range xsd:string ;
-  rdfs:subPropertyOf fo:ObjectProperty_2 ;
 .
 fo:hasExample
   rdf:type owl:DatatypeProperty ;
   rdfs:domain fo:Funtions ;
+  rdfs:domain fo:Level-1-Functions ;
+  rdfs:domain fo:Level-2-Sub-functions ;
+  rdfs:domain fo:Level-3-Processes ;
   rdfs:label "hasExample" ;
   rdfs:range xsd:string ;
-  rdfs:subPropertyOf fo:ObjectProperty_2 ;
 .
 fo:hasSynonym
   rdf:type owl:DatatypeProperty ;
+  rdfs:domain fo:Level-1-Functions ;
+  rdfs:domain fo:Level-2-Sub-functions ;
+  rdfs:domain fo:Level-3-Processes ;
   rdfs:label "Synonym" ;
-  rdfs:subPropertyOf fo:ObjectProperty_2 ;
 .
 apqc:apqcproperties
   rdf:type owl:AnnotationProperty ;
