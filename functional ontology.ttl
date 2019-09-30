@@ -1,0 +1,715 @@
+# baseURI: http://fhnw.ch/functionalOntology
+# imports: http://ikm-group.ch/archimeo/apqc
+# prefix: fo
+
+@prefix : <http://fhnw.ch/functionalOntology#> .
+@prefix apqc: <http://ikm-group.ch/archiMEO/apqc#> .
+@prefix fo: <http://fhnw.ch/functionalOntology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://fhnw.ch/functionalOntology>
+  rdf:type owl:Ontology ;
+  owl:imports <http://ikm-group.ch/archimeo/apqc> ;
+  owl:versionInfo "Created with TopBraid Composer" ;
+.
+<http://fhnw.ch/functionalOntology#1.0.StrategicManagement>
+  rdf:type fo:Level-1-Functions ;
+  rdfs:label "Strategic Management" ;
+.
+<http://fhnw.ch/functionalOntology#1.1.1.AssessExternalEnvironment>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.1.DetermineStrategicDecision> ;
+  fo:hasDefinition "Assess the external environment that have influence into your organization" ;
+  fo:hasExample """PESTEL:
+	+ Political: government policy, political stability or instability, corruption, foreign trade policy, tax policy, labour law, environmental law and trade restrictions
+	+ Economy: economic growth, exchange rates, inflation rates, interest rates, disposable income of consumers and unemployment rates
+	+ Social: population trends such as the population growth rate, age distribution, income distribution, career attitudes, safety emphasis, health consciousness, lifestyle attitudes and cultural barriers
+	+ Technology:  technology incentives, the level of innovation, automation, research and development (R&D) activity, technological change and the amount of technological awareness that a market possesses
+	+ Environmental: weather, climate, environmental offsets and climate chang
+	+ Legal: discrimination laws, antitrust laws, employment laws, consumer protection laws, copyright and patent laws, and health and safety laws
+""" ;
+  fo:hasSynonym "PEST" ;
+  fo:hasSynonym "PESTEL" ;
+  fo:hasSynonym "PESTLE" ;
+  fo:hasSynonym "SWOT" ;
+  rdfs:label "Assess External Environment" ;
+.
+<http://fhnw.ch/functionalOntology#1.1.1.AssessInternalEnvironment>
+  rdf:type owl:Class ;
+  fo:functionHasAPQC <http://ikm-group.ch/archimeo/apqc#1_1_3_Assess_the_internal_environment_10019> ;
+  fo:hasDefinition "Assess the own organization's capabilities" ;
+  fo:hasExample "Using SWOT analysis to assess company's capabilitities: strengths, weknesses, opportunities, threats" ;
+  fo:hasSynonym "SWOT" ;
+  rdfs:label "1.1.2.Assess Internal Environment" ;
+  rdfs:subClassOf <http://fhnw.ch/functionalOntology#1.1.DetermineStrategicPosition> ;
+.
+<http://fhnw.ch/functionalOntology#1.1.2.AssessExternalEnvironment>
+  rdf:type owl:Class ;
+  fo:functionHasAPQC <http://ikm-group.ch/archimeo/apqc#1_1_1_Assess_the_external_environmfo:hasDefinitionent_10017> ;
+  fo:functionHasAPQC <http://ikm-group.ch/archimeo/apqc#1_1_2_Survey_market_and_determine_customer_needs_and_wants_10018> ;
+  fo:hasDefinition "Assess the external environment that have influence into your organization" ;
+  fo:hasExample """* Using PESTEL to assess external environment: political, economic, social, technological, environment, legal
+* Using Porter's 5 forces to assess competitiveness of a market: threats of new entrants, bargaining power of suppliers, bargaining power of buyers, threat of subtitutes, rivalry""" ;
+  fo:hasSynonym "PEST/ PESTEL/ PESTLE" ;
+  fo:hasSynonym "Porter's 5 forces" ;
+  rdfs:label "1.1.1.Assess External Environment" ;
+  rdfs:subClassOf <http://fhnw.ch/functionalOntology#1.1.DetermineStrategicPosition> ;
+.
+<http://fhnw.ch/functionalOntology#1.1.2.AssessInternalEnvironment>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.1.DetermineStrategicDecision> ;
+  fo:hasDefinition "Assess the own organization's capabilities" ;
+  fo:hasExample "Using SWOT analysis to assess company's capabilitities: strengths, weknesses, opportunities, threats" ;
+  fo:hasSynonym "SWOT" ;
+  rdfs:label "Assess Internal Environment" ;
+.
+<http://fhnw.ch/functionalOntology#1.1.3.EstablichStrategicVision>
+  rdf:type fo:Level-3-Processes ;
+  fo:hasDefinition "Strategic vision is the path that the organization will go in the long term" ;
+  fo:hasExample """“To become the world’s most loved, most flown, and most profitable airline.” – Southwest Air
+“Our vision is to create a better every-day life for many people.” – IKEA""" ;
+  fo:hasSynonym "Vision statement" ;
+  rdfs:label "Establish Strategic Vision" ;
+.
+<http://fhnw.ch/functionalOntology#1.1.3.EstablishStrategicPosition>
+  rdf:type owl:Class ;
+  fo:functionHasAPQC <http://ikm-group.ch/archimeo/apqc#1_1_4_Establish_strategic_vision_10020> ;
+  fo:functionHasAPQC <http://ikm-group.ch/archimeo/apqc#1_1_5_Conduct_organization_restructuring_opportunities_16792> ;
+  fo:hasDefinition "Strategic vision is the path that the organization will go in the long term" ;
+  fo:hasExample "“Our vision is to create a better every-day life for many people.” – IKEA" ;
+  fo:hasExample "“To become the world’s most loved, most flown, and most profitable airline.” – Southwest Air" ;
+  fo:hasSynonym "Vision statement" ;
+  rdfs:label "1.1.3.Establish Strategic Position" ;
+  rdfs:subClassOf <http://fhnw.ch/functionalOntology#1.1.DetermineStrategicPosition> ;
+.
+<http://fhnw.ch/functionalOntology#1.1.DetermineStrategicDecision>
+  rdf:type fo:Level-2-Sub-functions ;
+  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#1.0.StrategicManagement> ;
+  fo:hasDefinition "The activity of determining company's position in the market as well as company's strengths and weaknesses in order to create a suitable strategy" ;
+  fo:hasExample "Using PESTEL to assess external environment" ;
+  fo:hasExample "Using SWOT to assess internal environment" ;
+  fo:hasSynonym "PEST" ;
+  fo:hasSynonym "PESTEL" ;
+  fo:hasSynonym "PESTLE" ;
+  fo:hasSynonym "Porter's 5 forces" ;
+  fo:hasSynonym "SWOT" ;
+  rdfs:label "Determine Strategic Decision" ;
+.
+<http://fhnw.ch/functionalOntology#1.1.DetermineStrategicPosition>
+  rdf:type owl:Class ;
+  rdfs:label "Determine Strategic Position" ;
+  rdfs:subClassOf fo:StrategicManagement1 ;
+.
+<http://fhnw.ch/functionalOntology#1.10.1.CreatePerformanceStrategy>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.10.MeasureAndBenchmark> ;
+  fo:hasDefinition "Create and manage performance strategy and measures across the organization" ;
+  fo:hasExample "Measure process efficiency, cost effectiveness, staff prodcutivity, cycle time" ;
+  fo:hasSynonym "Organizational Performance" ;
+  rdfs:label "Create Organizational performance Strategy" ;
+.
+<http://fhnw.ch/functionalOntology#1.10.2.BenchmarkPerformance>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.10.MeasureAndBenchmark> ;
+  fo:hasDefinition "Benchmarking is the process of comparing your own organization, its operations or processes against other organizations in your industry or in the broader marketplace. " ;
+  fo:hasExample "Quick-service/drive-thru restaurant chain. As it is dependent on speedy and accurate service to maximize efficiency, cut costs, and increase profits, it will study the drive-thru practices of key competitors. Every second gained without sacrificing customer quality will allow the firm to increase its profits. Over the years, competitors have consistently innovated their drive-thru operations' configuration, such as the number of windows, the menu, the speaker boards and ordering approaches in an attempt to improve their performances" ;
+  fo:hasSynonym "Benchmark" ;
+  rdfs:label "Benchmark Performance" ;
+.
+<http://fhnw.ch/functionalOntology#1.10.3.EvaluateProcessPerformance>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.10.MeasureAndBenchmark> ;
+  fo:hasDefinition "Assess process data, measures and trands in an effort to evaluare process performance and identify possible improvements" ;
+  fo:hasExample "Establish performance metrics, collect data and trends, prepare report" ;
+  fo:hasSynonym "Process performance" ;
+  rdfs:label "Evaluate Process Performance" ;
+.
+<http://fhnw.ch/functionalOntology#1.10.MeasureAndBenchmark>
+  rdf:type fo:Level-2-Sub-functions ;
+  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#1.0.StrategicManagement> ;
+  fo:hasDefinition "The process of assessing the organization's performance" ;
+  fo:hasExample "Measure process efficiency, cost effectiveness, staff prodcutivity, cycle time" ;
+  fo:hasSynonym "Benchmarking" ;
+  fo:hasSynonym "Measurement" ;
+  rdfs:label "Measure and Benchmark" ;
+.
+<http://fhnw.ch/functionalOntology#1.11.1.DetermineEHSImpactsOnProductsServices>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.11.ManageEnvironmentalHealthAndSafety> ;
+  fo:hasDefinition """Determine the impact of company to environment as well as employees
+Conduct health, safety, environmental audits""" ;
+  fo:hasExample "Volkswagen lied to the public about the environmental effects of diesel enginges in 2015" ;
+  fo:hasSynonym "Corporate social responsibility" ;
+  rdfs:label "Evaluate EHS Impacts on Products and Services" ;
+.
+<http://fhnw.ch/functionalOntology#1.11.2.CreateEHSProgramsPolicies>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.11.ManageEnvironmentalHealthAndSafety> ;
+  fo:hasDefinition "Based on previous assessment on EHS, organizations defines the policies or actions for its products/ services" ;
+  fo:hasExample "In Vietnam, Vinmart supermarket chain stop using bylon for storing the food. In stead, they have a policy of using banana leave to wrap the food" ;
+  fo:hasSynonym "Corporate Social Responsibility" ;
+  fo:hasSynonym "EHS" ;
+  rdfs:label "Create EHS Programs and Policies" ;
+.
+<http://fhnw.ch/functionalOntology#1.11.3.TrainAndEducateEmployeeAboutEHS>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.11.ManageEnvironmentalHealthAndSafety> ;
+  fo:hasDefinition "Organizations have trainings for their employees to educate the importance as well as technical perspectives of its EHS programs" ;
+  fo:hasExample "The reducing nylon by using banana leave to wrap the food by Vinmart in Vietnam need to have some training for employees about cognition of environmental protection, so that the employees understand what they are doing and why change, which impacts on the environment, as well as trainings to wrap the banana leave (technical training)" ;
+  fo:hasSynonym "Corporate Social Responsibility" ;
+  fo:hasSynonym "EHS" ;
+  rdfs:label "Train And Educate Employees About EHS" ;
+.
+<http://fhnw.ch/functionalOntology#1.11.4.MonitorEHSProgram>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.11.ManageEnvironmentalHealthAndSafety> ;
+  fo:hasDefinition "EHS programs are monitored by impacts it gained as well as employees cognition" ;
+  fo:hasExample "In Vietnam, when Vinmart decided to use banana leave in stead of pastic to wrap food, they must issue control methods over the policy like: how much percentage of their food is wrapped by banana leaves, what is the reactioin of consumers, etc." ;
+  fo:hasSynonym "Corporate Social Responsibility" ;
+  fo:hasSynonym "EHS" ;
+  rdfs:label "Monitor EHS Program" ;
+.
+<http://fhnw.ch/functionalOntology#1.11.ManageEnvironmentalHealthAndSafety>
+  rdf:type fo:Level-2-Sub-functions ;
+  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#1.0.StrategicManagement> ;
+  fo:hasDefinition "Determine impacts of the organization on environmental health and safety" ;
+  fo:hasExample "Volkswagen lied to the public about the environmental effects of diesel enginges in 2015. Their product had a huge impact on the environmental health" ;
+  fo:hasSynonym "Corporate Social Responsibility" ;
+  fo:hasSynonym "EHS" ;
+  rdfs:label "Manage Environmental Health And Safety" ;
+.
+<http://fhnw.ch/functionalOntology#1.2.1.DetermineBusinessModels>
+  rdf:type owl:Class ;
+  fo:functionHasAPQC <http://ikm-group.ch/archimeo/apqc#1_2_1_Develop_overall_mission_statement_10037> ;
+  fo:hasDefinition "Determine strategic position for your organization: what is your main business, what is your business models. what is your mission statement." ;
+  fo:hasExample "Business Model of Ryanair: To offer cheap air transportation to fare-conscious customers. Ryanair targets customers who might otherwise choose alternative modes of transportation or not travel at all. The company focuses mostly on inter-European, short-haul flights" ;
+  fo:hasExample "Mc Donald's business is real-estate business, NOT selling fast food. They always choose the best real estate in the area and build their restaurant chain there" ;
+  fo:hasExample "Mission statement of Prezi: Prezi: To reinvent how people share knowledge, tell stories, and inspire their audiences to act." ;
+  fo:hasSynonym "Mission Statement, Business Model. Values" ;
+  rdfs:label "Determine primary business, values, business model, purposes of the organization (mission statement)" ;
+  rdfs:subClassOf <http://fhnw.ch/functionalOntology#1.2.DevelopStrategicStrategy> ;
+.
+<http://fhnw.ch/functionalOntology#1.2.1.DetermineBusinessValues,Models,Mission>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.2.DevelopBusinessStrategy> ;
+  fo:hasDefinition "Determine strategic position for your organization: what is your main business, what is your business models. what is your mission statement." ;
+  fo:hasExample """\"Mc Donald's business is real-estate business, NOT selling fast food. They always choose the best real estate in the area and build their restaurant chain there
+Business Model of Ryanair: To offer cheap air transportation to fare-conscious customers. Ryanair targets customers who might otherwise choose alternative modes of transportation or not travel at all. The company focuses mostly on inter-European, short-haul flights
+Mission statement of Prezi: Prezi: To reinvent how people share knowledge, tell stories, and inspire their audiences to act.\"""" ;
+  fo:hasSynonym "Business Model" ;
+  fo:hasSynonym "Mission Statement" ;
+  rdfs:label "Determine Primary Business, Values, Business Model, Purposes of The Organization (Mission Statement)" ;
+.
+<http://fhnw.ch/functionalOntology#1.2.2.CreateOrganizationalGoals>
+  rdf:type owl:Class ;
+  fo:functionHasAPQC <http://ikm-group.ch/archimeo/apqc#1_2_2_Define_and_evaluate_strategic_options_to_achieve_the_objectives_10038> ;
+  fo:hasDefinition """2 kinds of organizational goals: 
+- Official goals detail a company's aims as described in its mission statement or in public statements, such as the corporate charter and annual report
+- Operative goals are the actual, concrete steps a business intends to take to achieve its purpose""" ;
+  fo:hasDefinition "Organizational goals are strategic objectives that a company's management establishes to outline expected outcomes and guide employees' efforts." ;
+  fo:hasExample "A company's official goal is to increase customer satisfaction by offering multichannel customer support, such as social media, mobile, live chat and email, its operative goal will be to craft a strategy for establishing, supporting and integrating customer support channels. The organizational goal -- supported by completing successful operative goals -- will be met when the company effectively captures all business process requests in a unified, central tool to provide effective multichannel support." ;
+  fo:hasSynonym "SMART organizational goals" ;
+  rdfs:label "Create Organizational Goals" ;
+  rdfs:subClassOf <http://fhnw.ch/functionalOntology#1.2.DevelopStrategicStrategy> ;
+.
+<http://fhnw.ch/functionalOntology#1.2.2.DefineOrganizationalGoals>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.2.DevelopBusinessStrategy> ;
+  fo:hasDefinition """* Organizational goals are strategic objectives that a company's management establishes to outline expected outcomes and guide employees' efforts.
+* Effective organizational goals have 5 traits: SMART (specific, measurable, achievable, realistic, time-bound)
+* 2 kinds of organizational goals: 
+- Official goals detail a company's aims as described in its mission statement or in public statements, such as the corporate charter and annual report
+- Operative goals are the actual, concrete steps a business intends to take to achieve its purpose""" ;
+  fo:hasExample "A company's official goal is to increase customer satisfaction by offering multichannel customer support, such as social media, mobile, live chat and email, its operative goal will be to craft a strategy for establishing, supporting and integrating customer support channels. The organizational goal -- supported by completing successful operative goals -- will be met when the company effectively captures all business process requests in a unified, central tool to provide effective multichannel support." ;
+  fo:hasSynonym "Short-term goals" ;
+  rdfs:label "Define Organizational Goals" ;
+.
+<http://fhnw.ch/functionalOntology#1.2.3.DefineStrategicOption>
+  rdf:type owl:Class ;
+  fo:functionHasAPQC <http://ikm-group.ch/archimeo/apqc#1_2_3_Select_long-term_business_strategy_10039> ;
+  fo:functionHasAPQC <http://ikm-group.ch/archimeo/apqc#1_2_4_Coordinate_and_align_functional_and_process_strategies_10040> ;
+  fo:hasDefinition "Strategic options is sets of strategic decions designed to drive the organization's long-term objectives" ;
+  fo:hasExample "Options about suppliers, partnership, alignment of business functions with strategy, etc." ;
+  rdfs:label "Define Strategic Options" ;
+  rdfs:subClassOf <http://fhnw.ch/functionalOntology#1.2.DevelopStrategicStrategy> ;
+.
+<http://fhnw.ch/functionalOntology#1.2.3.DefineStrategicOptionsToAchieveGoals>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.2.DevelopBusinessStrategy> ;
+  fo:hasDefinition "Strategic options is sets of strategic decions designed to drive the organization's long-term objectives" ;
+  fo:hasExample "Options about suppliers, partnership, alignment of business functions with strategy, etc." ;
+  fo:hasSynonym "Strategic Options" ;
+  rdfs:label "Define Strategic Options to Achieve Goals" ;
+.
+<http://fhnw.ch/functionalOntology#1.2.4.CreateOrganizationalDesign>
+  rdf:type owl:Class ;
+  fo:functionHasAPQC <http://ikm-group.ch/archimeo/apqc#1_2_5_Create_organizational_design_10041> ;
+  fo:functionHasAPQC <http://ikm-group.ch/archimeo/apqc#1_2_6_Develop_and_set_organizational_goals_10042> ;
+  fo:functionHasAPQC <http://ikm-group.ch/archimeo/apqc#1_2_7_Formulate_business_unit_strategies_10043> ;
+  fo:hasDefinition "Create organizational structures, roles in organization." ;
+  fo:hasDefinition "Identify core competencies for each business function" ;
+  fo:hasDefinition "Monitor performance against organizatioanl goals" ;
+  fo:hasExample "Core competency of a company can lie in the Reserach and Development department (licenses, patterns, etc.)" ;
+  fo:hasExample "Organizational structure: more hierachy or more flat" ;
+  fo:hasSynonym "Strategic business units" ;
+  rdfs:label "Define Strategic Options" ;
+  rdfs:subClassOf <http://fhnw.ch/functionalOntology#1.2.DevelopStrategicStrategy> ;
+.
+<http://fhnw.ch/functionalOntology#1.2.4.CreateOrganizationalStructure>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.2.DevelopBusinessStrategy> ;
+  fo:hasDefinition "The aim of this process is to create business unit that will bring the business achieve the goals" ;
+  fo:hasExample """+ Create organizational structures, roles in organization, etc.
++ Identify core  competencies for each business function
++ Monitor performance against organizatioanl goals""" ;
+  fo:hasSynonym "strategic business units" ;
+  rdfs:label "Create Organizational Design" ;
+.
+<http://fhnw.ch/functionalOntology#1.2.5.CommunicateStrategyExternallyAndInternally>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.2.DevelopBusinessStrategy> ;
+  fo:hasDefinition "Communicate company's strategy to internal and external shareholders like owners, employees, customers, suppliers, etc." ;
+  fo:hasExample "CEO of a company often communicates company's strategy for the next year in the annual shareholder meeting" ;
+  fo:hasSynonym "Communication" ;
+  rdfs:label "Communicate Strategy Internally And Externally" ;
+.
+<http://fhnw.ch/functionalOntology#1.2.5.CommunicateStrategyInternallyAndExternally>
+  rdf:type owl:Class ;
+  rdfs:label "Communicate strategy internally and externally" ;
+  rdfs:subClassOf <http://fhnw.ch/functionalOntology#1.2.DevelopStrategicStrategy> ;
+.
+<http://fhnw.ch/functionalOntology#1.2.DevelopBusinessStrategy>
+  rdf:type fo:Level-2-Sub-functions ;
+  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#1.0.StrategicManagement> ;
+  fo:hasDefinition "Basing on the external and internal assessment, business's strategy is determined on a high level" ;
+  fo:hasExample "Determining primary business, business model, values, mission statement, organizational goals and structure" ;
+  fo:hasSynonym "Business Strategy" ;
+  rdfs:label "Develop Business Strategy" ;
+.
+<http://fhnw.ch/functionalOntology#1.2.DevelopStrategicStrategy>
+  rdf:type owl:Class ;
+  rdfs:label "Develop Strategic Options" ;
+  rdfs:subClassOf fo:StrategicManagement1 ;
+.
+<http://fhnw.ch/functionalOntology#1.3.1.SetShortTermGoals>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.3.BuildStrategyPlan> ;
+  fo:hasDefinition "Short-term goals (1-2 years) in order to achieve long-term irganizational goals" ;
+  fo:hasExample """To achieve the company's goals - increase customer satisfication, short-tem plans are proposed using the following methods:
+* SMART goal setting (specific, measurable, actionable, relevant, timely): in the next year, we will decrease time to process customer complaint by 25% ( meaning increaase customer satisfaction through customer complaint process) 
+* Balanced scorecard (Financial perspective, customer perspective, internal process outlook, learning and growth): as the customer perspective is the core strategy, we need to increase internlal process efficiency, cummulate learnings through all customer-related processes and by doing that, we need to increase financial spending in the next year""" ;
+  fo:hasSynonym "goals" ;
+  rdfs:label "Set Short-Term Organizational Goals" ;
+.
+<http://fhnw.ch/functionalOntology#1.3.2.IdentifyPriority>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.3.BuildStrategyPlan> ;
+  fo:hasDefinition "Among all short-term goals, there are more important goals that contribute to the long-term strategy as well as less important goals to incrementally improve performance. Therefore, goals need to be sorted based on priorities" ;
+  fo:hasExample "Based on the goals - eg: increase customer satisfaction, the company conducts a balanced scorecard goal setting: customer perspective, financial perspective, internal process outlook, learning and organizational growth. The customer perspective is the highest priority, following by increased process efficiency (customer complaint process). In order to do that, organizational learning and growth is stressed on customer handling cases. Financial perspective will be used as a support for all other 3 perspectives" ;
+  fo:hasSynonym "Goal priorities" ;
+  rdfs:label "Identify Priorities" ;
+.
+<http://fhnw.ch/functionalOntology#1.3.3.SetMeasuresForGoals>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.3.BuildStrategyPlan> ;
+  fo:hasDefinition "Set measures for short-term goals" ;
+  fo:hasExample "A company's goal is to increase customer satisfaction. This is measured by increase in customer satisfaction in store, decrease in customer complaint cases, increase in time to process one complaint, number of know-how documented from previous customer complaints, etc" ;
+  fo:hasSynonym "KPIs" ;
+  rdfs:label "Set Measures For Short-Term Goals" ;
+.
+<http://fhnw.ch/functionalOntology#1.3.4.SetMeasuresToBeKPIs>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.3.BuildStrategyPlan> ;
+  fo:hasDefinition "Among all measures for short-term goals, there are measures that are more important to the others. These measures are called Key Performance Indicators (KPIs)" ;
+  fo:hasExample "6 KPIs to measure customer satisfaction are: customer satisfaction score, net promoter score, first response time, customer retention rate, servqual, employee engagement" ;
+  fo:hasSynonym "KPIs" ;
+  rdfs:label "Set measures to be KPIs" ;
+.
+<http://fhnw.ch/functionalOntology#1.3.BuildStrategyPlan>
+  rdf:type fo:Level-2-Sub-functions ;
+  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#1.0.StrategicManagement> ;
+  fo:hasDefinition "The activity of setting short-term goals as well as priorities, methods to measure goals" ;
+  fo:hasExample "To achieve the company's goals - increase customer satisfication, short-tem plans are proposed using the SMART goal setting (specific, measurable, actionable, relevant, timely): in the next year, we will decrease time to process customer complaint by 25% ( meaning increaase customer satisfaction through customer complaint process) " ;
+  fo:hasSynonym "KPIs" ;
+  fo:hasSynonym "SMART goals" ;
+  rdfs:label "Build Strategy Plan" ;
+.
+<http://fhnw.ch/functionalOntology#1.4.1.EstablishImplementationSchedule>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.4.ManageAndMeasureStrategicInitiatives> ;
+  fo:hasDefinition "Establish time frame to do the strategic initiatives" ;
+  fo:hasExample "Company Y's goal is to increase customer satisfaction by decreasing time to solve customer complaint. In the first 3 months, it tries to increase first response time, in the next 6 months, it tries to increse processing rate by optimizing internal process" ;
+  fo:hasSynonym "Time frame" ;
+  rdfs:label "Establish Implementation Schedule" ;
+.
+<http://fhnw.ch/functionalOntology#1.4.2.MeasureProgress>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.4.ManageAndMeasureStrategicInitiatives> ;
+  fo:hasDefinition "Measuring progress of the company through predefined KPIs" ;
+  fo:hasExample "Progress to achieve goal will be quantify and measured via KPI, if they achieve the predefined goals" ;
+  fo:hasSynonym "Progress" ;
+  rdfs:label "Measure Progress" ;
+.
+<http://fhnw.ch/functionalOntology#1.4.3.ReviewAndAdaptProgress>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.4.ManageAndMeasureStrategicInitiatives> ;
+  fo:hasDefinition "The process of review, manage and adapt the progress of the organization on a time basis" ;
+  fo:hasExample "Quarterly, there will be a meeting among management and board of director in order to control and adapt the plans to meet business goal or to change the goal to be more practical" ;
+  fo:hasSynonym "Review" ;
+  rdfs:label "Review And Adapt Progress" ;
+.
+<http://fhnw.ch/functionalOntology#1.4.ManageAndMeasureStrategicInitiatives>
+  rdf:type fo:Level-2-Sub-functions ;
+  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#1.0.StrategicManagement> ;
+  fo:hasDefinition "When strategic initiatives are set, they are controlled, measured and adapted in a regular basis" ;
+  fo:hasExample "Usage of KPIs to measure strategic initiatives, review the initiatives quarterly" ;
+  fo:hasSynonym "Implementation schedule" ;
+  fo:hasSynonym "KPIs" ;
+  rdfs:label "Manage and Measure Strategic Initiatives" ;
+.
+<http://fhnw.ch/functionalOntology#1.5.1.DefineProcesses>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.5.ManageBusinessProcesses> ;
+  fo:hasDefinition """Determining and organizing the structural composition of business processes
+Identify any cross-function processes""" ;
+  fo:hasExample "Process governance framework" ;
+  fo:hasSynonym "Process governance" ;
+  rdfs:label "Define Processes" ;
+.
+<http://fhnw.ch/functionalOntology#1.5.2.DefineProcess>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.5.ManageBusinessProcesses> ;
+  fo:hasDefinition "Establishing the business processes of the organization. Scope, analyze, map and publics process" ;
+  fo:hasExample "The marketing process is defined as \"A series of steps that allow organizations to identify customer problems, analyze market opportunities, and create marketing materials to reach the desired audience" ;
+  fo:hasSynonym "Process definition" ;
+  rdfs:label "Define Processes" ;
+.
+<http://fhnw.ch/functionalOntology#1.5.3.ManageProcessPerformance>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.5.ManageBusinessProcesses> ;
+  fo:hasDefinition "Evaluate process efficiency by measuring performance of process" ;
+  fo:hasExample "Process \"handle customer complaint\" is measured via time to first respond and time to solve the complaint" ;
+  fo:hasSynonym "Process perfomance" ;
+  rdfs:label "Manage process Performance" ;
+.
+<http://fhnw.ch/functionalOntology#1.5.4.ImproveProcess>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.5.ManageBusinessProcesses> ;
+  fo:hasDefinition "Pocess improvement is the task of proactively identify, analyze and improve the existing business process for optimization or to meet new quality standards/ quotas" ;
+  fo:hasExample "The company chooses 6Sigma process improvement methods, which contains a set of technique to help company achieve 99.99966% completed parts without any defects" ;
+  fo:hasSynonym "Process Improvement" ;
+  rdfs:label "Improve Process" ;
+.
+<http://fhnw.ch/functionalOntology#1.5.ManageBusinessProcesses>
+  rdf:type fo:Level-2-Sub-functions ;
+  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#1.0.StrategicManagement> ;
+  fo:hasDefinition "This activity defines and manage processes that the organization performs" ;
+  fo:hasExample "The scope and tasks in a customer complaint resolution process" ;
+  fo:hasSynonym "process management" ;
+  rdfs:label "Manage Business Processes" ;
+.
+<http://fhnw.ch/functionalOntology#1.6.1.ManagePortfolio>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.6.ManagePortfolio,Programs,Projects> ;
+  fo:hasDefinition "Manage business portfolio, including brands, products, holdings, investments, etc." ;
+  fo:hasExample "P&G (Procter and Gamble) own several different brands:  Always®, Ambi Pur®, Ariel®, Bounty®, Charmin®, Crest®, Dawn®, Downy®, Fairy®, Febreze®, Gain®, Gillette®, Head & Shoulders®, Lenor®, Olay®, Oral-B®, Pampers®, Pantene®, SK-II®, Tide®, Vicks®, and Whisper® " ;
+  fo:hasSynonym "Organization Porfolio" ;
+  rdfs:label "Manage Organization Portfolio" ;
+.
+<http://fhnw.ch/functionalOntology#1.6.2.ManagePrograms>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.6.ManagePortfolio,Programs,Projects> ;
+  fo:hasDefinition "Establish and manage the programs conducting in the company" ;
+  fo:hasExample "Nestlé has a management trainee program in many countries across the globe. In order to manage this program, a lot of factors needed to be considered and controlled: venue, potential trainee portrait, fincancial support, risks, etc." ;
+  fo:hasSynonym "Organization Programs" ;
+  rdfs:label "Manage Organization Programs" ;
+.
+<http://fhnw.ch/functionalOntology#1.6.3.ManageProjects>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.6.ManagePortfolio,Programs,Projects> ;
+  fo:hasDefinition "Manage projects in company" ;
+  fo:hasExample "Alpig Holding (CH) is developing a RPA (robotic process automation project. In order to manage this project, a lot of factors needed to be considered: budget, vendors, consultants, outsource or in-shouse, etc.). Project excution time frame, quality control, etc\\" ;
+  fo:hasSynonym "Organization Project" ;
+  rdfs:label "Manage Organization Projects" ;
+.
+<http://fhnw.ch/functionalOntology#1.6.ManagePortfolio,Programs,Projects>
+  rdf:type fo:Level-2-Sub-functions ;
+  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#1.0.StrategicManagement> ;
+  fo:hasDefinition "This activity performs management of brand/product portfolio, as well as the programs in the organization and the currently active projects" ;
+  fo:hasExample "Human Resource Management (HRM) function has onboarding program for new hires, as well as corporate social programs for the employees. These programs needs to be kept track of and managed" ;
+  fo:hasSynonym "Organization programs" ;
+  fo:hasSynonym "Organization projects" ;
+  fo:hasSynonym "Portfolio" ;
+  rdfs:label "Manage portfolio, programs, projects" ;
+.
+<http://fhnw.ch/functionalOntology#1.7.1.EstablishQualityManagement>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.7.ManageEnterpriseQuality> ;
+  fo:hasDefinition "Quality management ensures that organization, products, services are consistent" ;
+  fo:hasExample "Companies in food industry are expected to meet the ISO 22000 standard, which comprises of ISO 9000 and the HACCP standards" ;
+  fo:hasSynonym "ISO" ;
+  fo:hasSynonym "Quality Management" ;
+  rdfs:label "Establish Quality Management Framework" ;
+.
+<http://fhnw.ch/functionalOntology#1.7.2.ControlQuality>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.7.ManageEnterpriseQuality> ;
+  fo:hasDefinition "Organizations review the quality of all factors involved in production" ;
+  fo:hasExample "Inspection, where the inspector examines the products visually. The inspector is provided with lists and descriptions of unacceptable product defects such as cracks or surface blemishes" ;
+  fo:hasSynonym "Evaluate Performance" ;
+  fo:hasSynonym "Quality Review" ;
+  rdfs:label "Control Quality Across Organiztion" ;
+.
+<http://fhnw.ch/functionalOntology#1.7.3.ManageNon-Conformance>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.7.ManageEnterpriseQuality> ;
+  fo:hasDefinition """Assess any gaps between quality requirement and performance.
+Perform actions to reduce this gap""" ;
+  fo:hasExample "Analyze root cause of the gap, determine immediate action to fulfill the gap, take corrective or preventive actions to close the gap betweel requirement and perfrmance" ;
+  fo:hasSynonym "non-conformance" ;
+  rdfs:label "Manage Non-conformance" ;
+.
+<http://fhnw.ch/functionalOntology#1.7.ManageEnterpriseQuality>
+  rdf:type fo:Level-2-Sub-functions ;
+  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#1.0.StrategicManagement> ;
+  fo:hasDefinition "The goal of this process is to establish, measure and maintain enterprise's quality requirements" ;
+  fo:hasExample "Companies in food industry are expected to meet the ISO 22000 standard, which comprises of ISO 9000 and the HACCP standards" ;
+  fo:hasSynonym "Quality standards" ;
+  rdfs:label "Manage Enterprise Quality" ;
+.
+<http://fhnw.ch/functionalOntology#1.8.1.PlanForChange>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.8.ManageChange> ;
+  fo:hasDefinition "Plan for changes in the organization or organizational improvements" ;
+  fo:hasExample "Determine change stsakeholders, assess readiness for change, idetify change champions, form team, etc" ;
+  fo:hasSynonym "Change" ;
+  fo:hasSynonym "Comtinous improvement" ;
+  rdfs:label "Plan for Change" ;
+.
+<http://fhnw.ch/functionalOntology#1.8.2.DesignChange>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.8.ManageChange> ;
+  fo:hasDefinition "Design how the change in the organization should work, its procedures, beneficiaries, shareholders, etc." ;
+  fo:hasExample "Assess connections to other innitiatives. Develop management, training, communication plans, clarify new roles. Identify budget" ;
+  fo:hasSynonym "Change management" ;
+  fo:hasSynonym "Continous improvement" ;
+  rdfs:label "Design Change" ;
+.
+<http://fhnw.ch/functionalOntology#1.8.3.ImplementChange>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.8.ManageChange> ;
+  fo:hasDefinition "The process of bringing planned changes into the real situation in the organizatin" ;
+  fo:hasExample "Reengineer system, support transitions, monitor and report on change" ;
+  fo:hasSynonym "Change management" ;
+  fo:hasSynonym "Continous improvement" ;
+  rdfs:label "Implement Change" ;
+.
+<http://fhnw.ch/functionalOntology#1.8.4.SustainImprovementAndChange>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.8.ManageChange> ;
+  fo:hasDefinition "How to sustain the improvement and maintain the change in organization" ;
+  fo:hasExample "Capture and reuse lessons learned, build CoE, etc" ;
+  fo:hasSynonym "change mangement" ;
+  fo:hasSynonym "continous improvement" ;
+  rdfs:label "Sustain Improvement And Maintain Change" ;
+.
+<http://fhnw.ch/functionalOntology#1.8.ManageChange>
+  rdf:type fo:Level-2-Sub-functions ;
+  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#1.0.StrategicManagement> ;
+  fo:hasDefinition "The process of alternation of an existing business model, philosophy or business approach, designed to improve a company’s overall operations" ;
+  fo:hasExample "In 2004 after the oil crisis that negatively effected Shell’s share price, a new Chairman was put into place, Jeroen Van Der Veer. He believed that in order for the company to survive, structural transformations needed to be made. This includes  80 Shell operating units." ;
+  fo:hasSynonym "Change Management" ;
+  fo:hasSynonym "Continous Improvement" ;
+  rdfs:label "Manage Change" ;
+.
+<http://fhnw.ch/functionalOntology#1.9.1.DevelopKnowledgeManagementStrategy>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.9.ManageEnterpriseKnowledgeManagement> ;
+  fo:hasDefinition "Building strategy on how to maintain knowledge" ;
+  fo:hasExample "Define roles and accountability of core groups vs operating units, develop core knowledge management methodology" ;
+  fo:hasSynonym "Knowledge Management" ;
+  rdfs:label "Develop Knowledge Management Strategy" ;
+.
+<http://fhnw.ch/functionalOntology#1.9.2.DesignAndImplementKnowledgeManagementInitiatives>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.9.ManageEnterpriseKnowledgeManagement> ;
+  fo:hasDefinition "Design KM resource model, implement KM approaches" ;
+  fo:hasExample "If an organization decides to use CoE for its RPA (robotic process automation) program, it has to start deciding which process to be automated, the process of automation and how to maintain the documentation inside of CoE" ;
+  fo:hasSynonym "KM" ;
+  fo:hasSynonym "knowledge management" ;
+  rdfs:label "Design and Implement Knowledge Management Initiatives" ;
+.
+<http://fhnw.ch/functionalOntology#1.9.3.EnhanceAndMaintainKnowledgeManagementCapabilities>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.9.ManageEnterpriseKnowledgeManagement> ;
+  fo:hasDefinition """Enhance/ modify existing KM approaches
+Sustain awareness and engagement""" ;
+  fo:hasExample "Knowledge Management enhancement" ;
+  fo:hasSynonym "KM" ;
+  fo:hasSynonym "Knowledge Management" ;
+  rdfs:label "Enhance and maintain knowledge management capabilities" ;
+.
+<http://fhnw.ch/functionalOntology#1.9.ManageEnterpriseKnowledgeManagement>
+  rdf:type fo:Level-2-Sub-functions ;
+  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#1.0.StrategicManagement> ;
+  fo:hasExample "Some organizations use Center of exellence (CoE) to manage their knowledge, some outsource their process and therfore, have their knowledge outsourced" ;
+  fo:hasSynonym "CoE (center of exellence)" ;
+  fo:hasSynonym "Knowledge Management" ;
+  rdfs:label "Manage enterprise-wide knowledge management capability" ;
+.
+<http://fhnw.ch/functionalOntology#2.0.HumanResourceManagement>
+  rdf:type fo:Level-1-Functions ;
+  rdfs:label "HumanResourceManagement" ;
+.
+<http://fhnw.ch/functionalOntology#3.0.InformationTechnologyManagement>
+  rdf:type fo:Level-1-Functions ;
+  rdfs:label "Information Technology (IT) Management" ;
+.
+<http://fhnw.ch/functionalOntology#4.0RiskAndComplianceManagement>
+  rdf:type fo:Level-1-Functions ;
+  rdfs:label "Risk and compliance management" ;
+.
+<http://fhnw.ch/functionalOntology#5.0.PulicRelationManagement>
+  rdf:type fo:Level-1-Functions ;
+  rdfs:label "Public Relation Management" ;
+.
+<http://fhnw.ch/functionalOntology#6.0.FinanceAndAccounting>
+  rdf:type fo:Level-1-Functions ;
+  rdfs:label "Finance and Accounting" ;
+.
+<http://fhnw.ch/functionalOntology#7.0.ResearchAndDevelopment>
+  rdf:type fo:Level-1-Functions ;
+  rdfs:label "Research and Development" ;
+.
+<http://fhnw.ch/functionalOntology#8.0.MarketingAndSales>
+  rdf:type fo:Level-1-Functions ;
+  rdfs:label "Marketing and Sales" ;
+.
+<http://fhnw.ch/functionalOntology#9.0.Operations>
+  rdf:type fo:Level-1-Functions ;
+  rdfs:label "Operations" ;
+.
+fo:AnhsFunction
+  rdf:type owl:Class ;
+  rdfs:label "Description of functions in organizations" ;
+  rdfs:subClassOf owl:Thing ;
+.
+fo:Funtions
+  rdf:type owl:Class ;
+  rdfs:subClassOf owl:Thing ;
+.
+fo:Funtions_1
+  rdf:type fo:Funtions ;
+  fo:functionHasAPQC fo:Test ;
+  fo:hasDefinition "this function" ;
+  rdfs:label "functionDefinition" ;
+.
+fo:HumanResourceManagement_1
+  rdf:type fo:HumanResourceManagement_1 ;
+  rdf:type owl:Class ;
+  fo:hasDefinition "This is the definition" ;
+  fo:hasExample "This is an example" ;
+  rdfs:label "Example" ;
+  rdfs:label "Strategic Management" ;
+  rdfs:subClassOf fo:Funtions ;
+.
+fo:IsProcessOf
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain fo:Level-3-Processes ;
+  rdfs:label "Is process of" ;
+  rdfs:range fo:Level-2-Sub-functions ;
+.
+fo:IsSubFunctionOf
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain fo:Level-2-Sub-functions ;
+  rdfs:label "Communicate strategy internally and externally" ;
+  rdfs:range fo:Level-1-Functions ;
+  rdfs:subPropertyOf fo:ObjectProperty_2 ;
+.
+fo:IsSubFunctionOf1
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "Is sub-function of" ;
+  rdfs:range fo:Level-1-Functions ;
+  rdfs:subPropertyOf fo:functionHasAPQC ;
+.
+fo:Level-1-Functions
+  rdf:type owl:Class ;
+  fo:hasDefinition "Function has definition" ;
+  fo:hasExample "Function has examples" ;
+  fo:hasSynonym "Function has synonym" ;
+  rdfs:label "Business Functions" ;
+  rdfs:subClassOf fo:AnhsFunction ;
+.
+fo:Level-2-Sub-functions
+  rdf:type owl:Class ;
+  fo:IsSubFunctionOf fo:Level-1-Functions ;
+  fo:hasDefinition "Sub-function" ;
+  fo:hasExample "Example" ;
+  fo:hasSynonym "Synonym" ;
+  rdfs:label "Sub-functions" ;
+  rdfs:subClassOf fo:AnhsFunction ;
+.
+fo:Level-3-Processes
+  rdf:type owl:Class ;
+  rdfs:label "Processes" ;
+  rdfs:subClassOf fo:AnhsFunction ;
+.
+fo:ObjectProperty_2
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "fo properties" ;
+.
+fo:StrategicManagement1
+  rdf:type owl:Class ;
+  rdfs:label "StrategicManagement" ;
+  rdfs:subClassOf owl:Thing ;
+.
+fo:Test
+  rdf:type owl:Class ;
+  rdfs:subClassOf fo:Funtions ;
+.
+fo:Test_1
+  rdf:type fo:Test ;
+.
+fo:createstrategicDecision
+  rdf:type fo:Level-2-Sub-functions ;
+  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#1.0.StrategicManagement> ;
+  rdfs:label "Communicate strategy internally and externally" ;
+.
+fo:functionHasAPQC
+  rdf:type rdf:Property ;
+  rdfs:domain fo:Funtions ;
+  rdfs:range <http://ikm-group.ch/archimeo/apqc#> ;
+.
+fo:hasDefinition
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain fo:AnhsFunction ;
+  rdfs:domain fo:Funtions ;
+  rdfs:label "functionDefinition" ;
+  rdfs:range xsd:string ;
+  rdfs:subPropertyOf fo:ObjectProperty_2 ;
+.
+fo:hasExample
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain fo:Funtions ;
+  rdfs:label "hasExample" ;
+  rdfs:range xsd:string ;
+  rdfs:subPropertyOf fo:ObjectProperty_2 ;
+.
+fo:hasSynonym
+  rdf:type owl:DatatypeProperty ;
+  rdfs:label "Synonym" ;
+  rdfs:subPropertyOf fo:ObjectProperty_2 ;
+.
+apqc:apqcproperties
+  rdf:type owl:AnnotationProperty ;
+  rdfs:label "Establish Strategic Position" ;
+.
+<http://ikm-group.ch/archimeo/apqc#hasHierarchyID>
+  rdfs:subPropertyOf apqc:apqcproperties ;
+.
+<http://ikm-group.ch/archimeo/apqc#hasPCFID>
+  rdfs:subPropertyOf apqc:apqcproperties ;
+.
