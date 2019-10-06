@@ -1135,6 +1135,147 @@ Which security guideline: ISO 27K, COBIT, NIST, PSR, ASD 8""" ;
   rdf:type fo:Level-1-Functions ;
   rdfs:label "Public Relation Management" ;
 .
+<http://fhnw.ch/functionalOntology#5.1.1ManageRelationshipWIthBoardOfDirectors>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#5.1.ManageStockholderRelationship> ;
+  fo:hasDefinition "Annual meeting between company's executives and BoD to present financial results, auditing findings as well as make strategy for the next financial year" ;
+  fo:hasExample "Annual meeting between company's executives and BoD to present financial results, auditing findings as well as make strategy for the next financial year" ;
+  fo:hasSynonym "BoD" ;
+  rdfs:label "Manage Relationship Board Of Directors" ;
+.
+<http://fhnw.ch/functionalOntology#5.1.2.ManageRelationshipWIthShareholders>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#5.1.ManageStockholderRelationship> ;
+  fo:hasDefinition "Activities that the company conducts to manage its relationship with stockholders" ;
+  fo:hasExample "Annual general meeting (AGM) with major shareholders. At an AGM, the directors of the company present an annual report containing information for shareholders about the company's performance and strategy." ;
+  fo:hasSynonym "stockholders" ;
+  rdfs:label "Manage Relationship With Shareholders" ;
+.
+<http://fhnw.ch/functionalOntology#5.1.ManageStockholderRelationship>
+  rdf:type fo:Level-2-Sub-functions ;
+  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#5.0.PulicRelationManagement> ;
+  fo:hasDefinition "keep the stockholders updated about company's situation" ;
+  fo:hasExample "issuing managerial report at annual general meeting" ;
+  fo:hasSynonym "owners" ;
+  rdfs:label "Manage Stockholders Relationship" ;
+.
+<http://fhnw.ch/functionalOntology#5.2.1.ManageRelationshipWithGovernment>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#5.2.ManageGovernmentAndIndustryRelationship> ;
+  fo:hasDefinition "Persuade government policy at different levels in order to influence with government regulations" ;
+  fo:hasExample "Manage lobby activities, for example, a member of the organization visits a Member of Congress and requests on behalf of the organization that he sponsor model legislation proposed by a professional society" ;
+  fo:hasSynonym "Government relationship" ;
+  rdfs:label "Manage Relationship With Government" ;
+.
+<http://fhnw.ch/functionalOntology#5.2.2.ManageRelationshipWithTradeOrganizationAndBusinessOrganization>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#5.2.ManageGovernmentAndIndustryRelationship> ;
+  fo:hasDefinition "Trade organization is an organization founded and funded by businesses that operate in a specific industry. Its focus is collaboration between companies. " ;
+  fo:hasExample "The \"Organization of the Swiss electricity companies\" (Swisselectric) was an association of Swiss electricity companies. Swisselectric was founded in 2002 by Atel Holding, BKW Energie, Centralschweizerische Kraftwerke AG, Elektrizitätsgesellschaft Laufenburg, EOS Holding and Nordostschweizerische Kraftwerke AG with the aim of promoting the implementation of the Electricity Market Act." ;
+  fo:hasSynonym "Trade organization" ;
+  fo:hasSynonym "business association" ;
+  rdfs:label "Manage Relationship WithTrade Organizations And Business Association" ;
+.
+<http://fhnw.ch/functionalOntology#5.2.3.ManageRelationshipWithCompetitoes>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#5.2.ManageGovernmentAndIndustryRelationship> ;
+  fo:hasDefinition "Manage relationship with competittors from the organization" ;
+  fo:hasExample "Eventhough being competitors, the Big4 (EY, KPMG, Deloitte, PwC) still keep close contacts with each others and normally have comparisons on numbers among 4 firms" ;
+  fo:hasSynonym "competitors" ;
+  rdfs:label "Manage Relationship With Competitors" ;
+.
+<http://fhnw.ch/functionalOntology#5.2.ManageGovernmentAndIndustryRelationship>
+  rdf:type fo:Level-2-Sub-functions ;
+  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#5.0.PulicRelationManagement> ;
+  fo:hasDefinition "Manage company relationship with concerning government body and the relevant industry body" ;
+  fo:hasExample "Some industries have trade organizations where all companies sit together and make strategy for the industry-wide. By doing so, they also enhance their power of bargain in front of government" ;
+  fo:hasSynonym "industry relationship" ;
+  fo:hasSynonym "relationship with government" ;
+  rdfs:label "Manage Government And Industry Relationship" ;
+.
+<http://fhnw.ch/functionalOntology#5.3.1.ManageRelationshipWithLenders>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#5.3.ManageInvestorRelationship> ;
+  fo:hasDefinition """Lenders are businesses or financial institutions that lend money, with the expectation that it will be paid back with interest. 
+Typical lenders are banks, financial institutions, etc.""" ;
+  fo:hasExample "Build and manage relations with bankers or lenders through strong products/ services strategies that bankers would want to invest in in order to foster a receotive environment for low rates of interest, easy to to access loans, etc." ;
+  fo:hasSynonym "Investors" ;
+  fo:hasSynonym "Lenders" ;
+  rdfs:label "Manage Relationship With Lenders" ;
+.
+<http://fhnw.ch/functionalOntology#5.3.ManageInvestorRelationship>
+  rdf:type fo:Level-2-Sub-functions ;
+  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#5.0.PulicRelationManagement> ;
+  fo:hasDefinition "Manage relationship with lenders (banks, mutual funds, etc.) and analysts" ;
+  fo:hasExample "Companies nowadays often have loand from banks. Bank acts as investors, not stockholders of the company" ;
+  fo:hasSynonym "Investor" ;
+  rdfs:label "Manage Investor Relationship" ;
+.
+<http://fhnw.ch/functionalOntology#5.4.1.ManageRelationshipWithCommunity>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#5.4.ManageRelationshipWithCommunity> ;
+  fo:hasDefinition "Establish connections with the people in the community to promote organization's image" ;
+  fo:hasExample "Corporate responsibility programs with community/ nature" ;
+  fo:hasSynonym "corporate social responsibility" ;
+  rdfs:label "Manage Relationship With Community" ;
+.
+<http://fhnw.ch/functionalOntology#5.4.ManageRelationshipWithCommunity>
+  rdf:type fo:Level-2-Sub-functions ;
+  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#5.0.PulicRelationManagement> ;
+  fo:hasDefinition "Relationship with the area whithin which the organizaiton is working" ;
+  fo:hasExample "Nestle head quartered in Vevey and thus, needs to keep a good raltionship with this area" ;
+  fo:hasSynonym "Community" ;
+  rdfs:label "Manage Relationship With Community" ;
+.
+<http://fhnw.ch/functionalOntology#5.5.1.ManageLegalService>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#5.5.ManageLEgalAndEthicalIssues> ;
+  fo:hasDefinition "Payment for legel services (going on court, patterns, trademarks. Etc)" ;
+  fo:hasExample "Going on court, applying for patterns, trademarks, etc" ;
+  fo:hasSynonym "legal service" ;
+  rdfs:label "Manage Legal Service" ;
+.
+<http://fhnw.ch/functionalOntology#5.5.2.ManageCodeOfEthics>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#5.5.ManageLEgalAndEthicalIssues> ;
+  fo:hasDefinition "A code of ethics that communicate the organization's phylosophy to employees, vendors, customers, clients, and the public" ;
+  fo:hasExample "J&J's code of conduct includes responsibilities with paytients, employees, communities, stockholders" ;
+  fo:hasSynonym "ethic policies" ;
+  rdfs:label "Manage Code Of Ethics" ;
+.
+<http://fhnw.ch/functionalOntology#5.5.ManageLEgalAndEthicalIssues>
+  rdf:type fo:Level-2-Sub-functions ;
+  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#5.0.PulicRelationManagement> ;
+  fo:hasDefinition "Corporate responsibility programs with community/ nature, wthics policies inside of the organization" ;
+  fo:hasExample "J&J's code of conduct includes responsibilities with paytients, employees, communities, stockholders" ;
+  fo:hasSynonym "ethical" ;
+  fo:hasSynonym "legal" ;
+  rdfs:label "Manage Legal And Ethical Issues" ;
+.
+<http://fhnw.ch/functionalOntology#5.6.1.ManageRelationshipWithMedia>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#5.6.ManageRelationshipWithMedia> ;
+  fo:hasDefinition "Develop relationship with journalists to solicit critical, third-party endorsement of a producst, etc." ;
+  fo:hasExample "A step in retaining relationship with media is keeping the business available on social media pages, as on the social media, the business can be available 24/7 and can respond to the customer fast" ;
+  fo:hasSynonym "media relation" ;
+  rdfs:label "Manage Relationship With Media" ;
+.
+<http://fhnw.ch/functionalOntology#5.6.2.IssuePressReleases>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#5.6.ManageRelationshipWithMedia> ;
+  fo:hasDefinition "Isse press releases in fields relating to the organization" ;
+  fo:hasExample "Real estate businesses can issue releases on their own website about how they assess a certain property, how the process of buying/ renting a property works, etc." ;
+  fo:hasSynonym "publication" ;
+  rdfs:label "Manage Relationship With Media" ;
+.
+<http://fhnw.ch/functionalOntology#5.6.ManageRelationshipWithMedia>
+  rdf:type fo:Level-2-Sub-functions ;
+  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#5.0.PulicRelationManagement> ;
+  fo:hasDefinition "Maange Relationship With Media and press" ;
+  fo:hasExample "Having reporters writing about the company when they release a new product" ;
+  fo:hasSynonym "media and press relationship" ;
+  rdfs:label "Manage Relationship WIth Media" ;
+.
 <http://fhnw.ch/functionalOntology#6.0.FinanceAndAccounting>
   rdf:type fo:Level-1-Functions ;
   rdfs:label "Finance and Accounting" ;
@@ -1142,6 +1283,76 @@ Which security guideline: ISO 27K, COBIT, NIST, PSR, ASD 8""" ;
 <http://fhnw.ch/functionalOntology#7.0.ResearchAndDevelopment>
   rdf:type fo:Level-1-Functions ;
   rdfs:label "Research and Development" ;
+.
+<http://fhnw.ch/functionalOntology#7.1.1.ManageR&DBudget>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#7.1.DevelopR&DStrategyAndManageOperation> ;
+  fo:hasDefinition "The process of reviewing and managing budget for R&D activities" ;
+  fo:hasExample "In 2017, spending for SMEs in the U.S exceeded 14% of total revenue of the company. Therefore, R&D budget need to be taken into serious consideration" ;
+  fo:hasSynonym "R&D budget" ;
+  rdfs:label "Manage R&D Budget" ;
+.
+<http://fhnw.ch/functionalOntology#7.1.2.ManageR&DOrganizationalStructure>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#7.1.DevelopR&DStrategyAndManageOperation> ;
+  fo:hasDefinition "The process of managing organizational structure in R&D function" ;
+  fo:hasExample "Head of R&D, research&development division, market analysis division, etc." ;
+  fo:hasSynonym "organization structure" ;
+  rdfs:label "Manage R&D Organizational Structure" ;
+.
+<http://fhnw.ch/functionalOntology#7.1.3.ManageR&DTalents>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#7.1.DevelopR&DStrategyAndManageOperation> ;
+  fo:hasDefinition "Manage Humans inside of R&D functions, recruit new talents, coporate with universities" ;
+  fo:hasExample "Students from universities apply for internship in R&D function in different companies. Therefore, the companies need to assess the potential students and during his/ her internship terms, racognize potentials for development, create chance." ;
+  fo:hasSynonym "R&D Talent" ;
+  rdfs:label "Manage R&D Talents" ;
+.
+<http://fhnw.ch/functionalOntology#7.1.4.ManageR&DEquipmentsAndFacilities>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#7.1.DevelopR&DStrategyAndManageOperation> ;
+  fo:hasDefinition "The managing of equipments used inside of R&D function" ;
+  fo:hasExample "In a chemistry lab, microsope, test tubes, etc. need to be counted and kept track" ;
+  fo:hasSynonym "equipment and facilities" ;
+  rdfs:label "Manage R&D Equipments And Facilities" ;
+.
+<http://fhnw.ch/functionalOntology#7.1.5.TrackKPIs>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#7.1.DevelopR&DStrategyAndManageOperation> ;
+  fo:hasDefinition "Identify, track and report key performance metrics" ;
+  fo:hasExample "some typical metrics for R&D are: R&D spneding, head counts, New product sales, Patent production, Patent production" ;
+  fo:hasSynonym "KPI track" ;
+  rdfs:label "Track KPIs" ;
+.
+<http://fhnw.ch/functionalOntology#7.1.DevelopR&DStrategyAndManageOperation>
+  rdf:type fo:Level-2-Sub-functions ;
+  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#7.0.ResearchAndDevelopment> ;
+  fo:hasDefinition "Develop R&D strategy concerning budget, talents, organizational structure, equipments and facilities, KPIs" ;
+  fo:hasExample "Create and manage R&D Organizational Structure" ;
+  fo:hasExample "Manage R&D Budgets" ;
+  fo:hasExample "Manage R&D Equipments and Facilities" ;
+  fo:hasExample "Track KPIs" ;
+  fo:hasSynonym "R&D strategy and operation" ;
+  rdfs:label "Develop R&D Function Strategy and Manage R&D Operations" ;
+.
+<http://fhnw.ch/functionalOntology#7.2.1.ManageR&DProjectsAndPortfolio>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#7.2.ManagePortfolio,Projects,IPs> ;
+  fo:hasDefinition "Manage R&D Portfolio, Evaluate and prioritize projects, Reallocate resources across projects\"" ;
+  fo:hasExample "Project value (V) = 𝑓(performance, cost, time, market, requeriment, market payoff). The more value a project has, the more prioritized it should be" ;
+  fo:hasSynonym "portfolio" ;
+  fo:hasSynonym "projects" ;
+  rdfs:label "Manage R&D Portfolio And Projects" ;
+.
+<http://fhnw.ch/functionalOntology#7.2.2.ManageItellectualProperties>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#7.2.ManagePortfolio,Projects,IPs> ;
+  fo:hasDefinition "Manage patents/ copyrights and regulatory requirements" ;
+  fo:hasExample "Nescafe's Dolce Gusto machine has patent for 20 years. After that time, people are free from copying their model. Therefore, Nescafe has to manage their patent during 20 years' time and after a short transition time" ;
+  fo:hasSynonym "IPs" ;
+  fo:hasSynonym "Patents" ;
+  fo:hasSynonym "copyrights" ;
+  rdfs:label "Manage Intellectual Properties" ;
 .
 <http://fhnw.ch/functionalOntology#7.2.ManagePortfolio,Projects,IPs>
   rdf:type fo:Level-2-Sub-functions ;
@@ -1153,6 +1364,27 @@ Which security guideline: ISO 27K, COBIT, NIST, PSR, ASD 8""" ;
   fo:hasSynonym "projects" ;
   rdfs:label "Manage Portfolio, Projects, IPs" ;
 .
+<http://fhnw.ch/functionalOntology#7.3.1.PerformMarketResearch>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#7.3.DefineNewProductIdeas> ;
+  fo:hasDefinition "Performing market research in order to find out the market pains and thus, generate a product that can relieve the pain" ;
+  fo:hasExample "R&D can coporate with marketing function to convey their ideas about market research and get the market data back" ;
+  fo:hasSynonym "market research" ;
+  rdfs:label "Perform Market Research" ;
+.
+<http://fhnw.ch/functionalOntology#7.3.2.GenerateNewConcepts>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#7.3.DefineNewProductIdeas> ;
+  fo:hasDefinition "Based on the data acquired from market research, concepts about products that can help relieve customer's pain are generated, tested, refined" ;
+  fo:hasExample "Oral B, after having done the market research, knows that customers need electronic toothbrush. However, the design, the composition, special reuirements so that the device does not brak when it contact with water, etc. need to be taken into consideration" ;
+  fo:hasSynonym "Generate new concepts" ;
+  rdfs:label "Generate New Concept" ;
+.
+<http://fhnw.ch/functionalOntology#7.3.3.DefineNewProductRequirements>
+  rdf:type fo:Level-3-Processes ;
+  fo:hasSynonym "product specification" ;
+  rdfs:label "Define New Product Requirements" ;
+.
 <http://fhnw.ch/functionalOntology#7.3.DefineNewProductIdeas>
   rdf:type fo:Level-2-Sub-functions ;
   fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#7.0.ResearchAndDevelopment> ;
@@ -1161,6 +1393,30 @@ Which security guideline: ISO 27K, COBIT, NIST, PSR, ASD 8""" ;
   fo:hasSynonym "new ideas" ;
   rdfs:label "Define New Products/ Services Ideas" ;
 .
+<http://fhnw.ch/functionalOntology#7.4.1.DesignPrototype>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#7.4.DevelopProductsAndServices> ;
+  fo:hasDefinition "The process of starting to build the new product with specified requirements" ;
+  fo:hasExample "After new product concepts and specifications are built, it is built" ;
+  fo:hasSynonym "minimum viable product" ;
+  rdfs:label "Design Prototype" ;
+.
+<http://fhnw.ch/functionalOntology#7.4.2.TestMarket>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#7.4.DevelopProductsAndServices> ;
+  fo:hasDefinition "After the product is built, it will be given to a certain group os sample users for testing purpose, if it satisfy the requirements" ;
+  fo:hasExample "Gillette often has different segment of man: young adult, adults, middle-aged testing their new shaving knives" ;
+  fo:hasSynonym "test" ;
+  rdfs:label "Test Market" ;
+.
+<http://fhnw.ch/functionalOntology#7.4.3.PrepareDelivery>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#7.4.DevelopProductsAndServices> ;
+  fo:hasDefinition "Prepare for mass production of new product" ;
+  fo:hasExample "Prepare for mass production of new product" ;
+  fo:hasSynonym "mass production" ;
+  rdfs:label "Prepare Delivery" ;
+.
 <http://fhnw.ch/functionalOntology#7.4.DevelopProductsAndServices>
   rdf:type fo:Level-2-Sub-functions ;
   fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#7.0.ResearchAndDevelopment> ;
@@ -1168,6 +1424,30 @@ Which security guideline: ISO 27K, COBIT, NIST, PSR, ASD 8""" ;
   fo:hasExample "Bring the ideas into reality and test it" ;
   fo:hasSynonym "develop products" ;
   rdfs:label "Develop Products And Services" ;
+.
+<http://fhnw.ch/functionalOntology#7.5.1.AnalyzeExistingTechnique>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#7.5.DevelopProcessesAndTechniques> ;
+  fo:hasDefinition "Analysing the currently used technique to develop new products/ services" ;
+  fo:hasExample "An IT company can use waterfall technique to generate and develop their product" ;
+  fo:hasSynonym "existing technique" ;
+  rdfs:label "Analyze Existing Technique" ;
+.
+<http://fhnw.ch/functionalOntology#7.5.2.DevelopNewTechnique/ImproveTechnique>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#7.5.DevelopProcessesAndTechniques> ;
+  fo:hasDefinition "The process of improving the old technique in order to achieve a better result" ;
+  fo:hasExample "After analysing, the IT company see that Waterfall method is not a technique suitable for them because it delays product release. In staed, they go for Agile method to better off time to release a product" ;
+  fo:hasSynonym "improve techniques" ;
+  rdfs:label "Analyze Existing Technique" ;
+.
+<http://fhnw.ch/functionalOntology#7.5.3.ImproveProcesses>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#7.5.DevelopProcessesAndTechniques> ;
+  fo:hasDefinition "Improve different scale processes (lab-scale or enterprise-wide processes)" ;
+  fo:hasExample "After Agile technique is adapted inside of IT organizatoin, their processes must be adapted accordingly in order to be suitable with Agile from a Waterfall technique" ;
+  fo:hasSynonym "process improvement" ;
+  rdfs:label "Improve Processes" ;
 .
 <http://fhnw.ch/functionalOntology#7.5.DevelopProcessesAndTechniques>
   rdf:type fo:Level-2-Sub-functions ;
@@ -1208,17 +1488,6 @@ Pricing and forecast: pricing strategy to go for which pricing strategy
 """ ;
   fo:hasSynonym "Assess customer and market" ;
   rdfs:label "Assess Market And Customer" ;
-.
-<http://fhnw.ch/functionalOntology#8.1.DevelopR&DStrategyAndManageOperation>
-  rdf:type fo:Level-2-Sub-functions ;
-  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#8.0.MarketingAndSales> ;
-  fo:hasDefinition "Develop R&D strategy concerning budget, talents, organizational structure, equipments and facilities, KPIs" ;
-  fo:hasExample "Create and manage R&D Organizational Structure" ;
-  fo:hasExample "Manage R&D Budgets" ;
-  fo:hasExample "Manage R&D Equipments and Facilities" ;
-  fo:hasExample "Track KPIs" ;
-  fo:hasSynonym "R&D strategy and operation" ;
-  rdfs:label "Develop R&D Function Strategy and Manage R&D Operations" ;
 .
 <http://fhnw.ch/functionalOntology#8.10.1.MeasureCustomerHandlingSatisfaction>
   rdf:type fo:Level-3-Processes ;
@@ -1700,6 +1969,14 @@ fo:Level-3-Processes_1
   rdf:type fo:Level-3-Processes ;
   fo:isRerefencedToAPQC <http://ikm-group.ch/archimeo/apqc#1_2_3_Select_long-term_business_strategy_10039> ;
   rdfs:label "is Connected With APQC" ;
+.
+fo:ManageProductsAndServiceMasterData
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#7.2.ManagePortfolio,Projects,IPs> ;
+  fo:hasDefinition "The process of writing, checking, storing all relating data to the products/ services" ;
+  fo:hasExample "Date of production, expiary date, etc." ;
+  fo:hasSynonym "meta data" ;
+  rdfs:label "Manage Products And Service Master Data" ;
 .
 fo:hasDefinition
   rdf:type owl:DatatypeProperty ;
