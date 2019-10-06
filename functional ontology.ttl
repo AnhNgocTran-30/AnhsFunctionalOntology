@@ -1175,6 +1175,38 @@ Pricing and forecast: pricing strategy to go for which pricing strategy
   fo:hasSynonym "Assess customer and market" ;
   rdfs:label "Assess Market And Customer" ;
 .
+<http://fhnw.ch/functionalOntology#8.10.1.MeasureCustomerHandlingSatisfaction>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.10.EvaluateCustomerSatifaction> ;
+  fo:hasDefinition "Caluclate satisfaction level of customer in problem handling by fomula performance of customer-requests/inquiries handling and resolution" ;
+  fo:hasExample "Usage of survey, customer rating at POS, Customer Satisfaction Score (SCAT), etc." ;
+  fo:hasSynonym "customer handling satisfaction" ;
+  rdfs:label "Measure Customer Satisfaction About Customer Handling" ;
+.
+<http://fhnw.ch/functionalOntology#8.10.2CustomerSatisfactionWIthCustomerComplaints>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.10.EvaluateCustomerSatifaction> ;
+  fo:hasDefinition "Measuring the satisfaction level of customers as pertains to how their complaints are handled and resolved" ;
+  fo:hasExample "customer survey, customer raitng at point of sales, SCAT score" ;
+  fo:hasSynonym "customer complaint resolution satisfaction" ;
+  rdfs:label "Customer Satisfaction With Customer Complaints" ;
+.
+<http://fhnw.ch/functionalOntology#8.10.3.CustomerSatisfactionWithProductsAndService>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.10.EvaluateCustomerSatifaction> ;
+  fo:hasDefinition "Calculate satisfaction level of customer with products/ services" ;
+  fo:hasExample "Record customer reviews about products/ service, using data analysis tools to anylyze which features are satisfying and which features not" ;
+  fo:hasSynonym "customer satisfaction with products/ services" ;
+  rdfs:label "Customer Satisfaction With Products/ Service" ;
+.
+<http://fhnw.ch/functionalOntology#8.10.4.EvaluateRecallPerformance>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.10.EvaluateCustomerSatifaction> ;
+  fo:hasDefinition "Evaluate performance of recalls (if happens) and caluclate how recalls effect the business" ;
+  fo:hasExample "Evaluate performance of recalls (if happens) and caluclate how recalls effect the business" ;
+  fo:hasSynonym "Evaluate recalls" ;
+  rdfs:label "Evaluate Recalls Performance" ;
+.
 <http://fhnw.ch/functionalOntology#8.10.EvaluateCustomerSatifaction>
   rdf:type fo:Level-2-Sub-functions ;
   rdfs:label "Evaluate Customer Satisfaction" ;
@@ -1552,6 +1584,14 @@ approve or deny the transaction; and the originator being notified and payment a
   fo:hasExample "A defect in airbag in cars needed to be summited into the Chamber of Commerce in the respective country" ;
   fo:hasSynonym "Regulatory report about recall" ;
   rdfs:label "Submit Regulatory Report" ;
+.
+<http://fhnw.ch/functionalOntology#8.9.5.ManageRecallTermination>
+  rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.9.ManageRecalls> ;
+  fo:hasDefinition "The closing of recall process including recall results, recall periods, number of recalled prodcucts, potential problems with unreturend products, next steps, etc. " ;
+  fo:hasExample "The closing of recall process including recall results, recall periods, number of recalled prodcucts, potential problems with unreturend products, next steps, etc. " ;
+  fo:hasSynonym "recall termination" ;
+  rdfs:label "Manage Recall Termination" ;
 .
 <http://fhnw.ch/functionalOntology#8.9.ManageRecalls>
   rdf:type fo:Level-2-Sub-functions ;
