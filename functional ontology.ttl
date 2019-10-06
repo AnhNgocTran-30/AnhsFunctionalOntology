@@ -1143,6 +1143,40 @@ Which security guideline: ISO 27K, COBIT, NIST, PSR, ASD 8""" ;
   rdf:type fo:Level-1-Functions ;
   rdfs:label "Research and Development" ;
 .
+<http://fhnw.ch/functionalOntology#7.2.ManagePortfolio,Projects,IPs>
+  rdf:type fo:Level-2-Sub-functions ;
+  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#7.0.ResearchAndDevelopment> ;
+  fo:hasDefinition "This sub-functions manage R&D product portfolio, projects and IPs" ;
+  fo:hasExample "IPs mangement can be pattens, copyrights, etc" ;
+  fo:hasSynonym "IPs" ;
+  fo:hasSynonym "portfolio" ;
+  fo:hasSynonym "projects" ;
+  rdfs:label "Manage Portfolio, Projects, IPs" ;
+.
+<http://fhnw.ch/functionalOntology#7.3.DefineNewProductIdeas>
+  rdf:type fo:Level-2-Sub-functions ;
+  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#7.0.ResearchAndDevelopment> ;
+  fo:hasDefinition "This set of activities deals with coming up with product ideas, concepts, requirements of market" ;
+  fo:hasExample "Using design thinking to come up with product ideas and requirements" ;
+  fo:hasSynonym "new ideas" ;
+  rdfs:label "Define New Products/ Services Ideas" ;
+.
+<http://fhnw.ch/functionalOntology#7.4.DevelopProductsAndServices>
+  rdf:type fo:Level-2-Sub-functions ;
+  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#7.0.ResearchAndDevelopment> ;
+  fo:hasDefinition "Bring the ideas into reality and test it" ;
+  fo:hasExample "Bring the ideas into reality and test it" ;
+  fo:hasSynonym "develop products" ;
+  rdfs:label "Develop Products And Services" ;
+.
+<http://fhnw.ch/functionalOntology#7.5.DevelopProcessesAndTechniques>
+  rdf:type fo:Level-2-Sub-functions ;
+  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#7.0.ResearchAndDevelopment> ;
+  fo:hasDefinition "Continuous improvement of the performance and cost-effectiveness of existing products and processe" ;
+  fo:hasExample "Using Agile methodology in stead of Waterfall to develop products" ;
+  fo:hasSynonym "Improvement" ;
+  rdfs:label "Develop Processes And Techniques" ;
+.
 <http://fhnw.ch/functionalOntology#8.0.MarketingAndSales>
   rdf:type fo:Level-1-Functions ;
   rdfs:label "Marketing and Sales" ;
@@ -1174,6 +1208,17 @@ Pricing and forecast: pricing strategy to go for which pricing strategy
 """ ;
   fo:hasSynonym "Assess customer and market" ;
   rdfs:label "Assess Market And Customer" ;
+.
+<http://fhnw.ch/functionalOntology#8.1.DevelopR&DStrategyAndManageOperation>
+  rdf:type fo:Level-2-Sub-functions ;
+  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#8.0.MarketingAndSales> ;
+  fo:hasDefinition "Develop R&D strategy concerning budget, talents, organizational structure, equipments and facilities, KPIs" ;
+  fo:hasExample "Create and manage R&D Organizational Structure" ;
+  fo:hasExample "Manage R&D Budgets" ;
+  fo:hasExample "Manage R&D Equipments and Facilities" ;
+  fo:hasExample "Track KPIs" ;
+  fo:hasSynonym "R&D strategy and operation" ;
+  rdfs:label "Develop R&D Function Strategy and Manage R&D Operations" ;
 .
 <http://fhnw.ch/functionalOntology#8.10.1.MeasureCustomerHandlingSatisfaction>
   rdf:type fo:Level-3-Processes ;
