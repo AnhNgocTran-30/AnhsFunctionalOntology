@@ -4,6 +4,8 @@
 
 @prefix : <http://fhnw.ch/functionalOntology#> .
 @prefix apqc: <http://ikm-group.ch/archiMEO/apqc#> .
+@prefix bdata: <http://ikm-group.ch/archiMEO/bdata#> .
+@prefix bpaas: <http://ikm-group.ch/archimeo/bpaas#> .
 @prefix fo: <http://fhnw.ch/functionalOntology#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -21,7 +23,6 @@
 .
 <http://fhnw.ch/functionalOntology#1.1.1.AssessExternalEnvironment>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.1.DetermineStrategicDecision> ;
   fo:hasDefinition "Assess the external environment that have influence into your organization" ;
   fo:hasExample """PESTEL:
 	+ Political: government policy, political stability or instability, corruption, foreign trade policy, tax policy, labour law, environmental law and trade restrictions
@@ -39,7 +40,6 @@
 .
 <http://fhnw.ch/functionalOntology#1.1.2.AssessInternalEnvironment>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.1.DetermineStrategicDecision> ;
   fo:hasDefinition "Assess the own organization's capabilities" ;
   fo:hasExample "Using SWOT analysis to assess company's capabilitities: strengths, weknesses, opportunities, threats" ;
   fo:hasSynonym "SWOT" ;
@@ -55,7 +55,6 @@
 .
 <http://fhnw.ch/functionalOntology#1.1.DetermineStrategicDecision>
   rdf:type fo:Level-2-Sub-functions ;
-  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#1.0.StrategicManagement> ;
   fo:hasDefinition "The activity of determining company's position in the market as well as company's strengths and weaknesses in order to create a suitable strategy" ;
   fo:hasExample "Using PESTEL to assess external environment" ;
   fo:hasExample "Using SWOT to assess internal environment" ;
@@ -68,7 +67,6 @@
 .
 <http://fhnw.ch/functionalOntology#1.10.1.CreatePerformanceStrategy>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.10.MeasureAndBenchmark> ;
   fo:hasDefinition "Create and manage performance strategy and measures across the organization" ;
   fo:hasExample "Measure process efficiency, cost effectiveness, staff prodcutivity, cycle time" ;
   fo:hasSynonym "Organizational Performance" ;
@@ -76,7 +74,6 @@
 .
 <http://fhnw.ch/functionalOntology#1.10.2.BenchmarkPerformance>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.10.MeasureAndBenchmark> ;
   fo:hasDefinition "Benchmarking is the process of comparing your own organization, its operations or processes against other organizations in your industry or in the broader marketplace. " ;
   fo:hasExample "Quick-service/drive-thru restaurant chain. As it is dependent on speedy and accurate service to maximize efficiency, cut costs, and increase profits, it will study the drive-thru practices of key competitors. Every second gained without sacrificing customer quality will allow the firm to increase its profits. Over the years, competitors have consistently innovated their drive-thru operations' configuration, such as the number of windows, the menu, the speaker boards and ordering approaches in an attempt to improve their performances" ;
   fo:hasSynonym "Benchmark" ;
@@ -84,7 +81,6 @@
 .
 <http://fhnw.ch/functionalOntology#1.10.3.EvaluateProcessPerformance>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.10.MeasureAndBenchmark> ;
   fo:hasDefinition "Assess process data, measures and trands in an effort to evaluare process performance and identify possible improvements" ;
   fo:hasExample "Establish performance metrics, collect data and trends, prepare report" ;
   fo:hasSynonym "Process performance" ;
@@ -92,7 +88,6 @@
 .
 <http://fhnw.ch/functionalOntology#1.10.MeasureAndBenchmark>
   rdf:type fo:Level-2-Sub-functions ;
-  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#1.0.StrategicManagement> ;
   fo:hasDefinition "The process of assessing the organization's performance" ;
   fo:hasExample "Measure process efficiency, cost effectiveness, staff prodcutivity, cycle time" ;
   fo:hasSynonym "Benchmarking" ;
@@ -101,7 +96,6 @@
 .
 <http://fhnw.ch/functionalOntology#1.11.1.DetermineEHSImpactsOnProductsServices>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.11.ManageEnvironmentalHealthAndSafety> ;
   fo:hasDefinition """Determine the impact of company to environment as well as employees
 Conduct health, safety, environmental audits""" ;
   fo:hasExample "Volkswagen lied to the public about the environmental effects of diesel enginges in 2015" ;
@@ -110,7 +104,6 @@ Conduct health, safety, environmental audits""" ;
 .
 <http://fhnw.ch/functionalOntology#1.11.2.CreateEHSProgramsPolicies>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.11.ManageEnvironmentalHealthAndSafety> ;
   fo:hasDefinition "Based on previous assessment on EHS, organizations defines the policies or actions for its products/ services" ;
   fo:hasExample "In Vietnam, Vinmart supermarket chain stop using bylon for storing the food. In stead, they have a policy of using banana leave to wrap the food" ;
   fo:hasSynonym "Corporate Social Responsibility" ;
@@ -119,7 +112,6 @@ Conduct health, safety, environmental audits""" ;
 .
 <http://fhnw.ch/functionalOntology#1.11.3.TrainAndEducateEmployeeAboutEHS>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.11.ManageEnvironmentalHealthAndSafety> ;
   fo:hasDefinition "Organizations have trainings for their employees to educate the importance as well as technical perspectives of its EHS programs" ;
   fo:hasExample "The reducing nylon by using banana leave to wrap the food by Vinmart in Vietnam need to have some training for employees about cognition of environmental protection, so that the employees understand what they are doing and why change, which impacts on the environment, as well as trainings to wrap the banana leave (technical training)" ;
   fo:hasSynonym "Corporate Social Responsibility" ;
@@ -128,7 +120,6 @@ Conduct health, safety, environmental audits""" ;
 .
 <http://fhnw.ch/functionalOntology#1.11.4.MonitorEHSProgram>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.11.ManageEnvironmentalHealthAndSafety> ;
   fo:hasDefinition "EHS programs are monitored by impacts it gained as well as employees cognition" ;
   fo:hasExample "In Vietnam, when Vinmart decided to use banana leave in stead of pastic to wrap food, they must issue control methods over the policy like: how much percentage of their food is wrapped by banana leaves, what is the reactioin of consumers, etc." ;
   fo:hasSynonym "Corporate Social Responsibility" ;
@@ -137,7 +128,6 @@ Conduct health, safety, environmental audits""" ;
 .
 <http://fhnw.ch/functionalOntology#1.11.ManageEnvironmentalHealthAndSafety>
   rdf:type fo:Level-2-Sub-functions ;
-  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#1.0.StrategicManagement> ;
   fo:hasDefinition "Determine impacts of the organization on environmental health and safety" ;
   fo:hasExample "Volkswagen lied to the public about the environmental effects of diesel enginges in 2015. Their product had a huge impact on the environmental health" ;
   fo:hasSynonym "Corporate Social Responsibility" ;
@@ -146,7 +136,6 @@ Conduct health, safety, environmental audits""" ;
 .
 <http://fhnw.ch/functionalOntology#1.2.1.DetermineBusinessValues,Models,Mission>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.2.DevelopBusinessStrategy> ;
   fo:hasDefinition "Determine strategic position for your organization: what is your main business, what is your business models. what is your mission statement." ;
   fo:hasExample """\"Mc Donald's business is real-estate business, NOT selling fast food. They always choose the best real estate in the area and build their restaurant chain there
 Business Model of Ryanair: To offer cheap air transportation to fare-conscious customers. Ryanair targets customers who might otherwise choose alternative modes of transportation or not travel at all. The company focuses mostly on inter-European, short-haul flights
@@ -157,7 +146,6 @@ Mission statement of Prezi: Prezi: To reinvent how people share knowledge, tell 
 .
 <http://fhnw.ch/functionalOntology#1.2.2.DefineOrganizationalGoals>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.2.DevelopBusinessStrategy> ;
   fo:hasDefinition """* Organizational goals are strategic objectives that a company's management establishes to outline expected outcomes and guide employees' efforts.
 * Effective organizational goals have 5 traits: SMART (specific, measurable, achievable, realistic, time-bound)
 * 2 kinds of organizational goals: 
@@ -169,7 +157,6 @@ Mission statement of Prezi: Prezi: To reinvent how people share knowledge, tell 
 .
 <http://fhnw.ch/functionalOntology#1.2.3.DefineStrategicOptionsToAchieveGoals>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.2.DevelopBusinessStrategy> ;
   fo:hasDefinition "Strategic options is sets of strategic decions designed to drive the organization's long-term objectives" ;
   fo:hasExample "Options about suppliers, partnership, alignment of business functions with strategy, etc." ;
   fo:hasSynonym "Strategic Options" ;
@@ -177,7 +164,6 @@ Mission statement of Prezi: Prezi: To reinvent how people share knowledge, tell 
 .
 <http://fhnw.ch/functionalOntology#1.2.4.CreateOrganizationalStructure>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.2.DevelopBusinessStrategy> ;
   fo:hasDefinition "The aim of this process is to create business unit that will bring the business achieve the goals" ;
   fo:hasExample """+ Create organizational structures, roles in organization, etc.
 + Identify core  competencies for each business function
@@ -187,7 +173,6 @@ Mission statement of Prezi: Prezi: To reinvent how people share knowledge, tell 
 .
 <http://fhnw.ch/functionalOntology#1.2.5.CommunicateStrategyExternallyAndInternally>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.2.DevelopBusinessStrategy> ;
   fo:hasDefinition "Communicate company's strategy to internal and external shareholders like owners, employees, customers, suppliers, etc." ;
   fo:hasExample "CEO of a company often communicates company's strategy for the next year in the annual shareholder meeting" ;
   fo:hasSynonym "Communication" ;
@@ -195,7 +180,6 @@ Mission statement of Prezi: Prezi: To reinvent how people share knowledge, tell 
 .
 <http://fhnw.ch/functionalOntology#1.2.DevelopBusinessStrategy>
   rdf:type fo:Level-2-Sub-functions ;
-  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#1.0.StrategicManagement> ;
   fo:hasDefinition "Basing on the external and internal assessment, business's strategy is determined on a high level" ;
   fo:hasExample "Determining primary business, business model, values, mission statement, organizational goals and structure" ;
   fo:hasSynonym "Business Strategy" ;
@@ -203,7 +187,6 @@ Mission statement of Prezi: Prezi: To reinvent how people share knowledge, tell 
 .
 <http://fhnw.ch/functionalOntology#1.3.1.SetShortTermGoals>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.3.BuildStrategyPlan> ;
   fo:hasDefinition "Short-term goals (1-2 years) in order to achieve long-term irganizational goals" ;
   fo:hasExample """To achieve the company's goals - increase customer satisfication, short-tem plans are proposed using the following methods:
 * SMART goal setting (specific, measurable, actionable, relevant, timely): in the next year, we will decrease time to process customer complaint by 25% ( meaning increaase customer satisfaction through customer complaint process) 
@@ -213,7 +196,6 @@ Mission statement of Prezi: Prezi: To reinvent how people share knowledge, tell 
 .
 <http://fhnw.ch/functionalOntology#1.3.2.IdentifyPriority>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.3.BuildStrategyPlan> ;
   fo:hasDefinition "Among all short-term goals, there are more important goals that contribute to the long-term strategy as well as less important goals to incrementally improve performance. Therefore, goals need to be sorted based on priorities" ;
   fo:hasExample "Based on the goals - eg: increase customer satisfaction, the company conducts a balanced scorecard goal setting: customer perspective, financial perspective, internal process outlook, learning and organizational growth. The customer perspective is the highest priority, following by increased process efficiency (customer complaint process). In order to do that, organizational learning and growth is stressed on customer handling cases. Financial perspective will be used as a support for all other 3 perspectives" ;
   fo:hasSynonym "Goal priorities" ;
@@ -221,7 +203,6 @@ Mission statement of Prezi: Prezi: To reinvent how people share knowledge, tell 
 .
 <http://fhnw.ch/functionalOntology#1.3.3.SetMeasuresForGoals>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.3.BuildStrategyPlan> ;
   fo:hasDefinition "Set measures for short-term goals" ;
   fo:hasExample "A company's goal is to increase customer satisfaction. This is measured by increase in customer satisfaction in store, decrease in customer complaint cases, increase in time to process one complaint, number of know-how documented from previous customer complaints, etc" ;
   fo:hasSynonym "KPIs" ;
@@ -229,7 +210,6 @@ Mission statement of Prezi: Prezi: To reinvent how people share knowledge, tell 
 .
 <http://fhnw.ch/functionalOntology#1.3.4.SetMeasuresToBeKPIs>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.3.BuildStrategyPlan> ;
   fo:hasDefinition "Among all measures for short-term goals, there are measures that are more important to the others. These measures are called Key Performance Indicators (KPIs)" ;
   fo:hasExample "6 KPIs to measure customer satisfaction are: customer satisfaction score, net promoter score, first response time, customer retention rate, servqual, employee engagement" ;
   fo:hasSynonym "KPIs" ;
@@ -237,7 +217,6 @@ Mission statement of Prezi: Prezi: To reinvent how people share knowledge, tell 
 .
 <http://fhnw.ch/functionalOntology#1.3.BuildStrategyPlan>
   rdf:type fo:Level-2-Sub-functions ;
-  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#1.0.StrategicManagement> ;
   fo:hasDefinition "The activity of setting short-term goals as well as priorities, methods to measure goals" ;
   fo:hasExample "To achieve the company's goals - increase customer satisfication, short-tem plans are proposed using the SMART goal setting (specific, measurable, actionable, relevant, timely): in the next year, we will decrease time to process customer complaint by 25% ( meaning increaase customer satisfaction through customer complaint process) " ;
   fo:hasSynonym "KPIs" ;
@@ -246,7 +225,6 @@ Mission statement of Prezi: Prezi: To reinvent how people share knowledge, tell 
 .
 <http://fhnw.ch/functionalOntology#1.4.1.EstablishImplementationSchedule>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.4.ManageAndMeasureStrategicInitiatives> ;
   fo:hasDefinition "Establish time frame to do the strategic initiatives" ;
   fo:hasExample "Company Y's goal is to increase customer satisfaction by decreasing time to solve customer complaint. In the first 3 months, it tries to increase first response time, in the next 6 months, it tries to increse processing rate by optimizing internal process" ;
   fo:hasSynonym "Time frame" ;
@@ -254,7 +232,6 @@ Mission statement of Prezi: Prezi: To reinvent how people share knowledge, tell 
 .
 <http://fhnw.ch/functionalOntology#1.4.2.MeasureProgress>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.4.ManageAndMeasureStrategicInitiatives> ;
   fo:hasDefinition "Measuring progress of the company through predefined KPIs" ;
   fo:hasExample "Progress to achieve goal will be quantify and measured via KPI, if they achieve the predefined goals" ;
   fo:hasSynonym "Progress" ;
@@ -262,7 +239,6 @@ Mission statement of Prezi: Prezi: To reinvent how people share knowledge, tell 
 .
 <http://fhnw.ch/functionalOntology#1.4.3.ReviewAndAdaptProgress>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.4.ManageAndMeasureStrategicInitiatives> ;
   fo:hasDefinition "The process of review, manage and adapt the progress of the organization on a time basis" ;
   fo:hasExample "Quarterly, there will be a meeting among management and board of director in order to control and adapt the plans to meet business goal or to change the goal to be more practical" ;
   fo:hasSynonym "Review" ;
@@ -270,7 +246,6 @@ Mission statement of Prezi: Prezi: To reinvent how people share knowledge, tell 
 .
 <http://fhnw.ch/functionalOntology#1.4.ManageAndMeasureStrategicInitiatives>
   rdf:type fo:Level-2-Sub-functions ;
-  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#1.0.StrategicManagement> ;
   fo:hasDefinition "When strategic initiatives are set, they are controlled, measured and adapted in a regular basis" ;
   fo:hasExample "Usage of KPIs to measure strategic initiatives, review the initiatives quarterly" ;
   fo:hasSynonym "Implementation schedule" ;
@@ -279,7 +254,6 @@ Mission statement of Prezi: Prezi: To reinvent how people share knowledge, tell 
 .
 <http://fhnw.ch/functionalOntology#1.5.1.DefineProcesses>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.5.ManageBusinessProcesses> ;
   fo:hasDefinition """Determining and organizing the structural composition of business processes
 Identify any cross-function processes""" ;
   fo:hasExample "Process governance framework" ;
@@ -288,7 +262,6 @@ Identify any cross-function processes""" ;
 .
 <http://fhnw.ch/functionalOntology#1.5.2.DefineProcess>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.5.ManageBusinessProcesses> ;
   fo:hasDefinition "Establishing the business processes of the organization. Scope, analyze, map and publics process" ;
   fo:hasExample "The marketing process is defined as \"A series of steps that allow organizations to identify customer problems, analyze market opportunities, and create marketing materials to reach the desired audience" ;
   fo:hasSynonym "Process definition" ;
@@ -296,7 +269,6 @@ Identify any cross-function processes""" ;
 .
 <http://fhnw.ch/functionalOntology#1.5.3.ManageProcessPerformance>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.5.ManageBusinessProcesses> ;
   fo:hasDefinition "Evaluate process efficiency by measuring performance of process" ;
   fo:hasExample "Process \"handle customer complaint\" is measured via time to first respond and time to solve the complaint" ;
   fo:hasSynonym "Process perfomance" ;
@@ -304,7 +276,6 @@ Identify any cross-function processes""" ;
 .
 <http://fhnw.ch/functionalOntology#1.5.4.ImproveProcess>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.5.ManageBusinessProcesses> ;
   fo:hasDefinition "Pocess improvement is the task of proactively identify, analyze and improve the existing business process for optimization or to meet new quality standards/ quotas" ;
   fo:hasExample "The company chooses 6Sigma process improvement methods, which contains a set of technique to help company achieve 99.99966% completed parts without any defects" ;
   fo:hasSynonym "Process Improvement" ;
@@ -312,7 +283,6 @@ Identify any cross-function processes""" ;
 .
 <http://fhnw.ch/functionalOntology#1.5.ManageBusinessProcesses>
   rdf:type fo:Level-2-Sub-functions ;
-  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#1.0.StrategicManagement> ;
   fo:hasDefinition "This activity defines and manage processes that the organization performs" ;
   fo:hasExample "The scope and tasks in a customer complaint resolution process" ;
   fo:hasSynonym "process management" ;
@@ -320,7 +290,6 @@ Identify any cross-function processes""" ;
 .
 <http://fhnw.ch/functionalOntology#1.6.1.ManagePortfolio>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.6.ManagePortfolio,Programs,Projects> ;
   fo:hasDefinition "Manage business portfolio, including brands, products, holdings, investments, etc." ;
   fo:hasExample "P&G (Procter and Gamble) own several different brands:  Always®, Ambi Pur®, Ariel®, Bounty®, Charmin®, Crest®, Dawn®, Downy®, Fairy®, Febreze®, Gain®, Gillette®, Head & Shoulders®, Lenor®, Olay®, Oral-B®, Pampers®, Pantene®, SK-II®, Tide®, Vicks®, and Whisper® " ;
   fo:hasSynonym "Organization Porfolio" ;
@@ -328,7 +297,6 @@ Identify any cross-function processes""" ;
 .
 <http://fhnw.ch/functionalOntology#1.6.2.ManagePrograms>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.6.ManagePortfolio,Programs,Projects> ;
   fo:hasDefinition "Establish and manage the programs conducting in the company" ;
   fo:hasExample "Nestlé has a management trainee program in many countries across the globe. In order to manage this program, a lot of factors needed to be considered and controlled: venue, potential trainee portrait, fincancial support, risks, etc." ;
   fo:hasSynonym "Organization Programs" ;
@@ -336,7 +304,6 @@ Identify any cross-function processes""" ;
 .
 <http://fhnw.ch/functionalOntology#1.6.3.ManageProjects>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.6.ManagePortfolio,Programs,Projects> ;
   fo:hasDefinition "Manage projects in company" ;
   fo:hasExample "Alpig Holding (CH) is developing a RPA (robotic process automation project. In order to manage this project, a lot of factors needed to be considered: budget, vendors, consultants, outsource or in-shouse, etc.). Project excution time frame, quality control, etc\\" ;
   fo:hasSynonym "Organization Project" ;
@@ -344,7 +311,6 @@ Identify any cross-function processes""" ;
 .
 <http://fhnw.ch/functionalOntology#1.6.ManagePortfolio,Programs,Projects>
   rdf:type fo:Level-2-Sub-functions ;
-  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#1.0.StrategicManagement> ;
   fo:hasDefinition "This activity performs management of brand/product portfolio, as well as the programs in the organization and the currently active projects" ;
   fo:hasExample "Human Resource Management (HRM) function has onboarding program for new hires, as well as corporate social programs for the employees. These programs needs to be kept track of and managed" ;
   fo:hasSynonym "Organization programs" ;
@@ -354,7 +320,6 @@ Identify any cross-function processes""" ;
 .
 <http://fhnw.ch/functionalOntology#1.7.1.EstablishQualityManagement>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.7.ManageEnterpriseQuality> ;
   fo:hasDefinition "Quality management ensures that organization, products, services are consistent" ;
   fo:hasExample "Companies in food industry are expected to meet the ISO 22000 standard, which comprises of ISO 9000 and the HACCP standards" ;
   fo:hasSynonym "ISO" ;
@@ -363,7 +328,6 @@ Identify any cross-function processes""" ;
 .
 <http://fhnw.ch/functionalOntology#1.7.2.ControlQuality>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.7.ManageEnterpriseQuality> ;
   fo:hasDefinition "Organizations review the quality of all factors involved in production" ;
   fo:hasExample "Inspection, where the inspector examines the products visually. The inspector is provided with lists and descriptions of unacceptable product defects such as cracks or surface blemishes" ;
   fo:hasSynonym "Evaluate Performance" ;
@@ -372,7 +336,6 @@ Identify any cross-function processes""" ;
 .
 <http://fhnw.ch/functionalOntology#1.7.3.ManageNon-Conformance>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.7.ManageEnterpriseQuality> ;
   fo:hasDefinition """Assess any gaps between quality requirement and performance.
 Perform actions to reduce this gap""" ;
   fo:hasExample "Analyze root cause of the gap, determine immediate action to fulfill the gap, take corrective or preventive actions to close the gap betweel requirement and perfrmance" ;
@@ -381,7 +344,6 @@ Perform actions to reduce this gap""" ;
 .
 <http://fhnw.ch/functionalOntology#1.7.ManageEnterpriseQuality>
   rdf:type fo:Level-2-Sub-functions ;
-  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#1.0.StrategicManagement> ;
   fo:hasDefinition "The goal of this process is to establish, measure and maintain enterprise's quality requirements" ;
   fo:hasExample "Companies in food industry are expected to meet the ISO 22000 standard, which comprises of ISO 9000 and the HACCP standards" ;
   fo:hasSynonym "Quality standards" ;
@@ -389,7 +351,6 @@ Perform actions to reduce this gap""" ;
 .
 <http://fhnw.ch/functionalOntology#1.8.1.PlanForChange>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.8.ManageChange> ;
   fo:hasDefinition "Plan for changes in the organization or organizational improvements" ;
   fo:hasExample "Determine change stsakeholders, assess readiness for change, idetify change champions, form team, etc" ;
   fo:hasSynonym "Change" ;
@@ -398,7 +359,6 @@ Perform actions to reduce this gap""" ;
 .
 <http://fhnw.ch/functionalOntology#1.8.2.DesignChange>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.8.ManageChange> ;
   fo:hasDefinition "Design how the change in the organization should work, its procedures, beneficiaries, shareholders, etc." ;
   fo:hasExample "Assess connections to other innitiatives. Develop management, training, communication plans, clarify new roles. Identify budget" ;
   fo:hasSynonym "Change management" ;
@@ -407,7 +367,6 @@ Perform actions to reduce this gap""" ;
 .
 <http://fhnw.ch/functionalOntology#1.8.3.ImplementChange>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.8.ManageChange> ;
   fo:hasDefinition "The process of bringing planned changes into the real situation in the organizatin" ;
   fo:hasExample "Reengineer system, support transitions, monitor and report on change" ;
   fo:hasSynonym "Change management" ;
@@ -416,7 +375,6 @@ Perform actions to reduce this gap""" ;
 .
 <http://fhnw.ch/functionalOntology#1.8.4.SustainImprovementAndChange>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.8.ManageChange> ;
   fo:hasDefinition "How to sustain the improvement and maintain the change in organization" ;
   fo:hasExample "Capture and reuse lessons learned, build CoE, etc" ;
   fo:hasSynonym "change mangement" ;
@@ -425,7 +383,6 @@ Perform actions to reduce this gap""" ;
 .
 <http://fhnw.ch/functionalOntology#1.8.ManageChange>
   rdf:type fo:Level-2-Sub-functions ;
-  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#1.0.StrategicManagement> ;
   fo:hasDefinition "The process of alternation of an existing business model, philosophy or business approach, designed to improve a company’s overall operations" ;
   fo:hasExample "In 2004 after the oil crisis that negatively effected Shell’s share price, a new Chairman was put into place, Jeroen Van Der Veer. He believed that in order for the company to survive, structural transformations needed to be made. This includes  80 Shell operating units." ;
   fo:hasSynonym "Change Management" ;
@@ -434,7 +391,6 @@ Perform actions to reduce this gap""" ;
 .
 <http://fhnw.ch/functionalOntology#1.9.1.DevelopKnowledgeManagementStrategy>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.9.ManageEnterpriseKnowledgeManagement> ;
   fo:hasDefinition "Building strategy on how to maintain knowledge" ;
   fo:hasExample "Define roles and accountability of core groups vs operating units, develop core knowledge management methodology" ;
   fo:hasSynonym "Knowledge Management" ;
@@ -442,7 +398,6 @@ Perform actions to reduce this gap""" ;
 .
 <http://fhnw.ch/functionalOntology#1.9.2.DesignAndImplementKnowledgeManagementInitiatives>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.9.ManageEnterpriseKnowledgeManagement> ;
   fo:hasDefinition "Design KM resource model, implement KM approaches" ;
   fo:hasExample "If an organization decides to use CoE for its RPA (robotic process automation) program, it has to start deciding which process to be automated, the process of automation and how to maintain the documentation inside of CoE" ;
   fo:hasSynonym "KM" ;
@@ -451,7 +406,6 @@ Perform actions to reduce this gap""" ;
 .
 <http://fhnw.ch/functionalOntology#1.9.3.EnhanceAndMaintainKnowledgeManagementCapabilities>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.9.ManageEnterpriseKnowledgeManagement> ;
   fo:hasDefinition """Enhance/ modify existing KM approaches
 Sustain awareness and engagement""" ;
   fo:hasExample "Knowledge Management enhancement" ;
@@ -461,7 +415,6 @@ Sustain awareness and engagement""" ;
 .
 <http://fhnw.ch/functionalOntology#1.9.ManageEnterpriseKnowledgeManagement>
   rdf:type fo:Level-2-Sub-functions ;
-  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#1.0.StrategicManagement> ;
   fo:hasExample "Some organizations use Center of exellence (CoE) to manage their knowledge, some outsource their process and therfore, have their knowledge outsourced" ;
   fo:hasSynonym "CoE (center of exellence)" ;
   fo:hasSynonym "Knowledge Management" ;
@@ -473,7 +426,6 @@ Sustain awareness and engagement""" ;
 .
 <http://fhnw.ch/functionalOntology#2.1.1.DevelopHRStrategy>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#2.1.HRStrategyAndPlanning> ;
   fo:hasDefinition "A Human Resource strategy is a business’s overall plan for managing its human capital to align it with its business activities. The Human Resource strategy sets the direction for all the key areas of HR, including recruitment, performance management, compensation, talent management and redeploy& retire management." ;
   fo:hasExample "Stability (long-term) focus vs. Flexibility (short-term) focus" ;
   fo:hasSynonym "Human Resource Strategy" ;
@@ -481,7 +433,6 @@ Sustain awareness and engagement""" ;
 .
 <http://fhnw.ch/functionalOntology#2.1.2.DevelopHRPolicies>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#2.1.HRStrategyAndPlanning> ;
   fo:hasDefinition "HR policies is a comprehensive guidline regarding how employees are expected to behave and aer treated at workplace. HR policies should be in accordance with HR strategy" ;
   fo:hasExample """When a HR strategy is stability (long-term) focus, HR policies should include internal recruitment, relevant development opportunities, high/ consistent salaries, etc.
 When a HR strategy is flexibility (short-term) focus, HR policies should include external recruiment, no relevant education offered, at-the-market or low salary. etc.""" ;
@@ -491,7 +442,6 @@ When a HR strategy is flexibility (short-term) focus, HR policies should include
 .
 <http://fhnw.ch/functionalOntology#2.1.HRStrategyAndPlanning>
   rdf:type fo:Level-2-Sub-functions ;
-  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#2.0.HumanResourceManagement> ;
   fo:hasDefinition "A Human Resource strategy is a business’s overall plan for managing its human capital to align it with its business activities. The Human Resource strategy sets the direction for all the key areas of HR, including recruitment, performance management, compensation, talent management and redeploy& retire management." ;
   fo:hasExample "Stability (long-term) focus vs. Flexibility (short-term) focus" ;
   fo:hasSynonym "Human Resource Strategy" ;
@@ -499,7 +449,6 @@ When a HR strategy is flexibility (short-term) focus, HR policies should include
 .
 <http://fhnw.ch/functionalOntology#2.2.1.ManageEmployeeRequisitions>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#2.2.Recruitment> ;
   fo:hasDefinition "This fucntion align the business personnel needs with the HR plan and start creating neccesary job description" ;
   fo:hasExample "Align staffing plan to workforce needs, develop job descriptions, post job requitions, manage job requisitions." ;
   fo:hasSynonym "Align human needs with plan" ;
@@ -507,7 +456,6 @@ When a HR strategy is flexibility (short-term) focus, HR policies should include
 .
 <http://fhnw.ch/functionalOntology#2.2.2.ScreenCandidates>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#2.2.Recruitment> ;
   fo:hasDefinition "The process of selecting which candidate fits the best with the job position by making tests, conducting interview, etc." ;
   fo:hasExample "Manage recruiment channels, referral programs, vendors" ;
   fo:hasExample "Test candidates, interview candidates, select and reject candidates" ;
@@ -516,7 +464,6 @@ When a HR strategy is flexibility (short-term) focus, HR policies should include
 .
 <http://fhnw.ch/functionalOntology#2.2.3.SElectAndManageNewHires>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#2.2.Recruitment> ;
   fo:hasDefinition "The process of making concrete offers for the potential hires: salary and benefits, documentations to make necessary working documents " ;
   fo:hasExample "Make and negotiate offer, complete necessary documents, hire candidates" ;
   fo:hasSynonym "Hiring" ;
@@ -524,7 +471,6 @@ When a HR strategy is flexibility (short-term) focus, HR policies should include
 .
 <http://fhnw.ch/functionalOntology#2.2.Recruitment>
   rdf:type fo:Level-2-Sub-functions ;
-  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#2.0.HumanResourceManagement> ;
   fo:hasDefinition "This activity aims at sourcing the suitable talents with the needs of the organization" ;
   fo:hasExample "The tasks performed in this activity are: prepare job description, manage recruitment channels, make interviews, sort interviews, make offers, manage non-recruits, etc." ;
   fo:hasSynonym "Talent Requisition" ;
@@ -532,7 +478,6 @@ When a HR strategy is flexibility (short-term) focus, HR policies should include
 .
 <http://fhnw.ch/functionalOntology#2.3.1.Onboarding>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#2.3.PerformanceManagement> ;
   fo:hasDefinition "The process of integrating a new employee into an organization or familiarizing a new customer or client with one's products or services." ;
   fo:hasExample """Day 1: HR / admin day
 Day 2: Customer day
@@ -544,7 +489,6 @@ Day 5: Culture day""" ;
 .
 <http://fhnw.ch/functionalOntology#2.3.2.ManagePerformance>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#2.3.PerformanceManagement> ;
   fo:hasDefinition "The process of tracking employee's performance in regards of measures" ;
   fo:hasExample "Define performance measures, assess employee management based on measures" ;
   fo:hasSynonym "Perfomance management" ;
@@ -552,7 +496,6 @@ Day 5: Culture day""" ;
 .
 <http://fhnw.ch/functionalOntology#2.3.3.ManageEmployeeDevelopment>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#2.3.PerformanceManagement> ;
   fo:hasDefinition "The process of defining career paths for employees" ;
   fo:hasExample "Develop employee career plans and career paths" ;
   fo:hasSynonym "Career path" ;
@@ -561,7 +504,6 @@ Day 5: Culture day""" ;
 .
 <http://fhnw.ch/functionalOntology#2.3.PerformanceManagement>
   rdf:type fo:Level-2-Sub-functions ;
-  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#2.0.HumanResourceManagement> ;
   fo:hasDefinition "This activity refers to the act of managing performance of employees as well as their development progress" ;
   fo:hasExample "Manage the performance of employees based on several factors: assessments from the supervisors, from the colleagues, etc." ;
   fo:hasSynonym "Employee Onboarding" ;
@@ -571,7 +513,6 @@ Day 5: Culture day""" ;
 .
 <http://fhnw.ch/functionalOntology#2.4.1.DevelopCompensationProgram>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#2.4.CompensationManagement> ;
   fo:hasDefinition "The process of calculating employee's salary based on contracts as well as based on their performance" ;
   fo:hasExample "Develop salary plans, benefit and reward plans" ;
   fo:hasSynonym "Payroll" ;
@@ -580,7 +521,6 @@ Day 5: Culture day""" ;
 .
 <http://fhnw.ch/functionalOntology#2.4.2.AdministerCompensationBenefitProgram>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#2.4.CompensationManagement> ;
   fo:hasDefinition "The process of creating and maintaining other benefits for employees besides of compensation" ;
   fo:hasExample "Typical employee benefit programs are: sport programs for employees, supports for employee's families like day-care for the children, selling company's products for employees with better prices, etc." ;
   fo:hasSynonym "Reward plan" ;
@@ -588,7 +528,6 @@ Day 5: Culture day""" ;
 .
 <http://fhnw.ch/functionalOntology#2.4.CompensationManagement>
   rdf:type fo:Level-2-Sub-functions ;
-  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#2.0.HumanResourceManagement> ;
   fo:hasDefinition "This activity calculate the compensation for individual employees according to many factors: base salary, benefits, rewards, etc." ;
   fo:hasExample "An average accountant in an international organization in Switzerland has the salary of 75'000 Swiss franc (CHF) per year. However, if she works only for 70%, and the company pays for 13 months, she will get CHF 4'000 per month, and if the company is doing well, she can get a month salary of reward." ;
   fo:hasSynonym "Recognitions" ;
@@ -598,7 +537,6 @@ Day 5: Culture day""" ;
 .
 <http://fhnw.ch/functionalOntology#2.5.1.DevelopEmployees>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#2.5.Talent_Management> ;
   fo:hasDefinition "The process of helping employees further develop on their career by giving them learning opporunities, on the job training sessions, etc. " ;
   fo:hasExample "Companies might send their accounting and finance employees to study and get ACCA or CFA certification. Others might send employees in operation function to learn RPA (robotic process automation) certification" ;
   fo:hasSynonym "EMployee Development" ;
@@ -608,7 +546,6 @@ Day 5: Culture day""" ;
 .
 <http://fhnw.ch/functionalOntology#2.5.2.ManageExpats>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#2.5.Talent_Management> ;
   fo:hasDefinition "The process of managing expats" ;
   fo:hasExample "HR function might help expats to make the documents (residence permit, work permit) or settle down (renting houses, buying furnitures) in the new place when they just move to" ;
   fo:hasSynonym "Expats" ;
@@ -616,7 +553,6 @@ Day 5: Culture day""" ;
 .
 <http://fhnw.ch/functionalOntology#2.5.Talent_Management>
   rdf:type fo:Level-2-Sub-functions ;
-  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#2.0.HumanResourceManagement> ;
   fo:hasDefinition "The process of helping employees further develop on their career by giving them learning opporunities, on the job training sessions, etc. " ;
   fo:hasExample "Companies might send their accounting and finance employees to study and get ACCA or CFA certification. Others might send employees in operation function to learn RPA (robotic process automation) certification" ;
   fo:hasSynonym "Employee Compertencies" ;
@@ -626,7 +562,6 @@ Day 5: Culture day""" ;
 .
 <http://fhnw.ch/functionalOntology#2.6.1.Redeploy/Retire/Promotion/Relocate>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#2.6.RedeployAndRetirement> ;
   fo:hasDefinition "The process of manageing employees's changes in positions" ;
   fo:hasExample "Manage leave of absence\"" ;
   fo:hasExample "Manage promotion" ;
@@ -639,7 +574,6 @@ Day 5: Culture day""" ;
 .
 <http://fhnw.ch/functionalOntology#2.6.RedeployAndRetirement>
   rdf:type fo:Level-2-Sub-functions ;
-  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#2.0.HumanResourceManagement> ;
   fo:hasDefinition "The process of manageing employees's changes in positions" ;
   fo:hasExample "Manage leave of absence" ;
   fo:hasExample "Manage redeployements" ;
@@ -652,7 +586,6 @@ Day 5: Culture day""" ;
 .
 <http://fhnw.ch/functionalOntology#2.7.1.ManageEmployeeData>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#2.7.ManageEmployeeInformatics> ;
   fo:hasDefinition "The process of writing, storing, changing employee data" ;
   fo:hasExample "Employees data includes name, age, marial status, salary, position, etc. and is stored in a ERP system" ;
   fo:hasSynonym "Employee Data" ;
@@ -660,7 +593,6 @@ Day 5: Culture day""" ;
 .
 <http://fhnw.ch/functionalOntology#2.7.2.ManageHRMSystem>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#2.7.ManageEmployeeInformatics> ;
   fo:hasDefinition "HRM system needs to be managed, updated and controlled on a regular basis" ;
   fo:hasExample "HRM system can be in-house (inside the IT department) or outsourced (to onother organization)" ;
   fo:hasSynonym "HR system" ;
@@ -668,7 +600,6 @@ Day 5: Culture day""" ;
 .
 <http://fhnw.ch/functionalOntology#2.7.3.ManageEmployeesSuggestions>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#2.7.ManageEmployeeInformatics> ;
   fo:hasDefinition "The process of managing employee's suggestion and feedbacks for development of the company" ;
   fo:hasExample "Employees retention survey, employee suggestion surveys, etc." ;
   fo:hasSynonym "Employee Suggestions" ;
@@ -676,7 +607,6 @@ Day 5: Culture day""" ;
 .
 <http://fhnw.ch/functionalOntology#2.7.ManageEmployeeInformatics>
   rdf:type fo:Level-2-Sub-functions ;
-  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#2.0.HumanResourceManagement> ;
   fo:hasDefinition "Manage and maintain employee inquiries, data, HRM systems, etc" ;
   fo:hasExample "All the employees informatics (gender, age, marial status, nationality, etc.) are stored in a HRM system and are updated on a pushing basis" ;
   fo:hasSynonym "Employee informatics" ;
@@ -688,7 +618,6 @@ Day 5: Culture day""" ;
 .
 <http://fhnw.ch/functionalOntology#3.1.1.ManageITCustomerRelationship>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#3.1.ManageITFunction> ;
   fo:hasDefinition "The process of managing IT customers from the business side" ;
   fo:hasExample "Assess business requirement" ;
   fo:hasExample "Manage SLAs" ;
@@ -697,7 +626,6 @@ Day 5: Culture day""" ;
 .
 <http://fhnw.ch/functionalOntology#3.1.10.PerformITControlling>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#3.1.ManageITFunction> ;
   fo:hasDefinition "The process of control IT quality according to a certain IT quality management framework, which the business set forth in their IT management processes" ;
   fo:hasExample "ITIL is an IT quality management framework which is higly popular among IT organizations. " ;
   fo:hasSynonym "IT Control" ;
@@ -705,7 +633,6 @@ Day 5: Culture day""" ;
 .
 <http://fhnw.ch/functionalOntology#3.1.11.ReportITPerformance>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#3.1.ManageITFunction> ;
   fo:hasDefinition "The process of making report about IT performance as well as failures to perform of IT" ;
   fo:hasExample "IT report might include comparison with IT performance from last year" ;
   fo:hasSynonym "IT report" ;
@@ -713,7 +640,6 @@ Day 5: Culture day""" ;
 .
 <http://fhnw.ch/functionalOntology#3.1.12.ManageITProjects>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#3.1.ManageITFunction> ;
   fo:hasDefinition "The process of managing the plan, organization, and accountability to achieve information technology goals" ;
   fo:hasExample "Strategic IT goal of an organization after a merger is: merging 2 previously separted ERP systems of the 2 old companies. In order for this project to be completed, it need the scope, the people, the resources, etc. and all information regarding this project is called IT project management" ;
   fo:hasSynonym "IT projects" ;
@@ -721,7 +647,6 @@ Day 5: Culture day""" ;
 .
 <http://fhnw.ch/functionalOntology#3.1.12.ManageProjectReleasesAndDeployments>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#3.1.ManageITFunction> ;
   fo:hasDefinition "The process of managing different relaeses in a project in regards of changes in comparision to previous versions as well as the steps to deploy an IT project" ;
   fo:hasExample "When an organization wants to create a new ERP system, they need to think about different releases and which department will be involved in which phase" ;
   fo:hasSynonym "Project deployments" ;
@@ -731,7 +656,6 @@ Day 5: Culture day""" ;
 .
 <http://fhnw.ch/functionalOntology#3.1.13.ManageProjectRequests>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#3.1.ManageITFunction> ;
   fo:hasDefinition "The process of manageing requests from the IT clients (to an organization, IT clients can be business users)" ;
   fo:hasExample "When an IT function wants to deploy an RPA (robotic process automation) project, they conduct a questionnaire to business users to ask which process is suitable to be automated. The answers from business users will be collected and analyzed accordingly" ;
   fo:hasSynonym "IT clients" ;
@@ -739,7 +663,6 @@ Day 5: Culture day""" ;
 .
 <http://fhnw.ch/functionalOntology#3.1.14.ConductSolutionRequirementEngineering>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#3.1.ManageITFunction> ;
   fo:hasDefinition "The process of analyziing the requirement to construct the desired application, platform, infrastructure" ;
   fo:hasExample "When the IT department wants to construct a new ERP system, they have to conduct an analysis regarding which department will need it, which functions it should perform, which kind of resource it needs, etc." ;
   fo:hasSynonym "Requirement engineering" ;
@@ -754,7 +677,6 @@ Day 5: Culture day""" ;
 .
 <http://fhnw.ch/functionalOntology#3.1.16.ManageTest>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#3.1.ManageITFunction> ;
   fo:hasDefinition "The process of identifying bugs and defects from the applications" ;
   fo:hasExample "IT tester tests the application and report it to developer. When bugs are detected, the developer will be notified and then fix the bug" ;
   fo:hasSynonym "Tests" ;
@@ -762,7 +684,6 @@ Day 5: Culture day""" ;
 .
 <http://fhnw.ch/functionalOntology#3.1.17.ManageBugsAndDefects>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#3.1.ManageITFunction> ;
   fo:hasDefinition "The process of analyzing and fixing application bugs and defects" ;
   fo:hasExample "The bugs and defects will be recorded, information is sent to developer and the bugs are fixed. After that, information about the bugs and the fixes will be brought into the system for controlling" ;
   fo:hasSynonym "Bugs and defects" ;
@@ -770,7 +691,6 @@ Day 5: Culture day""" ;
 .
 <http://fhnw.ch/functionalOntology#3.1.18.ManageITSuppliers>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#3.1.ManageITFunction> ;
   fo:hasDefinition "This activity brings control to IT suppliers, who supply software as well as hardware for IT usage" ;
   fo:hasExample "When a company uses AWS, they need to control about terms of license, expiary date, amount of used data, etc." ;
   fo:hasSynonym "IT supplier" ;
@@ -778,7 +698,6 @@ Day 5: Culture day""" ;
 .
 <http://fhnw.ch/functionalOntology#3.1.1EstablishRiskFrameworkAndPolicies>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#4.1.ManageEnterpriseRisks> ;
   fo:hasDefinition "The process of scoping enterpise risk and risk policies, etc" ;
   fo:hasExample """Determine risk tolerance level
 Manage risk ppolicies and procedures
@@ -788,7 +707,6 @@ Implement risks management tools""" ;
 .
 <http://fhnw.ch/functionalOntology#3.1.2.AssessEnterpriseRisks>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#4.1.ManageEnterpriseRisks> ;
   fo:hasDefinition "The process of identifying individual risks in different business functions relating to that specific function" ;
   fo:hasExample """* Identify enterprise risk (using risk matric)
 * Assess which risks to mitigate
@@ -800,7 +718,6 @@ Implement risks management tools""" ;
 .
 <http://fhnw.ch/functionalOntology#3.1.2.DevelopITBusinessStrategy>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#3.1.ManageITFunction> ;
   fo:hasDefinition "Key decisions for IT working methodology in accordance with the overall business strategy" ;
   fo:hasExample """Some questions needed to be answered
 * Make or buy IT solutions
@@ -812,7 +729,6 @@ Implement risks management tools""" ;
 .
 <http://fhnw.ch/functionalOntology#3.1.3.AssessFunctionRisks>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#4.1.ManageEnterpriseRisks> ;
   fo:hasDefinition "The process of listing, acessing risk-level and continous control over risks" ;
   fo:hasExample """* Identify business-function risks
 * Assess risks using enterprise risk framework
@@ -824,7 +740,6 @@ Implement risks management tools""" ;
 .
 <http://fhnw.ch/functionalOntology#3.1.3.ManageITRisks>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#3.1.ManageITFunction> ;
   fo:hasDefinition "The process of managing risks associated with the use of information technology. It involves identifying, assessing, and treating risks to the confidentiality, integrity, and availability of an organization’s assets. The end goal of this process is to treat risks in accordance with an organization’s overall risk tolerance" ;
   fo:hasExample """5 stages are investigated in term o risks associated with IT:
 - Identification of risks: in terms of IT assets (online streaming platform is not compromised with music files), vulnalibility of system/ software, threats (natural disaster), controls (terminated users having access to a specific application)
@@ -842,7 +757,6 @@ Implement risks management tools""" ;
 .
 <http://fhnw.ch/functionalOntology#3.1.4.DevelopITArchitecture>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#3.1.ManageITFunction> ;
   fo:hasDefinition "define IT architecture, IT standard, security guideline" ;
   fo:hasExample """Which IT standard: ITIL, COBIT 
 Which security guideline: ISO 27K, COBIT, NIST, PSR, ASD 8""" ;
@@ -851,7 +765,6 @@ Which security guideline: ISO 27K, COBIT, NIST, PSR, ASD 8""" ;
 .
 <http://fhnw.ch/functionalOntology#3.1.5.ManageITPeople>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#3.1.ManageITFunction> ;
   fo:hasDefinition "Design IT personnel and the IT organizational structure" ;
   fo:hasExample """Number of FTEs in IT department
 """ ;
@@ -861,7 +774,6 @@ Which security guideline: ISO 27K, COBIT, NIST, PSR, ASD 8""" ;
 .
 <http://fhnw.ch/functionalOntology#3.1.5.ManageITProductReleases>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#3.2.ManageITServices> ;
   fo:hasDefinition "This activity controls different releases and connected document of an IT product" ;
   fo:hasExample "IT teams can use GitHub to store their files and get updated whenever a release is coming up" ;
   fo:hasSynonym "Product Release" ;
@@ -869,7 +781,6 @@ Which security guideline: ISO 27K, COBIT, NIST, PSR, ASD 8""" ;
 .
 <http://fhnw.ch/functionalOntology#3.1.6.AssessSLM>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#3.1.ManageITFunction> ;
   fo:hasDefinition "Service Level Management (SLM) sets clear business-based targets for service performance, so that the delivery of a service can be properly assessed, monitored, and managed against these targets" ;
   fo:hasExample "One feature that is often seen in all SLM is time to availability of service. This feature states how much time should the system works properly and how much time it scan be down. For example, a availabity (uptime) of 99.5% means that the service is available for 99,5% of the workiing time, which equals to a downtime of 7m20s per day, 50m24s perweek, etc." ;
   fo:hasSynonym "QoS" ;
@@ -879,7 +790,6 @@ Which security guideline: ISO 27K, COBIT, NIST, PSR, ASD 8""" ;
 .
 <http://fhnw.ch/functionalOntology#3.1.7.AssessSLA>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#3.1.ManageITFunction> ;
   fo:hasDefinition "An SLA is defined as a documented agreement between a service provider and a customer that identifies both services required and the expected level of service" ;
   fo:hasExample "One feature that is often seen in all Service level agreement (SLA) is time to availability of service. This feature states how much time should the system works properly and how much time it scan be down. For example, a availabity (uptime) of 99.5% means that the service is available for 99,5% of the workiing time, which equals to a downtime of 7m20s per day, 50m24s perweek, etc." ;
   fo:hasSynonym "service level agreement" ;
@@ -887,7 +797,6 @@ Which security guideline: ISO 27K, COBIT, NIST, PSR, ASD 8""" ;
 .
 <http://fhnw.ch/functionalOntology#3.1.8.ManageITKnowledge>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#3.1.ManageITFunction> ;
   fo:hasDefinition "IT Knowledge management is the process of creating, sharing, using and managing the knowledge and information througout all IT functions" ;
   fo:hasExample "A center of excellence (CoE) is the typical division where companies manage their knowledge. All knowledge regarding IT are documented, stored and managed here. IT knowledge management also acts as a base for IT process improvement phase." ;
   fo:hasSynonym "CoE of IT" ;
@@ -895,7 +804,6 @@ Which security guideline: ISO 27K, COBIT, NIST, PSR, ASD 8""" ;
 .
 <http://fhnw.ch/functionalOntology#3.1.9.ManageITBudget>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#3.1.ManageITFunction> ;
   fo:hasDefinition "The process of calculating potential IT budget for the next operating year." ;
   fo:hasExample "IT budget is calculated based on the number of on-going projects, the number of future IT projects, IT personnels, etc." ;
   fo:hasSynonym "IT finance" ;
@@ -903,17 +811,13 @@ Which security guideline: ISO 27K, COBIT, NIST, PSR, ASD 8""" ;
 .
 <http://fhnw.ch/functionalOntology#3.1.ManageITFunction>
   rdf:type fo:Level-2-Sub-functions ;
-  fo:IsSubFunctionOf <http://ikm-group.ch/archimeo/apqc#8_1_Manage_the_business_of_information_technology_10563> ;
   fo:hasDefinition "Including all activities relating to the management of IT customers from the business side" ;
   fo:hasExample "Activities in this category include: assessing customer's requirements, developing and deploying IT services, resolving IT incidents and problems" ;
   fo:hasSynonym "business customers of IT" ;
-  fo:isRerefencedToAPQC <http://ikm-group.ch/archimeo/apqc#8_1_Manage_the_business_of_information_technology_10563> ;
-  fo:isRerefencedToAPQC <http://ikm-group.ch/archimeo/apqc#8_2_Develop_and_manage_IT_customer_relationships_10564> ;
   rdfs:label "Develop IT Function" ;
 .
 <http://fhnw.ch/functionalOntology#3.2.1.ManageIncidents>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#3.2.ManageITServices> ;
   fo:hasDefinition "The process of solving and recording incidents in IT operation or from business users" ;
   fo:hasExample "Incidents like: forgetting password, cannot log in the system, etc" ;
   fo:hasSynonym "Incidents" ;
@@ -921,7 +825,6 @@ Which security guideline: ISO 27K, COBIT, NIST, PSR, ASD 8""" ;
 .
 <http://fhnw.ch/functionalOntology#3.2.1EstablishComplianceFrameworkAndPolicies>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#4.2.ManageCompliance> ;
   fo:hasDefinition "The process of compliance with internal systems of control that are imposed to achieve compliance with the externally imposed rules." ;
   fo:hasExample "Manage internal audits for accounting function" ;
   fo:hasSynonym "Internal Compliance" ;
@@ -929,7 +832,6 @@ Which security guideline: ISO 27K, COBIT, NIST, PSR, ASD 8""" ;
 .
 <http://fhnw.ch/functionalOntology#3.2.2.ManageProblems>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#3.2.ManageITServices> ;
   fo:hasDefinition "The activity of managing problem ocurring under IT causes" ;
   fo:hasExample "Problems for example, the whole server is down at once, which makes the business cannot operatre" ;
   fo:hasSynonym "Problems" ;
@@ -937,7 +839,6 @@ Which security guideline: ISO 27K, COBIT, NIST, PSR, ASD 8""" ;
 .
 <http://fhnw.ch/functionalOntology#3.2.3.ComplyWithRegulations>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#4.2.ManageCompliance> ;
   fo:hasDefinition "compliance with the external rules that are imposed upon an organisation as a whole" ;
   fo:hasExample "Identify applicable regulations: an accounting department of a company based in the US must comply with the US Gap, while a company based in Europe must comply with the IFRS" ;
   fo:hasSynonym "External Compliance" ;
@@ -946,7 +847,6 @@ Which security guideline: ISO 27K, COBIT, NIST, PSR, ASD 8""" ;
 .
 <http://fhnw.ch/functionalOntology#3.2.3.ManageITDeliveryProcess>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#3.2.ManageITServices> ;
   fo:hasDefinition "This activity do defines how It delivery should happens" ;
   fo:hasExample "For an ERP system replacement, it is neccessary that the ERP system is gradually brought into the organization. Therefore, IT delivery process should includes different phases, each of which involves different departments in the organization as well as intruction lessons" ;
   fo:hasSynonym "IT Delivery" ;
@@ -954,7 +854,6 @@ Which security guideline: ISO 27K, COBIT, NIST, PSR, ASD 8""" ;
 .
 <http://fhnw.ch/functionalOntology#3.2.4.ManageITServiceContinuity>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#3.2.ManageITServices> ;
   fo:hasDefinition "Manage and Evaluate It capability to recover from discontinuity due to internal and external threats" ;
   fo:hasExample "When an organization is located in Japan, IT function need to have an additional plan for continue the service under earthquakes, because in Japan, earthquakes often happens" ;
   fo:hasSynonym "IT service continuity" ;
@@ -962,7 +861,6 @@ Which security guideline: ISO 27K, COBIT, NIST, PSR, ASD 8""" ;
 .
 <http://fhnw.ch/functionalOntology#3.2.5.ControlITChangeManagement>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#3.2.ManageITServices> ;
   fo:hasDefinition "Integrate all forms of changes in IT" ;
   fo:hasExample "IT team can use Docker to keep track of the changes in codes" ;
   fo:hasSynonym "Change Management" ;
@@ -970,19 +868,14 @@ Which security guideline: ISO 27K, COBIT, NIST, PSR, ASD 8""" ;
 .
 <http://fhnw.ch/functionalOntology#3.2.ManageITServices>
   rdf:type fo:Level-2-Sub-functions ;
-  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#3.0.InformationTechnologyManagement> ;
   fo:hasDefinition "This sub-function focuses on the services that IT delivers to its customers" ;
   fo:hasExample "Delivery of application, platforms, infrastructure, etc." ;
   fo:hasSynonym "Deploying It solutions" ;
   fo:hasSynonym "Developing IT solution" ;
-  fo:isRerefencedToAPQC <http://ikm-group.ch/archimeo/apqc#8_4_Manage_enterprise_information_10565> ;
-  fo:isRerefencedToAPQC <http://ikm-group.ch/archimeo/apqc#8_5_Develop_and_maintain_information_technology_solutions_10566> ;
-  fo:isRerefencedToAPQC <http://ikm-group.ch/archimeo/apqc#8_6_Deploy_information_technology_solutions_10567> ;
   rdfs:label "Manage IT Services" ;
 .
 <http://fhnw.ch/functionalOntology#3.3.1.MonitorAndReportITOperations>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#3.3.ManageITOperation> ;
   fo:hasDefinition "Daily IT operation needed to be reported on a regular basis for continous improvement" ;
   fo:hasExample "When a business user training session is conducted, which part is understandable, which part not, which part needs more support, etc. need to be taken into report for improvement next time" ;
   fo:hasSynonym "Report" ;
@@ -990,7 +883,6 @@ Which security guideline: ISO 27K, COBIT, NIST, PSR, ASD 8""" ;
 .
 <http://fhnw.ch/functionalOntology#3.3.2.TrainBusinessUsers>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#3.3.ManageITOperation> ;
   fo:hasDefinition "The process of training business users how to use an IT application or program" ;
   fo:hasExample "IT personnels train business users how to make a secure VPN connection" ;
   fo:hasSynonym "Train business users" ;
@@ -998,7 +890,6 @@ Which security guideline: ISO 27K, COBIT, NIST, PSR, ASD 8""" ;
 .
 <http://fhnw.ch/functionalOntology#3.3.3.ManageConfiguration>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#3.3.ManageITOperation> ;
   fo:hasDefinition "Schedule updates, configurations of IT applications and services" ;
   fo:hasExample "An organization uses Microsoft365 Office and therefore, IT needs to control the license, the new release and other configurations relating to MS365 package" ;
   fo:hasSynonym "IT operation configuration" ;
@@ -1006,7 +897,6 @@ Which security guideline: ISO 27K, COBIT, NIST, PSR, ASD 8""" ;
 .
 <http://fhnw.ch/functionalOntology#3.3.4.ManageITOutputAndSchedule>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#3.3.ManageITOperation> ;
   fo:hasDefinition "Define schedule for IT activities and at which phase will be which output" ;
   fo:hasExample "When an IT project is rolled out, it is important to have schedule when to do what. Example of this schedule can be implemented in SCRUM board with different sprint. Different backlogs define diefferent IT outputs" ;
   fo:hasSynonym "Schedule" ;
@@ -1014,17 +904,14 @@ Which security guideline: ISO 27K, COBIT, NIST, PSR, ASD 8""" ;
 .
 <http://fhnw.ch/functionalOntology#3.3.ManageITOperation>
   rdf:type fo:Level-2-Sub-functions ;
-  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#3.0.InformationTechnologyManagement> ;
   fo:hasDefinition "Everyday activities that IT performs including incident resolution or problem management" ;
   fo:hasExample "Ticket opening" ;
   fo:hasExample "incident resolution" ;
   fo:hasSynonym "IT operation" ;
-  fo:isRerefencedToAPQC <http://ikm-group.ch/archimeo/apqc#8_7_Deliver_and_support_information_technology_services_10568> ;
   rdfs:label "Manage IT Operation" ;
 .
 <http://fhnw.ch/functionalOntology#3.4.1.CreateResiliencyStrategy>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#4.4.ManageBusinessResilencies> ;
   fo:hasDefinition "The process of revising business risks, compliance and continously improve business capability in mitigation plan" ;
   fo:hasExample "with a risk that is normally happens but unavoidable (risk of natural disaster), the organization needs to have full and mature mitigation plan for their employee so that every time this happens, the organization has full capacity to solve it" ;
   fo:hasSynonym "resiliency" ;
@@ -1032,7 +919,6 @@ Which security guideline: ISO 27K, COBIT, NIST, PSR, ASD 8""" ;
 .
 <http://fhnw.ch/functionalOntology#3.6.DevelopCustomerExperienceStrategy>
   rdf:type fo:Level-2-Sub-functions ;
-  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#8.0.MarketingAndSales> ;
   fo:hasDefinition "Define rules and regulations for customer service. Establish service levels for customers in order to help improve customer experience" ;
   fo:hasExample "Which point of contact to customers: self-service, dedicated personal assitant, somewhere in between, etc." ;
   fo:hasSynonym "Customer Experience" ;
@@ -1044,7 +930,6 @@ Which security guideline: ISO 27K, COBIT, NIST, PSR, ASD 8""" ;
 .
 <http://fhnw.ch/functionalOntology#4.1.ManageEnterpriseRisks>
   rdf:type fo:Level-2-Sub-functions ;
-  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#4.0RiskAndComplianceManagement> ;
   fo:hasDefinition "The process of soping enterprise risks as well as mitigation plans to these risks" ;
   fo:hasExample "Enterprise using risk matrix in order to identify which risks are highly destructive (likely to occur and have severe impacts) and which risks are not important (not likely to occur or does not have severe impacts)" ;
   fo:hasSynonym "risk strategy" ;
@@ -1052,7 +937,6 @@ Which security guideline: ISO 27K, COBIT, NIST, PSR, ASD 8""" ;
 .
 <http://fhnw.ch/functionalOntology#4.2.ManageCompliance>
   rdf:type fo:Level-2-Sub-functions ;
-  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#4.0RiskAndComplianceManagement> ;
   fo:hasDefinition "The process of identifying compliance frameworks, issues that an organization  need to accomplish as well as difficulties in accomplish the compliance framework" ;
   fo:hasExample "In the U.S, public companies (companies listed on the stock exchange) and non profit organizations are obligated to have external audits. SME do not have the obligation to do so" ;
   fo:hasSynonym "Compliance" ;
@@ -1060,7 +944,6 @@ Which security guideline: ISO 27K, COBIT, NIST, PSR, ASD 8""" ;
 .
 <http://fhnw.ch/functionalOntology#4.3.1.CreateMitigationPlan>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#4.3.ManageMitigationEfforts> ;
   fo:hasDefinition "The process of prioritize risks as well as create different strategy to mitigate different risks depending on severity and probability" ;
   fo:hasExample """5 stages are investigated in term o risks associated with IT:
 - Identification of risks: in terms of IT assets (online streaming platform is not compromised with music files), vulnalibility of system/ software, threats (natural disaster), controls (terminated users having access to a specific application)
@@ -1078,7 +961,6 @@ Which security guideline: ISO 27K, COBIT, NIST, PSR, ASD 8""" ;
 .
 <http://fhnw.ch/functionalOntology#4.3.2.IdentigyResourceForRiskMitigation>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#4.3.ManageMitigationEfforts> ;
   fo:hasDefinition "The process of identiying which resources that a risk mitigation plan needs" ;
   fo:hasExample "Buy insurance for enterprise to mitigate risk of natural disaster. Therefore, the resource needed might be budget to buy the insurance" ;
   fo:hasSynonym "Risk Mitigation Resource" ;
@@ -1086,7 +968,6 @@ Which security guideline: ISO 27K, COBIT, NIST, PSR, ASD 8""" ;
 .
 <http://fhnw.ch/functionalOntology#4.3.3.CommunicateMitigationPlanWithStakeHolders>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#4.3.ManageMitigationEfforts> ;
   fo:hasDefinition "The activity of communicating mitigation plan with relevant stakeholders" ;
   fo:hasExample "When an organization wants to buy insurance against natural disaster, they need to communicate it with the CFO in order to plan budget for this insurance" ;
   fo:hasSynonym "communication" ;
@@ -1094,7 +975,6 @@ Which security guideline: ISO 27K, COBIT, NIST, PSR, ASD 8""" ;
 .
 <http://fhnw.ch/functionalOntology#4.3.4.AmendAndCreateRiskPolicy>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#4.3.ManageMitigationEfforts> ;
   fo:hasDefinition "The process of continously monitor and amend mitigation plan" ;
   fo:hasExample "If the risks of natural disaster is acessed to be high, but in reality it is low, the pllan for this risk might be change in priority and mitigation method" ;
   fo:hasSynonym "continously monitor mitigation plan" ;
@@ -1102,7 +982,6 @@ Which security guideline: ISO 27K, COBIT, NIST, PSR, ASD 8""" ;
 .
 <http://fhnw.ch/functionalOntology#4.3.ManageMitigationEfforts>
   rdf:type fo:Level-2-Sub-functions ;
-  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#4.0RiskAndComplianceManagement> ;
   fo:hasDefinition "For critical risks (risks that have severe impacts and is likely to happen), mitigation plans need to be in place in case it does happen in reality. This mitigation plan needed to be controlled, followed and adjusted" ;
   fo:hasExample "For natural disaster risks for IT (an earthquake could shut down the IT system in the organization), the organization need to have different databases in different places in the world." ;
   fo:hasSynonym "Mitigation" ;
@@ -1110,14 +989,12 @@ Which security guideline: ISO 27K, COBIT, NIST, PSR, ASD 8""" ;
 .
 <http://fhnw.ch/functionalOntology#4.4.2.TestAndMaintainContinousBusinessOperation>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#4.4.ManageBusinessResilencies> ;
   fo:hasDefinition "THe process of testing continous business operation conditions as well as maintain the operation" ;
   fo:hasSynonym "Test and maintain continous business operation" ;
   rdfs:label "Test And Maintain Continous Business Operation" ;
 .
 <http://fhnw.ch/functionalOntology#4.4.4.ManageCoEForSpecificRisks>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#4.4.ManageBusinessResilencies> ;
   fo:hasDefinition "The process of recording certain identified risks in order for later resolution if the business faces with this risk again" ;
   fo:hasExample "If natural disaster risk normally happens, the CoE for risks will have full documents on the process how to mitigate the risks (employee reaction, data maintainancem etc,)" ;
   fo:hasSynonym "CoE for risks" ;
@@ -1125,7 +1002,6 @@ Which security guideline: ISO 27K, COBIT, NIST, PSR, ASD 8""" ;
 .
 <http://fhnw.ch/functionalOntology#4.4.ManageBusinessResilencies>
   rdf:type fo:Level-2-Sub-functions ;
-  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#4.0RiskAndComplianceManagement> ;
   fo:hasDefinition "The process of rapidly adapt business according to its environment changes" ;
   fo:hasExample "The process of rapidly adapt business according to its environment changes" ;
   fo:hasSynonym "Resiliency" ;
@@ -1137,7 +1013,6 @@ Which security guideline: ISO 27K, COBIT, NIST, PSR, ASD 8""" ;
 .
 <http://fhnw.ch/functionalOntology#5.1.1ManageRelationshipWIthBoardOfDirectors>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#5.1.ManageStockholderRelationship> ;
   fo:hasDefinition "Annual meeting between company's executives and BoD to present financial results, auditing findings as well as make strategy for the next financial year" ;
   fo:hasExample "Annual meeting between company's executives and BoD to present financial results, auditing findings as well as make strategy for the next financial year" ;
   fo:hasSynonym "BoD" ;
@@ -1145,7 +1020,6 @@ Which security guideline: ISO 27K, COBIT, NIST, PSR, ASD 8""" ;
 .
 <http://fhnw.ch/functionalOntology#5.1.2.ManageRelationshipWIthShareholders>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#5.1.ManageStockholderRelationship> ;
   fo:hasDefinition "Activities that the company conducts to manage its relationship with stockholders" ;
   fo:hasExample "Annual general meeting (AGM) with major shareholders. At an AGM, the directors of the company present an annual report containing information for shareholders about the company's performance and strategy." ;
   fo:hasSynonym "stockholders" ;
@@ -1153,7 +1027,6 @@ Which security guideline: ISO 27K, COBIT, NIST, PSR, ASD 8""" ;
 .
 <http://fhnw.ch/functionalOntology#5.1.ManageStockholderRelationship>
   rdf:type fo:Level-2-Sub-functions ;
-  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#5.0.PulicRelationManagement> ;
   fo:hasDefinition "keep the stockholders updated about company's situation" ;
   fo:hasExample "issuing managerial report at annual general meeting" ;
   fo:hasSynonym "owners" ;
@@ -1161,7 +1034,6 @@ Which security guideline: ISO 27K, COBIT, NIST, PSR, ASD 8""" ;
 .
 <http://fhnw.ch/functionalOntology#5.2.1.ManageRelationshipWithGovernment>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#5.2.ManageGovernmentAndIndustryRelationship> ;
   fo:hasDefinition "Persuade government policy at different levels in order to influence with government regulations" ;
   fo:hasExample "Manage lobby activities, for example, a member of the organization visits a Member of Congress and requests on behalf of the organization that he sponsor model legislation proposed by a professional society" ;
   fo:hasSynonym "Government relationship" ;
@@ -1169,7 +1041,6 @@ Which security guideline: ISO 27K, COBIT, NIST, PSR, ASD 8""" ;
 .
 <http://fhnw.ch/functionalOntology#5.2.2.ManageRelationshipWithTradeOrganizationAndBusinessOrganization>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#5.2.ManageGovernmentAndIndustryRelationship> ;
   fo:hasDefinition "Trade organization is an organization founded and funded by businesses that operate in a specific industry. Its focus is collaboration between companies. " ;
   fo:hasExample "The \"Organization of the Swiss electricity companies\" (Swisselectric) was an association of Swiss electricity companies. Swisselectric was founded in 2002 by Atel Holding, BKW Energie, Centralschweizerische Kraftwerke AG, Elektrizitätsgesellschaft Laufenburg, EOS Holding and Nordostschweizerische Kraftwerke AG with the aim of promoting the implementation of the Electricity Market Act." ;
   fo:hasSynonym "Trade organization" ;
@@ -1178,7 +1049,6 @@ Which security guideline: ISO 27K, COBIT, NIST, PSR, ASD 8""" ;
 .
 <http://fhnw.ch/functionalOntology#5.2.3.ManageRelationshipWithCompetitoes>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#5.2.ManageGovernmentAndIndustryRelationship> ;
   fo:hasDefinition "Manage relationship with competittors from the organization" ;
   fo:hasExample "Eventhough being competitors, the Big4 (EY, KPMG, Deloitte, PwC) still keep close contacts with each others and normally have comparisons on numbers among 4 firms" ;
   fo:hasSynonym "competitors" ;
@@ -1186,7 +1056,6 @@ Which security guideline: ISO 27K, COBIT, NIST, PSR, ASD 8""" ;
 .
 <http://fhnw.ch/functionalOntology#5.2.ManageGovernmentAndIndustryRelationship>
   rdf:type fo:Level-2-Sub-functions ;
-  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#5.0.PulicRelationManagement> ;
   fo:hasDefinition "Manage company relationship with concerning government body and the relevant industry body" ;
   fo:hasExample "Some industries have trade organizations where all companies sit together and make strategy for the industry-wide. By doing so, they also enhance their power of bargain in front of government" ;
   fo:hasSynonym "industry relationship" ;
@@ -1195,7 +1064,6 @@ Which security guideline: ISO 27K, COBIT, NIST, PSR, ASD 8""" ;
 .
 <http://fhnw.ch/functionalOntology#5.3.1.ManageRelationshipWithLenders>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#5.3.ManageInvestorRelationship> ;
   fo:hasDefinition """Lenders are businesses or financial institutions that lend money, with the expectation that it will be paid back with interest. 
 Typical lenders are banks, financial institutions, etc.""" ;
   fo:hasExample "Build and manage relations with bankers or lenders through strong products/ services strategies that bankers would want to invest in in order to foster a receotive environment for low rates of interest, easy to to access loans, etc." ;
@@ -1205,7 +1073,6 @@ Typical lenders are banks, financial institutions, etc.""" ;
 .
 <http://fhnw.ch/functionalOntology#5.3.ManageInvestorRelationship>
   rdf:type fo:Level-2-Sub-functions ;
-  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#5.0.PulicRelationManagement> ;
   fo:hasDefinition "Manage relationship with lenders (banks, mutual funds, etc.) and analysts" ;
   fo:hasExample "Companies nowadays often have loand from banks. Bank acts as investors, not stockholders of the company" ;
   fo:hasSynonym "Investor" ;
@@ -1213,7 +1080,6 @@ Typical lenders are banks, financial institutions, etc.""" ;
 .
 <http://fhnw.ch/functionalOntology#5.4.1.ManageRelationshipWithCommunity>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#5.4.ManageRelationshipWithCommunity> ;
   fo:hasDefinition "Establish connections with the people in the community to promote organization's image" ;
   fo:hasExample "Corporate responsibility programs with community/ nature" ;
   fo:hasSynonym "corporate social responsibility" ;
@@ -1221,7 +1087,6 @@ Typical lenders are banks, financial institutions, etc.""" ;
 .
 <http://fhnw.ch/functionalOntology#5.4.ManageRelationshipWithCommunity>
   rdf:type fo:Level-2-Sub-functions ;
-  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#5.0.PulicRelationManagement> ;
   fo:hasDefinition "Relationship with the area whithin which the organizaiton is working" ;
   fo:hasExample "Nestle head quartered in Vevey and thus, needs to keep a good raltionship with this area" ;
   fo:hasSynonym "Community" ;
@@ -1229,7 +1094,6 @@ Typical lenders are banks, financial institutions, etc.""" ;
 .
 <http://fhnw.ch/functionalOntology#5.5.1.ManageLegalService>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#5.5.ManageLEgalAndEthicalIssues> ;
   fo:hasDefinition "Payment for legel services (going on court, patterns, trademarks. Etc)" ;
   fo:hasExample "Going on court, applying for patterns, trademarks, etc" ;
   fo:hasSynonym "legal service" ;
@@ -1237,7 +1101,6 @@ Typical lenders are banks, financial institutions, etc.""" ;
 .
 <http://fhnw.ch/functionalOntology#5.5.2.ManageCodeOfEthics>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#5.5.ManageLEgalAndEthicalIssues> ;
   fo:hasDefinition "A code of ethics that communicate the organization's phylosophy to employees, vendors, customers, clients, and the public" ;
   fo:hasExample "J&J's code of conduct includes responsibilities with paytients, employees, communities, stockholders" ;
   fo:hasSynonym "ethic policies" ;
@@ -1245,7 +1108,6 @@ Typical lenders are banks, financial institutions, etc.""" ;
 .
 <http://fhnw.ch/functionalOntology#5.5.ManageLEgalAndEthicalIssues>
   rdf:type fo:Level-2-Sub-functions ;
-  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#5.0.PulicRelationManagement> ;
   fo:hasDefinition "Corporate responsibility programs with community/ nature, wthics policies inside of the organization" ;
   fo:hasExample "J&J's code of conduct includes responsibilities with paytients, employees, communities, stockholders" ;
   fo:hasSynonym "ethical" ;
@@ -1254,7 +1116,6 @@ Typical lenders are banks, financial institutions, etc.""" ;
 .
 <http://fhnw.ch/functionalOntology#5.6.1.ManageRelationshipWithMedia>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#5.6.ManageRelationshipWithMedia> ;
   fo:hasDefinition "Develop relationship with journalists to solicit critical, third-party endorsement of a producst, etc." ;
   fo:hasExample "A step in retaining relationship with media is keeping the business available on social media pages, as on the social media, the business can be available 24/7 and can respond to the customer fast" ;
   fo:hasSynonym "media relation" ;
@@ -1262,7 +1123,6 @@ Typical lenders are banks, financial institutions, etc.""" ;
 .
 <http://fhnw.ch/functionalOntology#5.6.2.IssuePressReleases>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#5.6.ManageRelationshipWithMedia> ;
   fo:hasDefinition "Isse press releases in fields relating to the organization" ;
   fo:hasExample "Real estate businesses can issue releases on their own website about how they assess a certain property, how the process of buying/ renting a property works, etc." ;
   fo:hasSynonym "publication" ;
@@ -1270,7 +1130,6 @@ Typical lenders are banks, financial institutions, etc.""" ;
 .
 <http://fhnw.ch/functionalOntology#5.6.ManageRelationshipWithMedia>
   rdf:type fo:Level-2-Sub-functions ;
-  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#5.0.PulicRelationManagement> ;
   fo:hasDefinition "Maange Relationship With Media and press" ;
   fo:hasExample "Having reporters writing about the company when they release a new product" ;
   fo:hasSynonym "media and press relationship" ;
@@ -1280,13 +1139,244 @@ Typical lenders are banks, financial institutions, etc.""" ;
   rdf:type fo:Level-1-Functions ;
   rdfs:label "Finance and Accounting" ;
 .
+<http://fhnw.ch/functionalOntology#6.1.1.AccountPayable>
+  rdf:type fo:Level-3-Processes ;
+  fo:hasDefinition "Accounts payable (AP) is an account within the general ledger that represents a company's obligation to pay off a short-term debt to its creditors or suppliers" ;
+  fo:hasExample "Legal Service" ;
+  fo:hasExample "Raw Materials/Power/ Fuel Purchase" ;
+  fo:hasSynonym "AP" ;
+  rdfs:label "Account Payable" ;
+.
+<http://fhnw.ch/functionalOntology#6.1.10ConductExternalReporting>
+  rdf:type fo:Level-3-Processes ;
+  fo:hasDefinition "External reporting is the issuance of financial statements to parties outside of the reporting entity" ;
+  fo:hasExample "The recipients are usually investors, creditors, and lenders, who need the information to evaluate the financial condition of the reporting entity" ;
+  fo:hasSynonym "external reporting" ;
+  rdfs:label "Conduct External Reporting" ;
+.
+<http://fhnw.ch/functionalOntology#6.1.11.ConductProjectAccounting>
+  rdf:type fo:Level-3-Processes ;
+  fo:hasDefinition "Manage and account for ongoing activities related to projects, including setting up new projects, recording project transactions, monitoring and tracking spending, closing and capitalizing projects, and measuring the financial returns on completed projects." ;
+  fo:hasExample "Construction company takes on building a customer’s house; the materials and labor all play roles in the project’s finances" ;
+  fo:hasSynonym "project accounting" ;
+  rdfs:label "Conduct Project Accounting" ;
+.
+<http://fhnw.ch/functionalOntology#6.1.12.ConductCostAccounting>
+  rdf:type fo:Level-3-Processes ;
+  fo:hasDefinition "Conduct acounting of incurring costs" ;
+  fo:hasExample "Examples of costs are inventory, cost of sales, cost of products, variable costs, etc." ;
+  fo:hasSynonym "cost analysis" ;
+  rdfs:label "Conduct Cost Accounting" ;
+.
+<http://fhnw.ch/functionalOntology#6.1.13.ManageCash>
+  rdf:type fo:Level-3-Processes ;
+  fo:hasDefinition "Manage cash-related activities in the business" ;
+  fo:hasExample "Manage cash equivalents, reconcile cash position, manage cashflow, etc" ;
+  fo:hasSynonym "cash" ;
+  rdfs:label "Manage Cash" ;
+.
+<http://fhnw.ch/functionalOntology#6.1.14.ConductTaxAccounting>
+  rdf:type fo:Level-3-Processes ;
+  fo:hasDefinition "The process of preparing accounts for tax reasons" ;
+  fo:hasExample "Prepare tax returns, prepare foreign taxes, calculate deffered taxes, account for taxes" ;
+  fo:hasSynonym "taxation" ;
+  rdfs:label "Conduct Tax Accounting" ;
+.
+<http://fhnw.ch/functionalOntology#6.1.14.TaxFillingAndReporting>
+  rdf:type fo:Level-3-Processes ;
+  fo:hasDefinition "Fill in tax forms, submit tax reports to authorities and pay taxes" ;
+  fo:hasSynonym "Process taxes" ;
+  rdfs:label "Tax Filling And Reporting" ;
+.
+<http://fhnw.ch/functionalOntology#6.1.2.FreightPayment>
+  rdf:type fo:Level-3-Processes ;
+  fo:hasDefinition "The payment transportation invoices that the company was using during the last financial year" ;
+  fo:hasExample """A typical freight payment process: 
+- Receive Invoices from Carrier: 
+- Validate Invoices
+- Audit Invoices
+- Conduct cost accounting
+- Manage exception
+- Make payment for carrier""" ;
+  fo:hasSynonym "Freight payment" ;
+  rdfs:label "Freight Payment" ;
+.
+<http://fhnw.ch/functionalOntology#6.1.3.ProcessPayrollAndExpenses>
+  rdf:type fo:Level-3-Processes ;
+  fo:hasDefinition "The processing of employee's payroll and expenses occurs during work" ;
+  fo:hasExample "Business trip expenses (travel expenses, staying expenses)" ;
+  fo:hasExample "Change in payroll of certain employee" ;
+  fo:hasSynonym "Expenses" ;
+  rdfs:label "Process Payroll And Expenses" ;
+.
+<http://fhnw.ch/functionalOntology#6.1.4.ManageFixedAsset>
+  rdf:type fo:Level-3-Processes ;
+  fo:hasDefinition "The process of performing fixed asset accounting, depreciation, managing active assets and dispose unproductive assets" ;
+  fo:hasExample "Calculate and record depreciation expense" ;
+  fo:hasExample "Process and record fixed-asset maintenance and repair expenses" ;
+  fo:hasSynonym "fixed asset" ;
+  rdfs:label "Manage Fixed Asset" ;
+.
+<http://fhnw.ch/functionalOntology#6.1.5.ManageAccountReceivable>
+  rdf:type fo:Level-3-Processes ;
+  fo:hasDefinition "Accounts receivable is the balance for goods or services delivered or used but not yet paid for by customers." ;
+  fo:hasExample "An electric company that bills its clients after the clients received the electricity. The electric company records an account receivable for unpaid invoices as it waits for its customers to pay their bills. " ;
+  fo:hasSynonym "AR" ;
+  rdfs:label "Manage Account Receivable" ;
+.
+<http://fhnw.ch/functionalOntology#6.1.6.ManageCredits>
+  rdf:type fo:Level-3-Processes ;
+  fo:hasDefinition "The process of managing loans from customers to buy products/ services" ;
+  fo:hasExample "In order to accept credit from a customer, an organization has to issue its own credit policies, and then assess the customer's credit history, produce credit report and reintate the necessary accounts" ;
+  fo:hasSynonym "advances" ;
+  rdfs:label "Manage Credits" ;
+.
+<http://fhnw.ch/functionalOntology#6.1.7.ManageCollections>
+  rdf:type fo:Level-3-Processes ;
+  fo:hasDefinition "This is the process of posting entries to respective accounts, preparing accounts for receivables, managing the cash collected by the business from its debtors and recording it in the books of accounts to provide clear information about the availability of the cash." ;
+  fo:hasExample "When one of the debtors of the business goes bankrupt, the business immediately has to record it, discuss claims of value and writeoff balance on the respective account" ;
+  fo:hasSynonym "debtors" ;
+  rdfs:label "Manage Collections" ;
+.
+<http://fhnw.ch/functionalOntology#6.1.8.BillCustomers>
+  rdf:type fo:Level-3-Processes ;
+  fo:hasDefinition "The process of preparing invoices, send them to customers and report on receivable entries" ;
+  fo:hasExample "In order to bill the customers, the company must first generate/ maintain customer master data (products purchased, address, etc) and then generate billing data. The company must then transmit this billing data to customers and the person in charge will write entries in AR for this data" ;
+  fo:hasSynonym "customer billing" ;
+  fo:hasSynonym "customer invoice" ;
+  fo:hasSynonym "invoice sutomer" ;
+  rdfs:label "Bill Customers" ;
+.
+<http://fhnw.ch/functionalOntology#6.1.9.PerformGeneralAccounting>
+  rdf:type fo:Level-3-Processes ;
+  fo:hasDefinition "Using accounting concepts and practices to prepare final account information for the organization" ;
+  fo:hasExample """Choose accounting method (cash-based or accrual-based).
+Calculate Account Payables
+Caluculate Account Receivable
+Do Reconciliation
+Rport Accounting Period""" ;
+  fo:hasSynonym "General accounting" ;
+  rdfs:label "Perform General Accounting" ;
+.
+<http://fhnw.ch/functionalOntology#6.1.ProcessTransaction>
+  rdf:type fo:Level-2-Sub-functions ;
+  fo:hasDefinition "This sub-function contains all activities relating to transaction inside and outside of the organization" ;
+  fo:hasExample "Account Payable (AP)" ;
+  fo:hasExample "Account Receivable (AR)" ;
+  fo:hasExample "General Accounting" ;
+  fo:hasSynonym "Transaction Processing" ;
+  rdfs:label "Process Transaction" ;
+.
+<http://fhnw.ch/functionalOntology#6.2.3.ManageTreasury>
+  rdf:type fo:Level-3-Processes ;
+  fo:hasDefinition "Manage organization's investments in trading of bonds, currencies, financial derivatieves, etc." ;
+  fo:hasExample "Manage financial fraud/dispute cases" ;
+  fo:hasExample "Manage in-house bank account" ;
+  fo:hasExample "Monitor and execute risk and hedging transactions" ;
+  fo:hasSynonym "hedging" ;
+  fo:hasSynonym "investment" ;
+  rdfs:label "Manage Treasury" ;
+.
+<http://fhnw.ch/functionalOntology#6.2.4.ManageInternationalFunds>
+  rdf:type fo:Level-3-Processes ;
+  fo:hasDefinition "Manage cash from international operating business units" ;
+  fo:hasExample "Manage transactions" ;
+  fo:hasExample "Monitor currency exposure/hedge currency" ;
+  fo:hasExample "Monitor international rates" ;
+  fo:hasSynonym "international funds consilidation" ;
+  rdfs:label "Manage International Funds" ;
+.
+<http://fhnw.ch/functionalOntology#6.2.5.PlanTax>
+  rdf:type fo:Level-3-Processes ;
+  fo:hasDefinition "Set target for tax liabilities and assess tax impacts for various activities" ;
+  fo:hasExample "Consolidate and optimize total tax plan" ;
+  fo:hasExample "Maintain tax master data" ;
+  fo:hasSynonym "Manage tax" ;
+  rdfs:label "Plan Taxes" ;
+.
+<http://fhnw.ch/functionalOntology#6.2.6.ConductInternalAudit>
+  rdf:type fo:Level-3-Processes ;
+  fo:hasDefinition "Administer internal audit, manage internal auditing procedures, results and reports, etc." ;
+  fo:hasExample "Establish board of directors and audit committee" ;
+  fo:hasExample "Operate compliance function" ;
+  fo:hasSynonym "Internal controls" ;
+  rdfs:label "Conduct Internal Audit" ;
+.
+<http://fhnw.ch/functionalOntology#6.2.7.ConductGovernmentCompliance>
+  rdf:type fo:Level-3-Processes ;
+  fo:hasDefinition "Conduct controls and compliance according to laws and regulations, report back to government's body of concern" ;
+  fo:hasExample "Report internal audit results to government auditors, etc" ;
+  fo:hasSynonym "compliance" ;
+  rdfs:label "Conduct Government Compliance" ;
+.
+<http://fhnw.ch/functionalOntology#6.2.8.ConductTaxRegulatory>
+  rdf:type fo:Level-3-Processes ;
+  fo:hasDefinition "The process of interpreting tax codes according to regulation." ;
+  fo:hasExample "Fixed-asset taxes, profit taxes, etc." ;
+  rdfs:label "Conduct Tax Regulatory" ;
+.
+<http://fhnw.ch/functionalOntology#6.2.FinancialRiskManagement>
+  rdf:type fo:Level-2-Sub-functions ;
+  fo:hasDefinition "This sub-function contains activities relating to risk management in the financial function" ;
+  fo:hasExample "Budgeting, Forecasting" ;
+  fo:hasExample "Tax Planning" ;
+  fo:hasExample "Treasury Management" ;
+  fo:hasSynonym "Financial Risk Management" ;
+  rdfs:label "Financial Risk Management" ;
+.
+<http://fhnw.ch/functionalOntology#6.3.1.CostAnalysis>
+  rdf:type fo:Level-3-Processes ;
+  fo:hasDefinition "Analze cost-related activities in order to optimize costs for the next year" ;
+  fo:hasExample "Cost of inventory" ;
+  fo:hasExample "cost of good sold" ;
+  fo:hasExample "vost of good produced" ;
+  fo:hasSynonym "cost" ;
+  rdfs:label "Cost Analysis" ;
+.
+<http://fhnw.ch/functionalOntology#6.3.2.AnalyzeBusinessPerformance>
+  rdf:type fo:Level-3-Processes ;
+  fo:hasDefinition "Assess product feasibility, profitability, consistency. Check the completion of financial milestones" ;
+  fo:hasExample "Optimize customer and product mix" ;
+  fo:hasExample "Perform life cycle costing" ;
+  rdfs:label "Analyze Business Performance" ;
+.
+<http://fhnw.ch/functionalOntology#6.3.3.AsessNewBusinessAndProducts>
+  rdf:type fo:Level-3-Processes ;
+  fo:hasDefinition "Evaluate new business and prodcuts/ services and their potential for development" ;
+  fo:hasExample "conduct research about customer behaviour on a new product" ;
+  fo:hasSynonym "new businesses" ;
+  fo:hasSynonym "new products" ;
+  rdfs:label "Assess New Businesses And Products" ;
+.
+<http://fhnw.ch/functionalOntology#6.3.4.SupportStrategicPlanning>
+  rdf:type fo:Level-3-Processes ;
+  fo:hasDefinition "Prepare all necessary reports for the strategic decisions" ;
+  fo:hasExample "Perform variance analysis against forecasts and budgets" ;
+  fo:hasExample "Prepare periodic financial forecasts" ;
+  rdfs:label "Support Strategic Planning" ;
+.
+<http://fhnw.ch/functionalOntology#6.3.5.ManageInternationalServices>
+  rdf:type fo:Level-3-Processes ;
+  fo:hasDefinition "Perform and manage global trade services" ;
+  fo:hasExample "Control exports and imports, caluclate duty, etc" ;
+  fo:hasSynonym "Global trade service" ;
+  rdfs:label "Manage International Services" ;
+.
+<http://fhnw.ch/functionalOntology#6.3.DecisionSupport>
+  rdf:type fo:Level-2-Sub-functions ;
+  fo:hasDefinition "This sub-function contains all processes that support decision making function of the organization" ;
+  fo:hasExample "Business Performance Analysis" ;
+  fo:hasExample "Cost Analysis" ;
+  fo:hasExample "Manage Finance Function" ;
+  fo:hasSynonym "Decision support" ;
+  rdfs:label "Decision Support" ;
+.
 <http://fhnw.ch/functionalOntology#7.0.ResearchAndDevelopment>
   rdf:type fo:Level-1-Functions ;
   rdfs:label "Research and Development" ;
 .
 <http://fhnw.ch/functionalOntology#7.1.1.ManageR&DBudget>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#7.1.DevelopR&DStrategyAndManageOperation> ;
   fo:hasDefinition "The process of reviewing and managing budget for R&D activities" ;
   fo:hasExample "In 2017, spending for SMEs in the U.S exceeded 14% of total revenue of the company. Therefore, R&D budget need to be taken into serious consideration" ;
   fo:hasSynonym "R&D budget" ;
@@ -1294,7 +1384,6 @@ Typical lenders are banks, financial institutions, etc.""" ;
 .
 <http://fhnw.ch/functionalOntology#7.1.2.ManageR&DOrganizationalStructure>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#7.1.DevelopR&DStrategyAndManageOperation> ;
   fo:hasDefinition "The process of managing organizational structure in R&D function" ;
   fo:hasExample "Head of R&D, research&development division, market analysis division, etc." ;
   fo:hasSynonym "organization structure" ;
@@ -1302,7 +1391,6 @@ Typical lenders are banks, financial institutions, etc.""" ;
 .
 <http://fhnw.ch/functionalOntology#7.1.3.ManageR&DTalents>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#7.1.DevelopR&DStrategyAndManageOperation> ;
   fo:hasDefinition "Manage Humans inside of R&D functions, recruit new talents, coporate with universities" ;
   fo:hasExample "Students from universities apply for internship in R&D function in different companies. Therefore, the companies need to assess the potential students and during his/ her internship terms, racognize potentials for development, create chance." ;
   fo:hasSynonym "R&D Talent" ;
@@ -1310,7 +1398,6 @@ Typical lenders are banks, financial institutions, etc.""" ;
 .
 <http://fhnw.ch/functionalOntology#7.1.4.ManageR&DEquipmentsAndFacilities>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#7.1.DevelopR&DStrategyAndManageOperation> ;
   fo:hasDefinition "The managing of equipments used inside of R&D function" ;
   fo:hasExample "In a chemistry lab, microsope, test tubes, etc. need to be counted and kept track" ;
   fo:hasSynonym "equipment and facilities" ;
@@ -1318,7 +1405,6 @@ Typical lenders are banks, financial institutions, etc.""" ;
 .
 <http://fhnw.ch/functionalOntology#7.1.5.TrackKPIs>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#7.1.DevelopR&DStrategyAndManageOperation> ;
   fo:hasDefinition "Identify, track and report key performance metrics" ;
   fo:hasExample "some typical metrics for R&D are: R&D spneding, head counts, New product sales, Patent production, Patent production" ;
   fo:hasSynonym "KPI track" ;
@@ -1326,7 +1412,6 @@ Typical lenders are banks, financial institutions, etc.""" ;
 .
 <http://fhnw.ch/functionalOntology#7.1.DevelopR&DStrategyAndManageOperation>
   rdf:type fo:Level-2-Sub-functions ;
-  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#7.0.ResearchAndDevelopment> ;
   fo:hasDefinition "Develop R&D strategy concerning budget, talents, organizational structure, equipments and facilities, KPIs" ;
   fo:hasExample "Create and manage R&D Organizational Structure" ;
   fo:hasExample "Manage R&D Budgets" ;
@@ -1337,7 +1422,6 @@ Typical lenders are banks, financial institutions, etc.""" ;
 .
 <http://fhnw.ch/functionalOntology#7.2.1.ManageR&DProjectsAndPortfolio>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#7.2.ManagePortfolio,Projects,IPs> ;
   fo:hasDefinition "Manage R&D Portfolio, Evaluate and prioritize projects, Reallocate resources across projects\"" ;
   fo:hasExample "Project value (V) = 𝑓(performance, cost, time, market, requeriment, market payoff). The more value a project has, the more prioritized it should be" ;
   fo:hasSynonym "portfolio" ;
@@ -1346,7 +1430,6 @@ Typical lenders are banks, financial institutions, etc.""" ;
 .
 <http://fhnw.ch/functionalOntology#7.2.2.ManageItellectualProperties>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#7.2.ManagePortfolio,Projects,IPs> ;
   fo:hasDefinition "Manage patents/ copyrights and regulatory requirements" ;
   fo:hasExample "Nescafe's Dolce Gusto machine has patent for 20 years. After that time, people are free from copying their model. Therefore, Nescafe has to manage their patent during 20 years' time and after a short transition time" ;
   fo:hasSynonym "IPs" ;
@@ -1356,7 +1439,6 @@ Typical lenders are banks, financial institutions, etc.""" ;
 .
 <http://fhnw.ch/functionalOntology#7.2.ManagePortfolio,Projects,IPs>
   rdf:type fo:Level-2-Sub-functions ;
-  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#7.0.ResearchAndDevelopment> ;
   fo:hasDefinition "This sub-functions manage R&D product portfolio, projects and IPs" ;
   fo:hasExample "IPs mangement can be pattens, copyrights, etc" ;
   fo:hasSynonym "IPs" ;
@@ -1366,7 +1448,6 @@ Typical lenders are banks, financial institutions, etc.""" ;
 .
 <http://fhnw.ch/functionalOntology#7.3.1.PerformMarketResearch>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#7.3.DefineNewProductIdeas> ;
   fo:hasDefinition "Performing market research in order to find out the market pains and thus, generate a product that can relieve the pain" ;
   fo:hasExample "R&D can coporate with marketing function to convey their ideas about market research and get the market data back" ;
   fo:hasSynonym "market research" ;
@@ -1374,7 +1455,6 @@ Typical lenders are banks, financial institutions, etc.""" ;
 .
 <http://fhnw.ch/functionalOntology#7.3.2.GenerateNewConcepts>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#7.3.DefineNewProductIdeas> ;
   fo:hasDefinition "Based on the data acquired from market research, concepts about products that can help relieve customer's pain are generated, tested, refined" ;
   fo:hasExample "Oral B, after having done the market research, knows that customers need electronic toothbrush. However, the design, the composition, special reuirements so that the device does not brak when it contact with water, etc. need to be taken into consideration" ;
   fo:hasSynonym "Generate new concepts" ;
@@ -1387,7 +1467,6 @@ Typical lenders are banks, financial institutions, etc.""" ;
 .
 <http://fhnw.ch/functionalOntology#7.3.DefineNewProductIdeas>
   rdf:type fo:Level-2-Sub-functions ;
-  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#7.0.ResearchAndDevelopment> ;
   fo:hasDefinition "This set of activities deals with coming up with product ideas, concepts, requirements of market" ;
   fo:hasExample "Using design thinking to come up with product ideas and requirements" ;
   fo:hasSynonym "new ideas" ;
@@ -1395,7 +1474,6 @@ Typical lenders are banks, financial institutions, etc.""" ;
 .
 <http://fhnw.ch/functionalOntology#7.4.1.DesignPrototype>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#7.4.DevelopProductsAndServices> ;
   fo:hasDefinition "The process of starting to build the new product with specified requirements" ;
   fo:hasExample "After new product concepts and specifications are built, it is built" ;
   fo:hasSynonym "minimum viable product" ;
@@ -1403,7 +1481,6 @@ Typical lenders are banks, financial institutions, etc.""" ;
 .
 <http://fhnw.ch/functionalOntology#7.4.2.TestMarket>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#7.4.DevelopProductsAndServices> ;
   fo:hasDefinition "After the product is built, it will be given to a certain group os sample users for testing purpose, if it satisfy the requirements" ;
   fo:hasExample "Gillette often has different segment of man: young adult, adults, middle-aged testing their new shaving knives" ;
   fo:hasSynonym "test" ;
@@ -1411,7 +1488,6 @@ Typical lenders are banks, financial institutions, etc.""" ;
 .
 <http://fhnw.ch/functionalOntology#7.4.3.PrepareDelivery>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#7.4.DevelopProductsAndServices> ;
   fo:hasDefinition "Prepare for mass production of new product" ;
   fo:hasExample "Prepare for mass production of new product" ;
   fo:hasSynonym "mass production" ;
@@ -1419,7 +1495,6 @@ Typical lenders are banks, financial institutions, etc.""" ;
 .
 <http://fhnw.ch/functionalOntology#7.4.DevelopProductsAndServices>
   rdf:type fo:Level-2-Sub-functions ;
-  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#7.0.ResearchAndDevelopment> ;
   fo:hasDefinition "Bring the ideas into reality and test it" ;
   fo:hasExample "Bring the ideas into reality and test it" ;
   fo:hasSynonym "develop products" ;
@@ -1427,7 +1502,6 @@ Typical lenders are banks, financial institutions, etc.""" ;
 .
 <http://fhnw.ch/functionalOntology#7.5.1.AnalyzeExistingTechnique>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#7.5.DevelopProcessesAndTechniques> ;
   fo:hasDefinition "Analysing the currently used technique to develop new products/ services" ;
   fo:hasExample "An IT company can use waterfall technique to generate and develop their product" ;
   fo:hasSynonym "existing technique" ;
@@ -1435,7 +1509,6 @@ Typical lenders are banks, financial institutions, etc.""" ;
 .
 <http://fhnw.ch/functionalOntology#7.5.2.DevelopNewTechnique/ImproveTechnique>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#7.5.DevelopProcessesAndTechniques> ;
   fo:hasDefinition "The process of improving the old technique in order to achieve a better result" ;
   fo:hasExample "After analysing, the IT company see that Waterfall method is not a technique suitable for them because it delays product release. In staed, they go for Agile method to better off time to release a product" ;
   fo:hasSynonym "improve techniques" ;
@@ -1443,7 +1516,6 @@ Typical lenders are banks, financial institutions, etc.""" ;
 .
 <http://fhnw.ch/functionalOntology#7.5.3.ImproveProcesses>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#7.5.DevelopProcessesAndTechniques> ;
   fo:hasDefinition "Improve different scale processes (lab-scale or enterprise-wide processes)" ;
   fo:hasExample "After Agile technique is adapted inside of IT organizatoin, their processes must be adapted accordingly in order to be suitable with Agile from a Waterfall technique" ;
   fo:hasSynonym "process improvement" ;
@@ -1451,7 +1523,6 @@ Typical lenders are banks, financial institutions, etc.""" ;
 .
 <http://fhnw.ch/functionalOntology#7.5.DevelopProcessesAndTechniques>
   rdf:type fo:Level-2-Sub-functions ;
-  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#7.0.ResearchAndDevelopment> ;
   fo:hasDefinition "Continuous improvement of the performance and cost-effectiveness of existing products and processe" ;
   fo:hasExample "Using Agile methodology in stead of Waterfall to develop products" ;
   fo:hasSynonym "Improvement" ;
@@ -1463,7 +1534,6 @@ Typical lenders are banks, financial institutions, etc.""" ;
 .
 <http://fhnw.ch/functionalOntology#8.1.1ConductMarketAndCustomerAnalysis>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.1.AssessMarketAndCustomers> ;
   fo:hasDefinition "Conducting analysis in order to understand customer needs, predict customer behaviour, analyze industry trends and thus, analyze market shares, gains, losses" ;
   fo:hasExample "PESTEL analysis and customer survey/ focus group interviews are conducted" ;
   fo:hasSynonym "PESTEL" ;
@@ -1471,7 +1541,6 @@ Typical lenders are banks, financial institutions, etc.""" ;
 .
 <http://fhnw.ch/functionalOntology#8.1.2.EvaluateBusinessOpportunities>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.1.AssessMarketAndCustomers> ;
   fo:hasDefinition "This process identify saturated or under-served customers" ;
   fo:hasExample "Tesla, even though not the first electronic car producer, found a need for electronic cars that looks professional and have good brand" ;
   fo:hasSynonym "Business Opportunities" ;
@@ -1479,7 +1548,6 @@ Typical lenders are banks, financial institutions, etc.""" ;
 .
 <http://fhnw.ch/functionalOntology#8.1.AssessMarketAndCustomers>
   rdf:type fo:Level-2-Sub-functions ;
-  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#8.0.MarketingAndSales> ;
   fo:hasDefinition "Conduct analysis on market and customers in order to capitalize sales opportunities based on business capapbility" ;
   fo:hasExample """Industry overview: if you are selling mobile phones, you’ll want to know if the demand for mobile phones is growing or shrinking
 Target market: market size, demographics, location, pshychographics, behaviour, trends
@@ -1491,7 +1559,6 @@ Pricing and forecast: pricing strategy to go for which pricing strategy
 .
 <http://fhnw.ch/functionalOntology#8.10.1.MeasureCustomerHandlingSatisfaction>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.10.EvaluateCustomerSatifaction> ;
   fo:hasDefinition "Caluclate satisfaction level of customer in problem handling by fomula performance of customer-requests/inquiries handling and resolution" ;
   fo:hasExample "Usage of survey, customer rating at POS, Customer Satisfaction Score (SCAT), etc." ;
   fo:hasSynonym "customer handling satisfaction" ;
@@ -1499,7 +1566,6 @@ Pricing and forecast: pricing strategy to go for which pricing strategy
 .
 <http://fhnw.ch/functionalOntology#8.10.2CustomerSatisfactionWIthCustomerComplaints>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.10.EvaluateCustomerSatifaction> ;
   fo:hasDefinition "Measuring the satisfaction level of customers as pertains to how their complaints are handled and resolved" ;
   fo:hasExample "customer survey, customer raitng at point of sales, SCAT score" ;
   fo:hasSynonym "customer complaint resolution satisfaction" ;
@@ -1507,7 +1573,6 @@ Pricing and forecast: pricing strategy to go for which pricing strategy
 .
 <http://fhnw.ch/functionalOntology#8.10.3.CustomerSatisfactionWithProductsAndService>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.10.EvaluateCustomerSatifaction> ;
   fo:hasDefinition "Calculate satisfaction level of customer with products/ services" ;
   fo:hasExample "Record customer reviews about products/ service, using data analysis tools to anylyze which features are satisfying and which features not" ;
   fo:hasSynonym "customer satisfaction with products/ services" ;
@@ -1515,7 +1580,6 @@ Pricing and forecast: pricing strategy to go for which pricing strategy
 .
 <http://fhnw.ch/functionalOntology#8.10.4.EvaluateRecallPerformance>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.10.EvaluateCustomerSatifaction> ;
   fo:hasDefinition "Evaluate performance of recalls (if happens) and caluclate how recalls effect the business" ;
   fo:hasExample "Evaluate performance of recalls (if happens) and caluclate how recalls effect the business" ;
   fo:hasSynonym "Evaluate recalls" ;
@@ -1527,7 +1591,6 @@ Pricing and forecast: pricing strategy to go for which pricing strategy
 .
 <http://fhnw.ch/functionalOntology#8.2.1.DefinePricingStrategy>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.2.DevelopMarketingStrategy> ;
   fo:hasDefinition "Based on value proposition and business offerings, pricing strategy is defined for individual products/ lines/ services" ;
   fo:hasExample "In the smartphone market, there are different players with different pricing strategies. Pricing strategy of Apple is high pricing/ luxurious products. On the other hand, pricing strategy of Wiko is cheap smartphones" ;
   fo:hasSynonym "pricing" ;
@@ -1535,7 +1598,6 @@ Pricing and forecast: pricing strategy to go for which pricing strategy
 .
 <http://fhnw.ch/functionalOntology#8.2.2.DefineBrandingStrategy>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.2.DevelopMarketingStrategy> ;
   fo:hasDefinition "The process of defining how the company will appear in their targeted customer's eyes: if they are high-end or on the other side with cheap offers" ;
   fo:hasExample "Clothes retailers have a lot of participants. However, brand like Burberry, Dior, Channel, etc are high-end brands. H&M, C&A define themselves in a lower-end" ;
   fo:hasSynonym "Branding" ;
@@ -1543,7 +1605,6 @@ Pricing and forecast: pricing strategy to go for which pricing strategy
 .
 <http://fhnw.ch/functionalOntology#8.2.3.DefineChannelStrategy>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.2.DevelopMarketingStrategy> ;
   fo:hasDefinition "This process defines channels to customers, determine potential partners for channels and ananlyze and manage channels performance\"" ;
   fo:hasExample "Apple have 2 channels to their end customers: their own retail stores and their re-seller network" ;
   fo:hasSynonym "Channel to customers" ;
@@ -1551,7 +1612,6 @@ Pricing and forecast: pricing strategy to go for which pricing strategy
 .
 <http://fhnw.ch/functionalOntology#8.2.4.DevelopMarketingCommunicationStrategy>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.2.DevelopMarketingStrategy> ;
   fo:hasDefinition "This process defines which marketing channels that they want to reach out for their customers: whether they will do an online campaign or offline campaign" ;
   fo:hasExample "Including defining media channels, drect marketing channels, POS, etc." ;
   fo:hasExample "Mc Donald's communication strategy thrrough their point of sales (POSs) because their POSs have a good location that everyone can have access to it." ;
@@ -1560,7 +1620,6 @@ Pricing and forecast: pricing strategy to go for which pricing strategy
 .
 <http://fhnw.ch/functionalOntology#8.2.5.ManageCustomerLoyaltyProgram>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.3.DevelopMarketingPlan> ;
   fo:hasDefinition "The process of developing and managing customer loyalty programs in order to keep customer's retention" ;
   fo:hasExample "The Body Shop has membership programs for their customers to cummulate points. These points can be used to purchase more products late" ;
   fo:hasSynonym "Customer Loyalty" ;
@@ -1568,7 +1627,6 @@ Pricing and forecast: pricing strategy to go for which pricing strategy
 .
 <http://fhnw.ch/functionalOntology#8.2.DevelopMarketingStrategy>
   rdf:type fo:Level-2-Sub-functions ;
-  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#8.0.MarketingAndSales> ;
   fo:hasDefinition "Depending on the analysis conducted, the organization defines the value proposition, creates a mechanism for pricing, and determines the right mix of marketing channels. Create a specific positioning and branding for the organization's offerings. Enlist marketing head to lead, with inputs from the business development " ;
   fo:hasExample """Define the suitable mix of the following channels
 Online ads
@@ -1583,7 +1641,6 @@ Press coverage""" ;
 .
 <http://fhnw.ch/functionalOntology#8.3.1.EstablishGoals,ObjectivesAndMetricsForProducts/Services>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.3.DevelopMarketingPlan> ;
   fo:hasDefinition "Estabish goals and obectives for individual products/ services to achieve marketing strategy" ;
   fo:hasExample "After 2 months of marketing campaign, we need to reach 200 000 thousand people for this new product and get a 10 000 turns into action" ;
   fo:hasSynonym "goals for products" ;
@@ -1591,7 +1648,6 @@ Press coverage""" ;
 .
 <http://fhnw.ch/functionalOntology#8.3.2.EstablishMarketingBudget>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.3.DevelopMarketingPlan> ;
   fo:hasDefinition "This process contains determining cost of marketing, determining projected ROI for marketing investment\"" ;
   fo:hasExample """You have $500,000 to spend on all marketing activities for a given quarter
 Inbound Content Marketing: 20 - 25% ($100 - 125K)
@@ -1605,7 +1661,6 @@ Traditional - 10 - 15% ($50 - 75K)""" ;
 .
 <http://fhnw.ch/functionalOntology#8.3.3.DevelopAndManagePricing>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.3.DevelopMarketingPlan> ;
   fo:hasDefinition """This process contains of
 * determine cost of production
 * forecast volume for pricing
@@ -1618,7 +1673,6 @@ Traditional - 10 - 15% ($50 - 75K)""" ;
 .
 <http://fhnw.ch/functionalOntology#8.3.4.DevelopPromotionActivities>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.3.DevelopMarketingPlan> ;
   fo:hasDefinition """This process includes
 * Define promotional concepts and objectives
 * Define marketing messages
@@ -1629,7 +1683,6 @@ Traditional - 10 - 15% ($50 - 75K)""" ;
 .
 <http://fhnw.ch/functionalOntology#8.3.5.TrackCustomerMeasures>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.5.DevelopAndManageSalesPlan> ;
   fo:hasDefinition "This process analyzes customer revenue trends, customer retention rate, customer metrics" ;
   fo:hasExample "When there is a depression in the economy, spendings on luxurious products will sink as well and luxurious brand need to have measure to predict cosumption trend and strategy to overcome this period" ;
   fo:hasSynonym "Customer measures" ;
@@ -1637,7 +1690,6 @@ Traditional - 10 - 15% ($50 - 75K)""" ;
 .
 <http://fhnw.ch/functionalOntology#8.3.DevelopMarketingPlan>
   rdf:type fo:Level-2-Sub-functions ;
-  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#8.0.MarketingAndSales> ;
   fo:hasDefinition "processes for making budgets, identifying and developing media, pricing products and services, managing packaging, managing marketing content and promotional activities, tracking and responding to customer insight and monitoring measures established within develop marketing strategy" ;
   fo:hasExample "processes for making budgets, identifying and developing media, pricing products and services, managing packaging, managing marketing content and promotional activities, tracking and responding to customer insight and monitoring measures established within develop marketing strategy" ;
   fo:hasSynonym "marketing strategy" ;
@@ -1645,7 +1697,6 @@ Traditional - 10 - 15% ($50 - 75K)""" ;
 .
 <http://fhnw.ch/functionalOntology#8.4.1.DevelopSalesStrategy>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.4.DevelopSalesStrategy> ;
   fo:hasDefinition "Develop concrete plan for sale activities" ;
   fo:hasExample "analysis of historical sales data to create forecasts for anticipated sales, forming sales targets, forging partnerships with other economic agents to boost sales, devising a budget for this function, and determining metrics to measure customer management activities as well as progress in achieving sales targets." ;
   fo:hasSynonym "Sales strategy" ;
@@ -1653,7 +1704,6 @@ Traditional - 10 - 15% ($50 - 75K)""" ;
 .
 <http://fhnw.ch/functionalOntology#8.4.2.DevelopSalesPartners>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.4.DevelopSalesStrategy> ;
   fo:hasDefinition "The process of identifying, analyzing, negotiating, and managing partnerships with sales alliances" ;
   fo:hasExample "Apple Inc. has their own stores but also authorized resellers of their products. Apple resellers have to fulfill certain requirements, for example, area of the store, how many apple product minumum, etc. They, therefore, everytime seek for a new partner, have to consider this" ;
   fo:hasSynonym "Sales partners" ;
@@ -1661,7 +1711,6 @@ Traditional - 10 - 15% ($50 - 75K)""" ;
 .
 <http://fhnw.ch/functionalOntology#8.4.3.EstablishOverallSalesBudget,Goals,Measures>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.4.DevelopSalesStrategy> ;
   fo:hasDefinition """Calculate the estimated sales revenue and costs, which helps in calculating the overall net profit. 
 Establish sales targets along with metrics to quantify goals""" ;
   fo:hasExample "Philips achieved a number of 200K units sale of Light Bulbs in 2017 out of which 120K from the United States and 80K from the Asia Pacific. In 2018, the sale of Light Bulbs was 125k in the United States and 98K in the Asia Pacific." ;
@@ -1670,7 +1719,6 @@ Establish sales targets along with metrics to quantify goals""" ;
 .
 <http://fhnw.ch/functionalOntology#8.4.4.EstablishCustomerManagementMeasures>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.4.DevelopSalesStrategy> ;
   fo:hasDefinition "Select measures to track customer activity, feedback, satisfaction, organizational responsiveness to customer needs, and general data on how the organization is managing customer accounts, leads, and contacts" ;
   fo:hasExample "Company might use Net Promoter Score (NPS) to track how many new custoemrs comes based on refferal from old customers" ;
   fo:hasSynonym "Customer Management Measures" ;
@@ -1678,7 +1726,6 @@ Establish sales targets along with metrics to quantify goals""" ;
 .
 <http://fhnw.ch/functionalOntology#8.4.DevelopSalesStrategy>
   rdf:type fo:Level-2-Sub-functions ;
-  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#8.0.MarketingAndSales> ;
   fo:hasDefinition "Develop concrete plan for sale activities" ;
   fo:hasExample "Targeted customers, sales forecast, etc." ;
   fo:hasSynonym "Sale strategy" ;
@@ -1686,7 +1733,6 @@ Establish sales targets along with metrics to quantify goals""" ;
 .
 <http://fhnw.ch/functionalOntology#8.5.1.ManageLeads/Opportunity>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.5.DevelopAndManageSalesPlan> ;
   fo:hasDefinition "Discover leads through IT applications, cold calling, reference/network development, or other sales and business development techniques" ;
   fo:hasExample "DiscoverOrg is one of the B2B that provides sales lead lists from business contacts database and sales solution" ;
   fo:hasSynonym "leads" ;
@@ -1694,7 +1740,6 @@ Establish sales targets along with metrics to quantify goals""" ;
 .
 <http://fhnw.ch/functionalOntology#8.5.2.ManageCustomerAndAccounts>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.5.DevelopAndManageSalesPlan> ;
   fo:hasDefinition "Manage relationships with customers and the data it holds on them, as well as the sale of its products/services to these customers. Devise a recipe for handling the organization's key customers in order to manage their expectations with tact and responsibility while maximizing revenue." ;
   fo:hasExample "Using Key Account Management. According to the Harvard Business Review, customer satisfaction increases 20% within a few years of starting a key account management program. Profits and revenue, meanwhile, can increase by 15%." ;
   fo:hasSynonym "Account Management" ;
@@ -1702,7 +1747,6 @@ Establish sales targets along with metrics to quantify goals""" ;
 .
 <http://fhnw.ch/functionalOntology#8.5.3.DevelopSalesProposals>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.5.DevelopAndManageSalesPlan> ;
   fo:hasDefinition "Understanding and refining the customer requirements as provided in a RFP (Request for Proposal) or RFI (Request for Information)" ;
   fo:hasExample "For military contracts and supplying fuels to railroads and major fuel users, there is a bidding process.  These entities ask for bids from the refiners to supply fuel at a given location" ;
   fo:hasSynonym "Sales proposal" ;
@@ -1710,7 +1754,6 @@ Establish sales targets along with metrics to quantify goals""" ;
 .
 <http://fhnw.ch/functionalOntology#8.5.4.ManageSalesOrders>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.5.DevelopAndManageSalesPlan> ;
   fo:hasDefinition "Monitoring status from order receipt to customer delivery/customer invoicing." ;
   fo:hasExample "Monitoring status from order receipt to customer delivery/customer invoicing" ;
   fo:hasSynonym "sales orders" ;
@@ -1718,7 +1761,6 @@ Establish sales targets along with metrics to quantify goals""" ;
 .
 <http://fhnw.ch/functionalOntology#8.5.5.ManageSalesPartners>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.5.DevelopAndManageSalesPlan> ;
   fo:hasDefinition "Manage data on organization's sale partners" ;
   fo:hasExample "Data on sales partners like how many products sold from one specific partners, the partner's business development, What support they need from our organization, how strong the connection is" ;
   fo:hasSynonym "Alliances" ;
@@ -1727,7 +1769,6 @@ Establish sales targets along with metrics to quantify goals""" ;
 .
 <http://fhnw.ch/functionalOntology#8.5.DevelopAndManageSalesPlan>
   rdf:type fo:Level-2-Sub-functions ;
-  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#8.0.MarketingAndSales> ;
   fo:hasDefinition "Develop sales plan in accordance with the predefined sales strategy" ;
   fo:hasExample "Branding, sale channels, customer services in combinatioin with marketing campaign, etc" ;
   fo:hasSynonym "Sales plan" ;
@@ -1735,7 +1776,6 @@ Establish sales targets along with metrics to quantify goals""" ;
 .
 <http://fhnw.ch/functionalOntology#8.6.1.DefineCustomerServiceRequirements>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.6.DevelopCustomerExperienceStrategy> ;
   fo:hasDefinition "Defining a set of behaviors, skills, and policies needed to provide customer service effectively across the enterprise." ;
   fo:hasExample "one example of the policies for customer service is sorting based on the degree of importance of the customer to the organization. If the customer is a key customer, they will have dedicated assistant that is also the contact point of that customer" ;
   fo:hasSynonym "Customer service requirement" ;
@@ -1743,7 +1783,6 @@ Establish sales targets along with metrics to quantify goals""" ;
 .
 <http://fhnw.ch/functionalOntology#8.6.2.DefineCustomerServiceExperience>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.6.DevelopCustomerExperienceStrategy> ;
   fo:hasDefinition "Define what is expected when engaging the customer" ;
   fo:hasExample "EasyJet, a cheap price airline, has a strategy of limits personnals in contact with customers for cost reasons. Therefore, they use customer self-service as core customer experience strsategy" ;
   fo:hasSynonym "customer service" ;
@@ -1751,7 +1790,6 @@ Establish sales targets along with metrics to quantify goals""" ;
 .
 <http://fhnw.ch/functionalOntology#8.6.3.DefineCustomerServiceChannels>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.6.DevelopCustomerExperienceStrategy> ;
   fo:hasDefinition "This process define what channels will be used for customer service" ;
   fo:hasExample "Channels can be used for customer services are: point of sale (POS), online, warranty centers, phones, etc." ;
   fo:hasSynonym "Customer service channel" ;
@@ -1759,7 +1797,6 @@ Establish sales targets along with metrics to quantify goals""" ;
 .
 <http://fhnw.ch/functionalOntology#8.6.4.DefineCustomerServicePoliciesAndProcedures>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.6.DevelopCustomerExperienceStrategy> ;
   fo:hasDefinition "Cluster customer into different groups, define SLA for individual groups" ;
   fo:hasExample "For big and important customers, organizations usaully have dedicated account manager, who is the contact point for that customer. For less important customer the organization offers supports via hotline, online chat, email, etc." ;
   fo:hasSynonym "Target service level for each customer segment" ;
@@ -1767,7 +1804,6 @@ Establish sales targets along with metrics to quantify goals""" ;
 .
 <http://fhnw.ch/functionalOntology#8.6.5.DefineWarrantyOffering>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.6.DevelopCustomerExperienceStrategy> ;
   fo:hasDefinition "Define under which condiction that the customer is granted to have a warranty and how much the warranty covers" ;
   fo:hasExample "Oral B electronic toothbrush is warrantied for 2 years under condition that the defected part is from the producer's faults" ;
   fo:hasSynonym "warranty" ;
@@ -1779,7 +1815,6 @@ Establish sales targets along with metrics to quantify goals""" ;
 .
 <http://fhnw.ch/functionalOntology#8.7.1.ManageCustomerServiceWorkforce>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.7.ManageCustomerContacts> ;
   fo:hasDefinition "Plan the workforce needed for customer service. Forecast the amount of work for this function" ;
   fo:hasExample "Customer service workforce of 1 company can contain of 10 people, in which 3 is accounted for account manager, 3 for online chat and hotline service, 2 at POS and 2 at partner's venue" ;
   fo:hasSynonym "Customer service workforce" ;
@@ -1787,7 +1822,6 @@ Establish sales targets along with metrics to quantify goals""" ;
 .
 <http://fhnw.ch/functionalOntology#8.7.2.ManageCustomerRequests,Problems,Inquiries>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.7.ManageCustomerContacts> ;
   fo:hasDefinition "Handling the requests and inquiries from customers that seek information regarding the organization's products/services" ;
   fo:hasExample "There are shops on Amazon.com and when a customer leaves a questions about the products, the hsop will answer them" ;
   fo:hasSynonym "customer inquiries" ;
@@ -1797,7 +1831,6 @@ Establish sales targets along with metrics to quantify goals""" ;
 .
 <http://fhnw.ch/functionalOntology#8.7.3.ManageCustomerComplaints>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.7.ManageCustomerContacts> ;
   fo:hasDefinition "Handle customer complaints according to the planned resouces" ;
   fo:hasExample "Obtaining customer complaints online or by phone. Direct these complaints to higher-level representatives as appropriate. Resolve them. Respond to customers." ;
   fo:hasSynonym "customer complaints" ;
@@ -1805,7 +1838,6 @@ Establish sales targets along with metrics to quantify goals""" ;
 .
 <http://fhnw.ch/functionalOntology#8.7.4.ProcessReturns>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.7.ManageCustomerContacts> ;
   fo:hasDefinition "Acquire returns and process next step for customers" ;
   fo:hasExample "The returned products are acquired, problems are checked and if the problems caome from the producer/ seller, the product is received and a new product is delivered to customers." ;
   fo:hasSynonym "return of products" ;
@@ -1813,7 +1845,6 @@ Establish sales targets along with metrics to quantify goals""" ;
 .
 <http://fhnw.ch/functionalOntology#8.7.ManageCustomerContacts>
   rdf:type fo:Level-2-Sub-functions ;
-  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#8.0.MarketingAndSales> ;
   fo:hasDefinition "Taking care of customer services requests/inquiries, as well as the complaints." ;
   fo:hasExample "Receive, manage and process customer requests, inquiries and complaints" ;
   fo:hasSynonym "customer complaints" ;
@@ -1823,7 +1854,6 @@ Establish sales targets along with metrics to quantify goals""" ;
 .
 <http://fhnw.ch/functionalOntology#8.8.1.RegisterProduct>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.8.ManageAfterSaleService> ;
   fo:hasDefinition "The process of recording which product was bought by which customer for further references about the product details as well as customer setails" ;
   fo:hasExample "When one buys a Kindle from Amazon.com, this Kindle is already regirstered by Amazon with the Amazon acocunt. By doing so, they know who buys what, when and related information" ;
   fo:hasSynonym "Product register" ;
@@ -1831,7 +1861,6 @@ Establish sales targets along with metrics to quantify goals""" ;
 .
 <http://fhnw.ch/functionalOntology#8.8.2.ProcessWarrantyClaims>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.8.ManageAfterSaleService> ;
   fo:hasDefinition "Identify, investigate and process warranty claims" ;
   fo:hasExample """Receive warranty claims
 diagnose root cause of an issue
@@ -1843,7 +1872,6 @@ approve or deny the transaction; and the originator being notified and payment a
 .
 <http://fhnw.ch/functionalOntology#8.8.3.ManageSupplierRecovery>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.8.ManageAfterSaleService> ;
   fo:hasDefinition "Manage recovery from the supplier if root cause is from supplier" ;
   fo:hasExample "Manage recovery from the supplier if root cause is from supplier" ;
   fo:hasSynonym "supplier recovery management" ;
@@ -1851,7 +1879,6 @@ approve or deny the transaction; and the originator being notified and payment a
 .
 <http://fhnw.ch/functionalOntology#8.8.4.ProcessAttachedServices>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.8.ManageAfterSaleService> ;
   fo:hasDefinition "Provide specific service for individual customers according to their group and requirements" ;
   fo:hasExample "Amazon Prime members have a larger amount of service in comparison to a normal member. For example, Prime members can have a product faster in the same day and Amazon must conduct their shipment according to terms with Prime members" ;
   fo:hasSynonym "service attached" ;
@@ -1859,7 +1886,6 @@ approve or deny the transaction; and the originator being notified and payment a
 .
 <http://fhnw.ch/functionalOntology#8.8.ManageAfterSaleService>
   rdf:type fo:Level-2-Sub-functions ;
-  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#8.0.MarketingAndSales> ;
   fo:hasDefinition "This process concerns with post-sales policies and claim process" ;
   fo:hasExample "Retun or exchange policies after sales. most of Amazon products can be returned 30 days after develivery" ;
   fo:hasSynonym "After sales policies" ;
@@ -1869,7 +1895,6 @@ approve or deny the transaction; and the originator being notified and payment a
 .
 <http://fhnw.ch/functionalOntology#8.9.1.InitiateRecalls>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.9.ManageRecalls> ;
   fo:hasDefinition "When serious mistakes happen in the products, recalls of the sold product are initiated, data were gathered: how many products sold, which channels of recall, calculation of payback, etc." ;
   fo:hasExample "When a problem is detedted in the airbag of the car, Takata had to make assessment of how serious the mistake is, its influences to passengers, notify authorities, notify public, make recalls, etc. and they have to plan all of it in initiate recall process" ;
   fo:hasSynonym "initiate recalls" ;
@@ -1877,7 +1902,6 @@ approve or deny the transaction; and the originator being notified and payment a
 .
 <http://fhnw.ch/functionalOntology#8.9.2.AssessHazardAndLikelihood>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.9.ManageRecalls> ;
   fo:hasDefinition "Assess concequences of mistakes in products including its influences, its likelihood and severity" ;
   fo:hasExample "Defect in airbag can cause big impacts on passegers, depending how severe the accident is, etc." ;
   fo:hasSynonym "defect hazards" ;
@@ -1885,7 +1909,6 @@ approve or deny the transaction; and the originator being notified and payment a
 .
 <http://fhnw.ch/functionalOntology#8.9.3.CommunicateRecall>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.9.ManageRecalls> ;
   fo:hasDefinition "This process manages the channels that organization publish their recalls: over official government channels, newspaper, official web page, etc." ;
   fo:hasExample "This process manages the channels that organization publish their recalls: over official government channels, newspaper, official web page, etc." ;
   fo:hasSynonym "communicate recalls" ;
@@ -1893,7 +1916,6 @@ approve or deny the transaction; and the originator being notified and payment a
 .
 <http://fhnw.ch/functionalOntology#8.9.4.SubmitRegulatoryReport>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.9.ManageRecalls> ;
   fo:hasDefinition "Submit findings and actual data about defects as well as pay fees for hazards" ;
   fo:hasExample "A defect in airbag in cars needed to be summited into the Chamber of Commerce in the respective country" ;
   fo:hasSynonym "Regulatory report about recall" ;
@@ -1901,7 +1923,6 @@ approve or deny the transaction; and the originator being notified and payment a
 .
 <http://fhnw.ch/functionalOntology#8.9.5.ManageRecallTermination>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.9.ManageRecalls> ;
   fo:hasDefinition "The closing of recall process including recall results, recall periods, number of recalled prodcucts, potential problems with unreturend products, next steps, etc. " ;
   fo:hasExample "The closing of recall process including recall results, recall periods, number of recalled prodcucts, potential problems with unreturend products, next steps, etc. " ;
   fo:hasSynonym "recall termination" ;
@@ -1909,7 +1930,6 @@ approve or deny the transaction; and the originator being notified and payment a
 .
 <http://fhnw.ch/functionalOntology#8.9.ManageRecalls>
   rdf:type fo:Level-2-Sub-functions ;
-  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#8.0.MarketingAndSales> ;
   fo:hasDefinition "This process manages recalls if happens as well as fulfillment of regulatory assessment about recalls" ;
   fo:hasExample "From 2013 until now, roughly 41.6 million vehicles equipped with 56 million defective Takata air bags are under recall because these air bags can explode when deployed, causing serious injury or even death. Takata has to go through a procedure of recalls like initiate recalls, assess hazards, make regulatory reports, etc." ;
   fo:hasSynonym "recalls" ;
@@ -1919,6 +1939,25 @@ approve or deny the transaction; and the originator being notified and payment a
   rdf:type fo:Level-1-Functions ;
   rdfs:label "Operations" ;
 .
+<http://fhnw.ch/functionalOntology#9.2.1.BudgetingAndForecasting>
+  rdf:type fo:Level-3-Processes ;
+  fo:hasDefinition "Allocate funds to meet future and current financial strategy goals" ;
+  fo:hasExample "Perform variance analysis against forecasts and budgets" ;
+  fo:hasExample "Prepare periodic financial forecasts" ;
+  fo:hasSynonym "Budgeting" ;
+  fo:hasSynonym "Forecasting" ;
+  fo:hasSynonym "Planning" ;
+  rdfs:label "Budgeting And Forecasting" ;
+.
+<http://fhnw.ch/functionalOntology#9.2.2.BusinessPerformanceReporting>
+  rdf:type fo:Level-3-Processes ;
+  fo:hasDefinition "Report the organization's financial stsatus for its stakeholders" ;
+  fo:hasExample "Prepare consolidated financial statements" ;
+  fo:hasExample "Produce quarterly/annual filings and shareholder reports" ;
+  fo:hasExample "Produce regulatory reports" ;
+  fo:hasSynonym "financial reporting" ;
+  rdfs:label "Business Performance Reporting" ;
+.
 fo:AnhsFunction
   rdf:type owl:Class ;
   fo:hasDefinition "has Definition" ;
@@ -1926,18 +1965,6 @@ fo:AnhsFunction
   fo:hasSynonym "has Synonym" ;
   rdfs:label "Description of functions in organizations" ;
   rdfs:subClassOf owl:Thing ;
-.
-fo:IsProcessOf
-  rdf:type owl:ObjectProperty ;
-  rdfs:domain fo:Level-3-Processes ;
-  rdfs:label "Is process of" ;
-  rdfs:range fo:Level-2-Sub-functions ;
-.
-fo:IsSubFunctionOf
-  rdf:type owl:ObjectProperty ;
-  rdfs:domain fo:Level-2-Sub-functions ;
-  rdfs:label "is sub-function of" ;
-  rdfs:range fo:Level-1-Functions ;
 .
 fo:Level-1-Functions
   rdf:type owl:Class ;
@@ -1949,7 +1976,6 @@ fo:Level-1-Functions
 .
 fo:Level-2-Sub-functions
   rdf:type owl:Class ;
-  fo:IsSubFunctionOf fo:Level-1-Functions ;
   fo:hasDefinition "Sub-function" ;
   fo:hasExample "Example" ;
   fo:hasSynonym "Synonym" ;
@@ -1958,7 +1984,6 @@ fo:Level-2-Sub-functions
 .
 fo:Level-3-Processes
   rdf:type owl:Class ;
-  fo:IsProcessOf fo:Level-2-Sub-functions ;
   fo:hasDefinition "Definition" ;
   fo:hasExample "Example" ;
   fo:hasSynonym "Synonym" ;
@@ -1967,12 +1992,10 @@ fo:Level-3-Processes
 .
 fo:Level-3-Processes_1
   rdf:type fo:Level-3-Processes ;
-  fo:isRerefencedToAPQC <http://ikm-group.ch/archimeo/apqc#1_2_3_Select_long-term_business_strategy_10039> ;
   rdfs:label "is Connected With APQC" ;
 .
 fo:ManageProductsAndServiceMasterData
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#7.2.ManagePortfolio,Projects,IPs> ;
   fo:hasDefinition "The process of writing, checking, storing all relating data to the products/ services" ;
   fo:hasExample "Date of production, expiary date, etc." ;
   fo:hasSynonym "meta data" ;
@@ -2011,12 +2034,6 @@ fo:isReferencedToFramework
   rdfs:label "is Connected With APQC" ;
   rdfs:range xsd:string ;
 .
-fo:isRerefencedToAPQC
-  rdf:type owl:ObjectProperty ;
-  rdfs:domain fo:AnhsFunction ;
-  rdfs:label "is Connected With APQC" ;
-  rdfs:range <http://ikm-group.ch/archimeo/apqc#> ;
-.
 apqc:apqcproperties
   rdf:type owl:AnnotationProperty ;
   rdfs:label "Establish Strategic Position" ;
@@ -2026,395 +2043,4 @@ apqc:apqcproperties
 .
 <http://ikm-group.ch/archimeo/apqc#hasPCFID>
   rdfs:subPropertyOf apqc:apqcproperties ;
-.
-<http://ikm-group.ch/archimeo/bpaas#BPRhasDowntimePerMonthInMinutes>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#BPRhasNumberOfProcessExecution>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#BPRhasResponseTimeLevel>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#BPRhasSupportEndHour>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#BPRhasSupportStartHour>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#BPRhasSupportTimePeriod>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#BRPhasSupport24-7>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#CloudServiceHasMediaTypeImportExport>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#ContractHasPaymentMethod>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#HasReferencedSubBusinessProcess>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#LoggingHasLogsRetentionPeriodInDays>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#LoggingKeepsALogFile>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#PaymentPlanHasTarget>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#StoragePeriodInMonths>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#SupportServiceHasServiceSupportPeriod>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#WFDhasDataProcessingLocation>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#WFDhasDataStorageLocation>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#WFDhasEncryptionType>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#WFDhasMaxiumSimultaneousConnections>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#WFDhasSupportService>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#WFDhasTypeOfRaid>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#auditingIncludesApplicableCertifications>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#autenticationHasLevel>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#authenticationHasThirdPartyAuthenticationSupport>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#authenticationHasUserAccessStorageProtection>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#authenticationIsValidatedByCertification>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#availabilityHasDowntimePerMonthInMin>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#availabilityHasLevel>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#availabilityHasSuccesfulRequestsInPercentage>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#availabilityHasTimelyServiceProvisioningRequestsInPercentage>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#availabilityHasUptimeInPercentage>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#availabilityIncludesSuccessfulRequestTime>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#availabilityIncludesTimelyServiceProvisioningRequestTime>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#availabilitySuccessfulRequestLevel>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#avgResponseTime>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#backUpHasAVGTimeOfStorage>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#backupManagementHasAVGRestoreTime>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#backupManagementHasExpectedFrequencyOfStorage>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#backupManagementHasFrequency>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#backupManagementHasRestoreTime>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#backupManagementHasRetention>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#backupProvidesHistoricalAccess>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#backupTypeIncludeBackupManagement>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#bpaasProperties>
-  rdf:type owl:DatatypeProperty ;
-  rdfs:label "BPaaS Properties" ;
-.
-<http://ikm-group.ch/archimeo/bpaas#businessProcessAnnotationGroupRefersToBusinessProcessRequirement>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#businessProcessRequirementContentMessage>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#capacityHasAvailableDataStorage>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#capacityHasLevel>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#capacityHasNumberOfProcessExecution>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#capacityIncludesMediaType>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#capacityIncludesSimultaneousConnections>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#capacityIncludesSimultaneousUsers>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#cloudConsumerIsPartOfTargetMarket>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#cloudServiceHasAPI>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#cloudServiceHasAPQC>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#cloudServiceHasAccessLogAvailabilityInMonths>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#cloudServiceHasAccessLogRetentionPeriodInMonths>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#cloudServiceHasAction>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#cloudServiceHasAuditLogAvailabilityInMonth>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#cloudServiceHasAuditLogRetentionAvailabilityInMonth>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#cloudServiceHasAutomatedPasswordManagement>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#cloudServiceHasAvailabilityInPercent>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#cloudServiceHasBackupFrequency>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#cloudServiceHasBackupRetentionTime>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#cloudServiceHasDataMigration>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#cloudServiceHasDataStorageInGB>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#cloudServiceHasDescription>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#cloudServiceHasEncryptionLevel>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#cloudServiceHasEncryptionType>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#cloudServiceHasMonthlyDowntimeInMinute>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#cloudServiceHasObject>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#cloudServiceHasPaymentPlan>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#cloudServiceHasPhysicalID>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#cloudServiceHasResponseTime_in_ms>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#cloudServiceHasScalableProcessingPower>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#cloudServiceHasScalableStorage>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#cloudServiceHasServiceSupport>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#cloudServiceHasServiceSupportResponsiveness>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#cloudServiceHasSimultaneousUsers>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#cloudServiceHasStoredDataLocation>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#cloudServiceHasSupportChannel>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#cloudServiceHasTargetMarket>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#contractIncludesPricingModel>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#dataProcessingHasLocation>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#dataStorageHaseLocation>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#dataTransparencyIncludesSpecialCategoriesOfData>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#encryptionTypeHasBruteForceResistance>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#encryptionTypeHasHardwareModuleProtectionLevel>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#encryptionTypeHasKeyAccessControlPolicy>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#encryptionTypeHasRequirementLevel>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#hasReferencedBusinessProcess>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#hasReferencedBusinessProcessRequirement>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#hasReferencedWorkflow>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#hasReferencedWorkflowDescription>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#helpDeskResponseHasLevel>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#incidentManagementHasPercentageOfTimelyIncidentReports>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#incidentManagementHasPercentageOfTimelyIncidentResolutions>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#levelOfRedundancy>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#loggingHasLogAccessAvailability>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#loggingHasParameters>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#maxResponseTime>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#mediaTypeHasMinimumSizeInGB>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#obtainsService>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#offeredPaymentPlanIncludesAcceptedPayment>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#offeredPaymentPlanIncludesAddressedUserTarget>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#paymentPlanHasPaymentTarget>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#paymentPlanHasPaymentType>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#performanceHasLevel>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#refersToALocation>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#responseTimePerformanceHasLevel>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#securityServiceHasLevel>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#serviceIsSpecifiedByAContract>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#serviceLevelAgreementHasServiceLevelObjective>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#serviceReliabilityHasPercentageOfCorrectness>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#serviceReliabilityHasPercentageOfRedundancy>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#serviceSupport24-7>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#serviceSupportEndHour>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#serviceSupportHasEndingHour>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#serviceSupportHasStartingHour>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#serviceSupportHasSupportService>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#serviceSupportNotOffered>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#serviceSupportStartHour>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#supportServiceHasPricingForSupport>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#totalHoursOfServiceSupport>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#typeOfRaidHasRequirementLevel>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#vulnerabilityManagementHasPercentageOfTimelyVulnerabilityCorrections>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#vulnerabilityManagementHasReportsOfVulnerabilityCorrections>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#vunerabilityManagementHasPercentageOfTimelyVulnerabilityReports>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#workflowAnnotationGroupRefersToWorkflowDescription>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
-.
-<http://ikm-group.ch/archimeo/bpaas#workflowHasWorkflowDescription>
-  rdfs:subPropertyOf <http://ikm-group.ch/archimeo/bpaas#bpaasProperties> ;
 .
