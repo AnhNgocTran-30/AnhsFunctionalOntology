@@ -46,6 +46,130 @@
 <http://ikm-group.ch/archiMEO/bdata#Accellion_Mobile_Productivity_and_Collaboration_kiteworks>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.0.FinanceAndAccounting> ;
 .
+<http://ikm-group.ch/archiMEO/bdata#Access_aCloud_Expense>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.1.1.AccountPayable> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Advanced_eDiscovery_Storage>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.2.1.ManageIncidents> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.2.2.ManageProblems> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.2.ManageITServices> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Advanced_eDiscovery_Storage_for_faculty>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.1.ManageITFunction> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.2.1.ManageIncidents> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.2.2.ManageProblems> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.2.ManageITServices> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Agilisys_Revenue_Collection_ARC>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.2.3.ManageTreasury> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Amazon_Connect>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.0.MarketingAndSales> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.10.EvaluateCustomerSatifaction> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.6.DevelopCustomerExperienceStrategy> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.7.ManageCustomerContacts> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.8.ManageAfterSaleService> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.9.ManageRecalls> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Amazon_WorkMail>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.0.MarketingAndSales> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.10.EvaluateCustomerSatifaction> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.6.DevelopCustomerExperienceStrategy> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.7.ManageCustomerContacts> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.8.ManageAfterSaleService> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.9.ManageRecalls> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#AnalytiXagility_Virtual_Desktop_Service>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#4.2.ManageCompliance> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#ArcGIS_Online>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.0.FinanceAndAccounting> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.4.2.DevelopSalesPartners> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.4.3.EstablishOverallSalesBudget,Goals,Measures> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.4.4.EstablishCustomerManagementMeasures> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.4.DevelopSalesStrategy> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.5.1.ManageLeads/Opportunity> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.5.2.ManageCustomerAndAccounts> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.5.3.DevelopSalesProposals> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.5.4.ManageSalesOrders> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.5.5.ManageSalesPartners> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.5.DevelopAndManageSalesPlan> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Armour_Mobile>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.1.3.ManageITRisks> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#BacsActive_Enterpise_Solution>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.0.FinanceAndAccounting> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.1.1.AccountPayable> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.1.10ConductExternalReporting> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.1.11.ConductProjectAccounting> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.1.12.ConductCostAccounting> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.1.13.ManageCash> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.1.14.ConductTaxAccounting> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.1.14.TaxFillingAndReporting> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.1.2.FreightPayment> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.1.3.ProcessPayrollAndExpenses> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.1.4.ManageFixedAsset> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.1.5.ManageAccountReceivable> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.1.6.ManageCredits> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.1.7.ManageCollections> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.1.8.BillCustomers> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.1.9.PerformGeneralAccounting> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.1.ProcessTransaction> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.2.3.ManageTreasury> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.2.4.ManageInternationalFunds> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.2.5.PlanTax> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.2.6.ConductInternalAudit> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.2.7.ConductGovernmentCompliance> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.2.8.ConductTaxRegulatory> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.2.FinancialRiskManagement> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.3.1.CostAnalysis> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.3.2.AnalyzeBusinessPerformance> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.3.3.AsessNewBusinessAndProducts> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.3.4.SupportStrategicPlanning> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.3.5.ManageInternationalServices> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.3.DecisionSupport> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Bare_Metal_Server>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.0.InformationTechnologyManagement> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Be_Informed_Platform>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.5.1.DefineProcesses> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.5.2.DefineProcess> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.5.3.ManageProcessPerformance> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.5.ManageBusinessProcesses> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.8.ManageChange> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Birst_Cloud_Enterprise_Edition_Analytics_and_Business_Intelligence_BI_Platform>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.1.2.DevelopITBusinessStrategy> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#4.1.2.AssessEnterpriseRisks> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Brainloop_BoardRoom>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#5.1.1ManageRelationshipWIthBoardOfDirectors> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Bramble_Hub_Cauwill_Technologies__Herotext>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.2.DevelopBusinessStrategy> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Business_Intelligence_by_Tribal>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.1.1ConductMarketAndCustomerAnalysis> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.1.AssessMarketAndCustomers> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#CTrack_Case_Management_System>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#5.5.1.ManageLegalService> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#5.5.ManageLEgalAndEthicalIssues> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#CapacityGrid_Risk_Based_Review_Service>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.4.1.EstablishImplementationSchedule> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.4.ManageAndMeasureStrategicInitiatives> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Capita_ePayment_Collection_Networks>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#2.4.1.DevelopCompensationProgram> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#2.4.2.AdministerCompensationBenefitProgram> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#2.4.CompensationManagement> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#CaptureStroke_Data_Collection_and_Clinical_Management_System>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.1.7.ManageCollections> ;
+.
 apqc:AmericanProductivityAndQualityCenter
   rdfs:subClassOf <http://ikm-group.ch/archiMEO/nco#Category> ;
 .
