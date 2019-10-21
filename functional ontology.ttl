@@ -1918,8 +1918,9 @@ Rport Accounting Period""" ;
   rdf:type fo:Level-1-Functions ;
   rdfs:label "Marketing and Sales" ;
 .
-<http://fhnw.ch/functionalOntology#8.1.1ConductMarketAndCustomerAnalysis>
+<http://fhnw.ch/functionalOntology#8.1.1.ConductMarketAndCustomerAnalysis>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.1.AssessMarketAndCustomers> ;
   fo:hasDefinition "Conducting analysis in order to understand customer needs, predict customer behaviour, analyze industry trends and thus, analyze market shares, gains, losses" ;
   fo:hasExample "PESTEL analysis and customer survey/ focus group interviews are conducted" ;
   fo:hasSynonym "PESTEL" ;
@@ -1927,6 +1928,7 @@ Rport Accounting Period""" ;
 .
 <http://fhnw.ch/functionalOntology#8.1.2.EvaluateBusinessOpportunities>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.1.AssessMarketAndCustomers> ;
   fo:hasDefinition "This process identify saturated or under-served customers" ;
   fo:hasExample "Tesla, even though not the first electronic car producer, found a need for electronic cars that looks professional and have good brand" ;
   fo:hasSynonym "Business Opportunities" ;
@@ -1946,6 +1948,7 @@ Pricing and forecast: pricing strategy to go for which pricing strategy
 .
 <http://fhnw.ch/functionalOntology#8.10.1.MeasureCustomerHandlingSatisfaction>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.10.EvaluateCustomerSatifaction> ;
   fo:hasDefinition "Caluclate satisfaction level of customer in problem handling by fomula performance of customer-requests/inquiries handling and resolution" ;
   fo:hasExample "Usage of survey, customer rating at POS, Customer Satisfaction Score (SCAT), etc." ;
   fo:hasSynonym "customer handling satisfaction" ;
@@ -1953,6 +1956,7 @@ Pricing and forecast: pricing strategy to go for which pricing strategy
 .
 <http://fhnw.ch/functionalOntology#8.10.2CustomerSatisfactionWIthCustomerComplaints>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.10.EvaluateCustomerSatifaction> ;
   fo:hasDefinition "Measuring the satisfaction level of customers as pertains to how their complaints are handled and resolved" ;
   fo:hasExample "customer survey, customer raitng at point of sales, SCAT score" ;
   fo:hasSynonym "customer complaint resolution satisfaction" ;
@@ -1960,6 +1964,7 @@ Pricing and forecast: pricing strategy to go for which pricing strategy
 .
 <http://fhnw.ch/functionalOntology#8.10.3.CustomerSatisfactionWithProductsAndService>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.10.EvaluateCustomerSatifaction> ;
   fo:hasDefinition "Calculate satisfaction level of customer with products/ services" ;
   fo:hasExample "Record customer reviews about products/ service, using data analysis tools to anylyze which features are satisfying and which features not" ;
   fo:hasSynonym "customer satisfaction with products/ services" ;
@@ -1967,6 +1972,7 @@ Pricing and forecast: pricing strategy to go for which pricing strategy
 .
 <http://fhnw.ch/functionalOntology#8.10.4.EvaluateRecallPerformance>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.10.EvaluateCustomerSatifaction> ;
   fo:hasDefinition "Evaluate performance of recalls (if happens) and caluclate how recalls effect the business" ;
   fo:hasExample "Evaluate performance of recalls (if happens) and caluclate how recalls effect the business" ;
   fo:hasSynonym "Evaluate recalls" ;
@@ -1982,6 +1988,7 @@ Pricing and forecast: pricing strategy to go for which pricing strategy
 .
 <http://fhnw.ch/functionalOntology#8.2.1.DefinePricingStrategy>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.2.DevelopMarketingStrategy> ;
   fo:hasDefinition "Based on value proposition and business offerings, pricing strategy is defined for individual products/ lines/ services" ;
   fo:hasExample "In the smartphone market, there are different players with different pricing strategies. Pricing strategy of Apple is high pricing/ luxurious products. On the other hand, pricing strategy of Wiko is cheap smartphones" ;
   fo:hasSynonym "pricing" ;
@@ -1989,6 +1996,7 @@ Pricing and forecast: pricing strategy to go for which pricing strategy
 .
 <http://fhnw.ch/functionalOntology#8.2.2.DefineBrandingStrategy>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.2.DevelopMarketingStrategy> ;
   fo:hasDefinition "The process of defining how the company will appear in their targeted customer's eyes: if they are high-end or on the other side with cheap offers" ;
   fo:hasExample "Clothes retailers have a lot of participants. However, brand like Burberry, Dior, Channel, etc are high-end brands. H&M, C&A define themselves in a lower-end" ;
   fo:hasSynonym "Branding" ;
@@ -1996,6 +2004,7 @@ Pricing and forecast: pricing strategy to go for which pricing strategy
 .
 <http://fhnw.ch/functionalOntology#8.2.3.DefineChannelStrategy>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.2.DevelopMarketingStrategy> ;
   fo:hasDefinition "This process defines channels to customers, determine potential partners for channels and ananlyze and manage channels performance\"" ;
   fo:hasExample "Apple have 2 channels to their end customers: their own retail stores and their re-seller network" ;
   fo:hasSynonym "Channel to customers" ;
@@ -2003,6 +2012,7 @@ Pricing and forecast: pricing strategy to go for which pricing strategy
 .
 <http://fhnw.ch/functionalOntology#8.2.4.DevelopMarketingCommunicationStrategy>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.2.DevelopMarketingStrategy> ;
   fo:hasDefinition "This process defines which marketing channels that they want to reach out for their customers: whether they will do an online campaign or offline campaign" ;
   fo:hasExample "Including defining media channels, drect marketing channels, POS, etc." ;
   fo:hasExample "Mc Donald's communication strategy thrrough their point of sales (POSs) because their POSs have a good location that everyone can have access to it." ;
@@ -2011,6 +2021,7 @@ Pricing and forecast: pricing strategy to go for which pricing strategy
 .
 <http://fhnw.ch/functionalOntology#8.2.5.ManageCustomerLoyaltyProgram>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.2.DevelopMarketingStrategy> ;
   fo:hasDefinition "The process of developing and managing customer loyalty programs in order to keep customer's retention" ;
   fo:hasExample "The Body Shop has membership programs for their customers to cummulate points. These points can be used to purchase more products late" ;
   fo:hasSynonym "Customer Loyalty" ;
@@ -2033,6 +2044,7 @@ Press coverage""" ;
 .
 <http://fhnw.ch/functionalOntology#8.3.1.EstablishGoals,ObjectivesAndMetricsForProducts/Services>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.3.DevelopMarketingPlan> ;
   fo:hasDefinition "Estabish goals and obectives for individual products/ services to achieve marketing strategy" ;
   fo:hasExample "After 2 months of marketing campaign, we need to reach 200 000 thousand people for this new product and get a 10 000 turns into action" ;
   fo:hasSynonym "goals for products" ;
@@ -2040,6 +2052,7 @@ Press coverage""" ;
 .
 <http://fhnw.ch/functionalOntology#8.3.2.EstablishMarketingBudget>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.3.DevelopMarketingPlan> ;
   fo:hasDefinition "This process contains determining cost of marketing, determining projected ROI for marketing investment\"" ;
   fo:hasExample """You have $500,000 to spend on all marketing activities for a given quarter
 Inbound Content Marketing: 20 - 25% ($100 - 125K)
@@ -2053,6 +2066,7 @@ Traditional - 10 - 15% ($50 - 75K)""" ;
 .
 <http://fhnw.ch/functionalOntology#8.3.3.DevelopAndManagePricing>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.3.DevelopMarketingPlan> ;
   fo:hasDefinition """This process contains of
 * determine cost of production
 * forecast volume for pricing
@@ -2065,6 +2079,7 @@ Traditional - 10 - 15% ($50 - 75K)""" ;
 .
 <http://fhnw.ch/functionalOntology#8.3.4.DevelopPromotionActivities>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.3.DevelopMarketingPlan> ;
   fo:hasDefinition """This process includes
 * Define promotional concepts and objectives
 * Define marketing messages
@@ -2075,6 +2090,7 @@ Traditional - 10 - 15% ($50 - 75K)""" ;
 .
 <http://fhnw.ch/functionalOntology#8.3.5.TrackCustomerMeasures>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.3.DevelopMarketingPlan> ;
   fo:hasDefinition "This process analyzes customer revenue trends, customer retention rate, customer metrics" ;
   fo:hasExample "When there is a depression in the economy, spendings on luxurious products will sink as well and luxurious brand need to have measure to predict cosumption trend and strategy to overcome this period" ;
   fo:hasSynonym "Customer measures" ;
@@ -2090,6 +2106,7 @@ Traditional - 10 - 15% ($50 - 75K)""" ;
 .
 <http://fhnw.ch/functionalOntology#8.4.1.DevelopSalesStrategy>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.4.DevelopSalesStrategy> ;
   fo:hasDefinition "Develop concrete plan for sale activities" ;
   fo:hasExample "analysis of historical sales data to create forecasts for anticipated sales, forming sales targets, forging partnerships with other economic agents to boost sales, devising a budget for this function, and determining metrics to measure customer management activities as well as progress in achieving sales targets." ;
   fo:hasSynonym "Sales strategy" ;
@@ -2097,6 +2114,7 @@ Traditional - 10 - 15% ($50 - 75K)""" ;
 .
 <http://fhnw.ch/functionalOntology#8.4.2.DevelopSalesPartners>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.4.DevelopSalesStrategy> ;
   fo:hasDefinition "The process of identifying, analyzing, negotiating, and managing partnerships with sales alliances" ;
   fo:hasExample "Apple Inc. has their own stores but also authorized resellers of their products. Apple resellers have to fulfill certain requirements, for example, area of the store, how many apple product minumum, etc. They, therefore, everytime seek for a new partner, have to consider this" ;
   fo:hasSynonym "Sales partners" ;
@@ -2104,6 +2122,7 @@ Traditional - 10 - 15% ($50 - 75K)""" ;
 .
 <http://fhnw.ch/functionalOntology#8.4.3.EstablishOverallSalesBudget,Goals,Measures>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.4.DevelopSalesStrategy> ;
   fo:hasDefinition """Calculate the estimated sales revenue and costs, which helps in calculating the overall net profit. 
 Establish sales targets along with metrics to quantify goals""" ;
   fo:hasExample "Philips achieved a number of 200K units sale of Light Bulbs in 2017 out of which 120K from the United States and 80K from the Asia Pacific. In 2018, the sale of Light Bulbs was 125k in the United States and 98K in the Asia Pacific." ;
@@ -2112,6 +2131,7 @@ Establish sales targets along with metrics to quantify goals""" ;
 .
 <http://fhnw.ch/functionalOntology#8.4.4.EstablishCustomerManagementMeasures>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.4.DevelopSalesStrategy> ;
   fo:hasDefinition "Select measures to track customer activity, feedback, satisfaction, organizational responsiveness to customer needs, and general data on how the organization is managing customer accounts, leads, and contacts" ;
   fo:hasExample "Company might use Net Promoter Score (NPS) to track how many new custoemrs comes based on refferal from old customers" ;
   fo:hasSynonym "Customer Management Measures" ;
@@ -2127,6 +2147,7 @@ Establish sales targets along with metrics to quantify goals""" ;
 .
 <http://fhnw.ch/functionalOntology#8.5.1.ManageLeads/Opportunity>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.5.DevelopAndManageSalesPlan> ;
   fo:hasDefinition "Discover leads through IT applications, cold calling, reference/network development, or other sales and business development techniques" ;
   fo:hasExample "DiscoverOrg is one of the B2B that provides sales lead lists from business contacts database and sales solution" ;
   fo:hasSynonym "leads" ;
@@ -2134,6 +2155,7 @@ Establish sales targets along with metrics to quantify goals""" ;
 .
 <http://fhnw.ch/functionalOntology#8.5.2.ManageCustomerAndAccounts>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.5.DevelopAndManageSalesPlan> ;
   fo:hasDefinition "Manage relationships with customers and the data it holds on them, as well as the sale of its products/services to these customers. Devise a recipe for handling the organization's key customers in order to manage their expectations with tact and responsibility while maximizing revenue." ;
   fo:hasExample "Using Key Account Management. According to the Harvard Business Review, customer satisfaction increases 20% within a few years of starting a key account management program. Profits and revenue, meanwhile, can increase by 15%." ;
   fo:hasSynonym "Account Management" ;
@@ -2141,6 +2163,7 @@ Establish sales targets along with metrics to quantify goals""" ;
 .
 <http://fhnw.ch/functionalOntology#8.5.3.DevelopSalesProposals>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.5.DevelopAndManageSalesPlan> ;
   fo:hasDefinition "Understanding and refining the customer requirements as provided in a RFP (Request for Proposal) or RFI (Request for Information)" ;
   fo:hasExample "For military contracts and supplying fuels to railroads and major fuel users, there is a bidding process.  These entities ask for bids from the refiners to supply fuel at a given location" ;
   fo:hasSynonym "Sales proposal" ;
@@ -2148,6 +2171,7 @@ Establish sales targets along with metrics to quantify goals""" ;
 .
 <http://fhnw.ch/functionalOntology#8.5.4.ManageSalesOrders>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.5.DevelopAndManageSalesPlan> ;
   fo:hasDefinition "Monitoring status from order receipt to customer delivery/customer invoicing." ;
   fo:hasExample "Monitoring status from order receipt to customer delivery/customer invoicing" ;
   fo:hasSynonym "sales orders" ;
@@ -2155,6 +2179,7 @@ Establish sales targets along with metrics to quantify goals""" ;
 .
 <http://fhnw.ch/functionalOntology#8.5.5.ManageSalesPartners>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.5.DevelopAndManageSalesPlan> ;
   fo:hasDefinition "Manage data on organization's sale partners" ;
   fo:hasExample "Data on sales partners like how many products sold from one specific partners, the partner's business development, What support they need from our organization, how strong the connection is" ;
   fo:hasSynonym "Alliances" ;
@@ -2171,6 +2196,7 @@ Establish sales targets along with metrics to quantify goals""" ;
 .
 <http://fhnw.ch/functionalOntology#8.6.1.DefineCustomerServiceRequirements>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.6.DevelopCustomerExperienceStrategy> ;
   fo:hasDefinition "Defining a set of behaviors, skills, and policies needed to provide customer service effectively across the enterprise." ;
   fo:hasExample "one example of the policies for customer service is sorting based on the degree of importance of the customer to the organization. If the customer is a key customer, they will have dedicated assistant that is also the contact point of that customer" ;
   fo:hasSynonym "Customer service requirement" ;
@@ -2178,6 +2204,7 @@ Establish sales targets along with metrics to quantify goals""" ;
 .
 <http://fhnw.ch/functionalOntology#8.6.2.DefineCustomerServiceExperience>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.6.DevelopCustomerExperienceStrategy> ;
   fo:hasDefinition "Define what is expected when engaging the customer" ;
   fo:hasExample "EasyJet, a cheap price airline, has a strategy of limits personnals in contact with customers for cost reasons. Therefore, they use customer self-service as core customer experience strsategy" ;
   fo:hasSynonym "customer service" ;
@@ -2185,6 +2212,7 @@ Establish sales targets along with metrics to quantify goals""" ;
 .
 <http://fhnw.ch/functionalOntology#8.6.3.DefineCustomerServiceChannels>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.6.DevelopCustomerExperienceStrategy> ;
   fo:hasDefinition "This process define what channels will be used for customer service" ;
   fo:hasExample "Channels can be used for customer services are: point of sale (POS), online, warranty centers, phones, etc." ;
   fo:hasSynonym "Customer service channel" ;
@@ -2192,6 +2220,7 @@ Establish sales targets along with metrics to quantify goals""" ;
 .
 <http://fhnw.ch/functionalOntology#8.6.4.DefineCustomerServicePoliciesAndProcedures>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.6.DevelopCustomerExperienceStrategy> ;
   fo:hasDefinition "Cluster customer into different groups, define SLA for individual groups" ;
   fo:hasExample "For big and important customers, organizations usaully have dedicated account manager, who is the contact point for that customer. For less important customer the organization offers supports via hotline, online chat, email, etc." ;
   fo:hasSynonym "Target service level for each customer segment" ;
@@ -2199,6 +2228,7 @@ Establish sales targets along with metrics to quantify goals""" ;
 .
 <http://fhnw.ch/functionalOntology#8.6.5.DefineWarrantyOffering>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.6.DevelopCustomerExperienceStrategy> ;
   fo:hasDefinition "Define under which condiction that the customer is granted to have a warranty and how much the warranty covers" ;
   fo:hasExample "Oral B electronic toothbrush is warrantied for 2 years under condition that the defected part is from the producer's faults" ;
   fo:hasSynonym "warranty" ;
@@ -2214,6 +2244,7 @@ Establish sales targets along with metrics to quantify goals""" ;
 .
 <http://fhnw.ch/functionalOntology#8.7.1.ManageCustomerServiceWorkforce>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.7.ManageCustomerContacts> ;
   fo:hasDefinition "Plan the workforce needed for customer service. Forecast the amount of work for this function" ;
   fo:hasExample "Customer service workforce of 1 company can contain of 10 people, in which 3 is accounted for account manager, 3 for online chat and hotline service, 2 at POS and 2 at partner's venue" ;
   fo:hasSynonym "Customer service workforce" ;
@@ -2221,6 +2252,7 @@ Establish sales targets along with metrics to quantify goals""" ;
 .
 <http://fhnw.ch/functionalOntology#8.7.2.ManageCustomerRequests,Problems,Inquiries>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.7.ManageCustomerContacts> ;
   fo:hasDefinition "Handling the requests and inquiries from customers that seek information regarding the organization's products/services" ;
   fo:hasExample "There are shops on Amazon.com and when a customer leaves a questions about the products, the hsop will answer them" ;
   fo:hasSynonym "customer inquiries" ;
@@ -2230,6 +2262,7 @@ Establish sales targets along with metrics to quantify goals""" ;
 .
 <http://fhnw.ch/functionalOntology#8.7.3.ManageCustomerComplaints>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.7.ManageCustomerContacts> ;
   fo:hasDefinition "Handle customer complaints according to the planned resouces" ;
   fo:hasExample "Obtaining customer complaints online or by phone. Direct these complaints to higher-level representatives as appropriate. Resolve them. Respond to customers." ;
   fo:hasSynonym "customer complaints" ;
@@ -2237,6 +2270,7 @@ Establish sales targets along with metrics to quantify goals""" ;
 .
 <http://fhnw.ch/functionalOntology#8.7.4.ProcessReturns>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.7.ManageCustomerContacts> ;
   fo:hasDefinition "Acquire returns and process next step for customers" ;
   fo:hasExample "The returned products are acquired, problems are checked and if the problems caome from the producer/ seller, the product is received and a new product is delivered to customers." ;
   fo:hasSynonym "return of products" ;
@@ -2254,6 +2288,7 @@ Establish sales targets along with metrics to quantify goals""" ;
 .
 <http://fhnw.ch/functionalOntology#8.8.1.RegisterProduct>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.8.ManageAfterSaleService> ;
   fo:hasDefinition "The process of recording which product was bought by which customer for further references about the product details as well as customer setails" ;
   fo:hasExample "When one buys a Kindle from Amazon.com, this Kindle is already regirstered by Amazon with the Amazon acocunt. By doing so, they know who buys what, when and related information" ;
   fo:hasSynonym "Product register" ;
@@ -2261,6 +2296,7 @@ Establish sales targets along with metrics to quantify goals""" ;
 .
 <http://fhnw.ch/functionalOntology#8.8.2.ProcessWarrantyClaims>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.8.ManageAfterSaleService> ;
   fo:hasDefinition "Identify, investigate and process warranty claims" ;
   fo:hasExample """Receive warranty claims
 diagnose root cause of an issue
@@ -2272,6 +2308,7 @@ approve or deny the transaction; and the originator being notified and payment a
 .
 <http://fhnw.ch/functionalOntology#8.8.3.ManageSupplierRecovery>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.8.ManageAfterSaleService> ;
   fo:hasDefinition "Manage recovery from the supplier if root cause is from supplier" ;
   fo:hasExample "Manage recovery from the supplier if root cause is from supplier" ;
   fo:hasSynonym "supplier recovery management" ;
@@ -2279,6 +2316,7 @@ approve or deny the transaction; and the originator being notified and payment a
 .
 <http://fhnw.ch/functionalOntology#8.8.4.ProcessAttachedServices>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.8.ManageAfterSaleService> ;
   fo:hasDefinition "Provide specific service for individual customers according to their group and requirements" ;
   fo:hasExample "Amazon Prime members have a larger amount of service in comparison to a normal member. For example, Prime members can have a product faster in the same day and Amazon must conduct their shipment according to terms with Prime members" ;
   fo:hasSynonym "service attached" ;
@@ -2296,6 +2334,7 @@ approve or deny the transaction; and the originator being notified and payment a
 .
 <http://fhnw.ch/functionalOntology#8.9.1.InitiateRecalls>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.9.ManageRecalls> ;
   fo:hasDefinition "When serious mistakes happen in the products, recalls of the sold product are initiated, data were gathered: how many products sold, which channels of recall, calculation of payback, etc." ;
   fo:hasExample "When a problem is detedted in the airbag of the car, Takata had to make assessment of how serious the mistake is, its influences to passengers, notify authorities, notify public, make recalls, etc. and they have to plan all of it in initiate recall process" ;
   fo:hasSynonym "initiate recalls" ;
@@ -2303,6 +2342,7 @@ approve or deny the transaction; and the originator being notified and payment a
 .
 <http://fhnw.ch/functionalOntology#8.9.2.AssessHazardAndLikelihood>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.9.ManageRecalls> ;
   fo:hasDefinition "Assess concequences of mistakes in products including its influences, its likelihood and severity" ;
   fo:hasExample "Defect in airbag can cause big impacts on passegers, depending how severe the accident is, etc." ;
   fo:hasSynonym "defect hazards" ;
@@ -2310,6 +2350,7 @@ approve or deny the transaction; and the originator being notified and payment a
 .
 <http://fhnw.ch/functionalOntology#8.9.3.CommunicateRecall>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.9.ManageRecalls> ;
   fo:hasDefinition "This process manages the channels that organization publish their recalls: over official government channels, newspaper, official web page, etc." ;
   fo:hasExample "This process manages the channels that organization publish their recalls: over official government channels, newspaper, official web page, etc." ;
   fo:hasSynonym "communicate recalls" ;
@@ -2317,6 +2358,7 @@ approve or deny the transaction; and the originator being notified and payment a
 .
 <http://fhnw.ch/functionalOntology#8.9.4.SubmitRegulatoryReport>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.9.ManageRecalls> ;
   fo:hasDefinition "Submit findings and actual data about defects as well as pay fees for hazards" ;
   fo:hasExample "A defect in airbag in cars needed to be summited into the Chamber of Commerce in the respective country" ;
   fo:hasSynonym "Regulatory report about recall" ;
@@ -2324,6 +2366,7 @@ approve or deny the transaction; and the originator being notified and payment a
 .
 <http://fhnw.ch/functionalOntology#8.9.5.ManageRecallTermination>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.9.ManageRecalls> ;
   fo:hasDefinition "The closing of recall process including recall results, recall periods, number of recalled prodcucts, potential problems with unreturend products, next steps, etc. " ;
   fo:hasExample "The closing of recall process including recall results, recall periods, number of recalled prodcucts, potential problems with unreturend products, next steps, etc. " ;
   fo:hasSynonym "recall termination" ;
@@ -2343,6 +2386,7 @@ approve or deny the transaction; and the originator being notified and payment a
 .
 <http://fhnw.ch/functionalOntology#9.1.1DevelopProductionAndMaterialStrategy>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#9.1.manageOperationFunction> ;
   fo:hasDefinition "Startegy for production process, as well as managing materials" ;
   fo:hasExample """1 strategy to be considered is lean manufacturing vs flexible manufacturing:
 - Lean manufacturing: just-in-time manufacturing, aims to make the manufacturing process as efficient as possible by eliminating inventories and streamlining the manufacturing process to reduce wasted labor and materials
@@ -2352,6 +2396,7 @@ approve or deny the transaction; and the originator being notified and payment a
 .
 <http://fhnw.ch/functionalOntology#9.1.2.ManageDemandForProducts>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#9.1.manageOperationFunction> ;
   fo:hasDefinition "Forecast product demand based on secondary research and customer feedback. " ;
   fo:hasExample "For seasonal products, manufacturer has to categorise the products, make demand forecasting, identify timelines of seasonal demand, lead time of product, etc." ;
   fo:hasSynonym "product demand" ;
@@ -2359,6 +2404,7 @@ approve or deny the transaction; and the originator being notified and payment a
 .
 <http://fhnw.ch/functionalOntology#9.1.3.ManageMaterialPlans>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#9.1.manageOperationFunction> ;
   fo:hasDefinition "Advanced planning for availability of total rew material needed, then refine the palling by assessing the real situation of sourcing" ;
   fo:hasExample "Identify quantity of raw material, running material calculation, do the order, etc. " ;
   fo:hasSynonym "material planning" ;
@@ -2366,6 +2412,7 @@ approve or deny the transaction; and the originator being notified and payment a
 .
 <http://fhnw.ch/functionalOntology#9.1.4.ManageDistribution>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#9.1.manageOperationFunction> ;
   fo:hasDefinition "Deciding on which channel or types of distribution for the products, maitain distribution channels and partners" ;
   fo:hasExample "An example of selective distribution is: Raymond has selective distribution because besides selling in its own exclusive outlets, Raymond is sold via franchise’s as well as in other other multi brand outlets. Raymond, therefore, first has to select their partner and assess their requirements and condiction, and then maintain relationship with them" ;
   fo:hasSynonym "Distribution management" ;
@@ -2373,6 +2420,7 @@ approve or deny the transaction; and the originator being notified and payment a
 .
 <http://fhnw.ch/functionalOntology#9.1.5.DevelopQualityStandardsAndProcedures>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#9.1.manageOperationFunction> ;
   fo:hasDefinition "Define the overall standard that all products must meet in production process as well as production procedure how to meet the standard" ;
   fo:hasExample "Toyota's products (cars, motorbikes) must meet 6Sigma quality standard from the company. In order to meet this standard, they have to to go through a production procedure that limits defects and optimize steps in the production site" ;
   fo:hasSynonym "production procedure" ;
@@ -2381,14 +2429,16 @@ approve or deny the transaction; and the originator being notified and payment a
 .
 <http://fhnw.ch/functionalOntology#9.1.6.EstablishServiceGovernmanceAndStrategy>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#9.1.manageOperationFunction> ;
   fo:hasDefinition "Establish and manage service delivery performance, quality, strategy and goals" ;
   fo:hasExample "One of the goal of service delivery of a data center is increase the time to availability from 95% to 99.5% in the next year. This strategy need a timeline of gradual improvement and KPIs to measure quality of service" ;
   fo:hasSynonym "service governance" ;
   fo:hasSynonym "service strategy" ;
   rdfs:label "Establish Service Governance And Strategy" ;
 .
-<http://fhnw.ch/functionalOntology#9.1.7PlanMaterialInflow>
+<http://fhnw.ch/functionalOntology#9.1.7.PlanMaterialInflow>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#9.1.manageOperationFunction> ;
   fo:hasDefinition "Plan, manage and monitor flow of inbound material (raw material) for production as well as control return parts" ;
   fo:hasExample "Plans that answer questions like: how should the inflow process look like, when can we receive the materials, what can we do if the material does not reach us, what action to take when parts are returned" ;
   fo:hasSynonym "inbound material" ;
@@ -2405,6 +2455,7 @@ approve or deny the transaction; and the originator being notified and payment a
 .
 <http://fhnw.ch/functionalOntology#9.2.1.DevelopSourcingStrategy>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#9.2.SourceMaterials> ;
   fo:hasDefinition "Creation of strategy for sourcing materials from suppliers" ;
   fo:hasExample """* Direct purchase: Sending a Request for Proposal (RFP) or a Request for Quote (RFQ) to select suppliers. 
 * Acquisition: Purchasing from a desirable supplier. 
@@ -2414,6 +2465,7 @@ approve or deny the transaction; and the originator being notified and payment a
 .
 <http://fhnw.ch/functionalOntology#9.2.2.SelectSupplierAndMaintainContract>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#9.2.SourceMaterials> ;
   fo:hasDefinition "The potential suppliers are assessed and the most suitable one(s) are chosen. These suppliers are then contacted and a contract is signed. For old suppliers, contracts are reviewed, maintained or changed depending on the organization's situation" ;
   fo:hasExample "The company send a reuest for purchase to potential suppliers and select the one with the best price for them. This supplier then receives a contract including quantity, time, amount to pay and other terms." ;
   fo:hasSynonym "maintain contract" ;
@@ -2422,12 +2474,14 @@ approve or deny the transaction; and the originator being notified and payment a
 .
 <http://fhnw.ch/functionalOntology#9.2.3.OrderMaterialOrService>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#9.2.SourceMaterials> ;
   fo:hasDefinition "Create and approve requisitions and distribute purchase orders accordingly" ;
   fo:hasSynonym "purchase order" ;
   rdfs:label "Order Material Or Service" ;
 .
 <http://fhnw.ch/functionalOntology#9.2.4.ManageSuppliers>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#9.2.SourceMaterials> ;
   fo:hasDefinition "Collect information in order to track and rate suppliers" ;
   fo:hasExample "A company has their own system to rate supplier based on the past data like number of late payment, number of defects, etc. By doing this, the company is able to detect which supplier is the trouble and can plan to replace the suppier. Other suppliers need to be kept in relationship" ;
   fo:hasSynonym "supplier relationship management" ;
@@ -2446,6 +2500,7 @@ approve or deny the transaction; and the originator being notified and payment a
 .
 <http://fhnw.ch/functionalOntology#9.3.1.ScheduleProduction>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#9.3.Produce/Assemble/TestProducts> ;
   fo:hasDefinition "Using scheduling calculation (forward/ backward) to forecast the amount of work to be done and thus, generate schedule for production" ;
   fo:hasExample "Christmas decorations are only sold in chritsmas time, but in this time, they are demanded especially a lot. Therefore, the producer must have a plan to produce these products already during the year in order to avoid overload production" ;
   fo:hasSynonym "schedule production" ;
@@ -2453,12 +2508,14 @@ approve or deny the transaction; and the originator being notified and payment a
 .
 <http://fhnw.ch/functionalOntology#9.3.2.ProduceProducts>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#9.3.Produce/Assemble/TestProducts> ;
   fo:hasDefinition "According to schedule, the products are produced and based on the production situation, the schedule is adjusted" ;
   fo:hasSynonym "production" ;
   rdfs:label "Produce/ Assemble Product" ;
 .
 <http://fhnw.ch/functionalOntology#9.3.3.PerformQualityTesting>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#9.3.Produce/Assemble/TestProducts> ;
   fo:hasDefinition "Testing phase of product in order to garantie that the product meets quality standards" ;
   fo:hasExample "Helmet products, after the production and before being transported to distributors, must go through a testing phase in order to check that they meet all requirement about protecting the head in strong collision situation" ;
   fo:hasSynonym "Product test" ;
@@ -2475,6 +2532,7 @@ approve or deny the transaction; and the originator being notified and payment a
 .
 <http://fhnw.ch/functionalOntology#9.4.1.DevelopLogisticGovernance>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#9.4.ManageLogisticAndWarehousing> ;
   fo:hasDefinition "Outline strategy for managing logistics" ;
   fo:hasExample "Design logistic network, optimize transportation time and cost, etc." ;
   fo:hasSynonym "Logistic" ;
@@ -2482,6 +2540,7 @@ approve or deny the transaction; and the originator being notified and payment a
 .
 <http://fhnw.ch/functionalOntology#9.4.2.OperateWarehousing>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#9.4.ManageLogisticAndWarehousing> ;
   fo:hasDefinition "Track and control inventory, product availability, product transfer, or control outsourced warehouses" ;
   fo:hasExample "Migros - the biggest supermarket retailer in Switzerland, has their own warehousing company called Neuendorf AG for their near/ non-ffod products. They have responsibility to store inventories, check product availability, transfer products to respective supermarket." ;
   fo:hasSynonym "warehousing" ;
@@ -2489,6 +2548,7 @@ approve or deny the transaction; and the originator being notified and payment a
 .
 <http://fhnw.ch/functionalOntology#9.4.3.OperateOutboundTransportation>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#9.4.ManageLogisticAndWarehousing> ;
   fo:hasDefinition "Transporting inventories/ products from production site/ warehouse to respective stores/ customers" ;
   fo:hasExample "Companies might use their own tansportation system (cars, trucks, etc) to transport the products, or they can outsource the transportation process to a logistic company. Shops on Amazon can choose Amazon's global logistics to deliver their prodcuts and they will pay a fee for that." ;
   fo:hasSynonym "outbound transportation" ;
@@ -2505,6 +2565,7 @@ approve or deny the transaction; and the originator being notified and payment a
 .
 <http://fhnw.ch/functionalOntology#9.5.1.ManageServiceDemand>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#9.5.ManageServiceDelivery> ;
   fo:hasDefinition "Predict demand for service based on previsous numbers" ;
   fo:hasExample "Using demand anomalitiesand analysis tool in order to forecast demand for the next year/ seasonal demand" ;
   fo:hasSynonym "predict service demand" ;
@@ -2512,6 +2573,7 @@ approve or deny the transaction; and the originator being notified and payment a
 .
 <http://fhnw.ch/functionalOntology#9.5.2.ManageServiceResource>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#9.5.ManageServiceDelivery> ;
   fo:hasDefinition "Definine which resource needed for the service, create a plan to acquire and manage resource as well as prepare for training " ;
   fo:hasExample "A Datacenter develivers to their customer Amazon Webservice (AWS) products. They need to know how it works (with trainings) and create a plan of demand from their customer to the products" ;
   fo:hasSynonym "service resource" ;
@@ -2527,6 +2589,7 @@ approve or deny the transaction; and the originator being notified and payment a
 .
 <http://fhnw.ch/functionalOntology#9.6.1.InitiateServiceDelivery>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#9.6.DeliverService> ;
   fo:hasDefinition "Before the service is delivered, contracts are reviewed, environmental readiness are confirmed, engagement rules are established" ;
   fo:hasExample "Before the service is delivered, contracts are reviewed, environmental readiness are confirmed, engagement rules are established" ;
   fo:hasSynonym "Confirm service readiness" ;
@@ -2534,6 +2597,7 @@ approve or deny the transaction; and the originator being notified and payment a
 .
 <http://fhnw.ch/functionalOntology#9.6.2.DeliverService>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#9.6.DeliverService> ;
   fo:hasDefinition "Delivery process from the providers to the customers" ;
   fo:hasExample """Two ways of service delivery:
 Customers Visit the Service Site: Traffic and pedestrian counts are used to establish how many prospective customers pass certain locations each day. Construction of a new highway or the introduction of new rail or bus service may have a significant effect on travel patterns and, in turn, determine which sites are now more desirable and which, less so.
@@ -2542,6 +2606,7 @@ Providers Come to the Customer: Australia is famous for its Royal Flying Doctor 
 .
 <http://fhnw.ch/functionalOntology#9.6.3.CompleteServiceDelivery>
   rdf:type fo:Level-3-Processes ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#9.6.DeliverService> ;
   fo:hasDefinition "Finalization of service delivery, final assessment of service quality and requirement met as well as archive project documents" ;
   fo:hasSynonym "Finalize service delivery" ;
   rdfs:label "Complete Service Delivery" ;
@@ -2596,10 +2661,6 @@ fo:Level-3-Processes
   fo:hasSynonym "Synonym" ;
   rdfs:label "Processes" ;
   rdfs:subClassOf fo:AnhsFunction ;
-.
-fo:Level-3-Processes_1
-  rdf:type fo:Level-3-Processes ;
-  rdfs:label "is Connected With APQC" ;
 .
 fo:hasDefinition
   rdf:type owl:DatatypeProperty ;
