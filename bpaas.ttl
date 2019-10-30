@@ -151,7 +151,7 @@
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.2.DevelopBusinessStrategy> ;
 .
 <http://ikm-group.ch/archiMEO/bdata#Business_Intelligence_by_Tribal>
-  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.1.1ConductMarketAndCustomerAnalysis> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.1.1.ConductMarketAndCustomerAnalysis> ;
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.1.AssessMarketAndCustomers> ;
 .
 <http://ikm-group.ch/archiMEO/bdata#CTrack_Case_Management_System>
@@ -169,6 +169,36 @@
 .
 <http://ikm-group.ch/archiMEO/bdata#CaptureStroke_Data_Collection_and_Clinical_Management_System>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.1.7.ManageCollections> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Casserole_Club>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#9.1.4.ManageDistribution> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#9.1.manageOperationFunction> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#ChangeDirector_SaaS>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#10.3.2.ManageAssetMaintainance> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#10.3.MaintainProductiveAsset> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Citizen_Space>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#9.1.2.ManageDemandForProducts> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#9.1.manageOperationFunction> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Citrix_NetScaler_VPX>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#7.0.ResearchAndDevelopment> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Civica_Legal_Matter_Management_and_Document_Management>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#5.0.PulicRelationManagement> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#5.5.1.ManageLegalService> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#5.5.ManageLEgalAndEthicalIssues> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Civica_Software_Asset_Management_SAM_Managed_Service>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#10.OrganizationAssetManagement> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#ClockWork>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#5.0.PulicRelationManagement> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Commissioner_BI_Accelerator>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.2.1.BudgetingAndForecasting> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.2.FinancialRiskManagement> ;
 .
 apqc:AmericanProductivityAndQualityCenter
   rdfs:subClassOf <http://ikm-group.ch/archiMEO/nco#Category> ;
