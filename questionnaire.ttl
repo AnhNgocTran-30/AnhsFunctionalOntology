@@ -7,8 +7,94 @@
 @prefix questionnaire: <http://ikm-group.ch/archiMEO/questionnaire#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sp: <http://spinrdf.org/sp#> .
+@prefix spin: <http://spinrdf.org/spin#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+<http://fhnw.ch/functionalOntology#Level-1-Functions>
+  spin:query [
+      rdf:type sp:Select ;
+      sp:resultVariables (
+          [
+            sp:varName "cs" ;
+          ]
+        ) ;
+      sp:where (
+          [
+            sp:object [
+                sp:varName "FO" ;
+              ] ;
+            sp:predicate <http://ikm-group.ch/archimeo/bpaas#CloudServiceIsAnnotatedWithFunctionalOntology> ;
+            sp:subject [
+                sp:varName "cs" ;
+              ] ;
+          ]
+          [
+            sp:object <http://fhnw.ch/functionalOntology#Level-1-Functions> ;
+            sp:predicate rdf:type ;
+            sp:subject [
+                sp:varName "FO" ;
+              ] ;
+          ]
+        ) ;
+    ] ;
+.
+<http://fhnw.ch/functionalOntology#Level-2-Sub-functions>
+  spin:query [
+      rdf:type sp:Select ;
+      sp:resultVariables (
+          [
+            sp:varName "cs" ;
+          ]
+        ) ;
+      sp:where (
+          [
+            sp:object [
+                sp:varName "FO" ;
+              ] ;
+            sp:predicate <http://ikm-group.ch/archimeo/bpaas#CloudServiceIsAnnotatedWithFunctionalOntology> ;
+            sp:subject [
+                sp:varName "cs" ;
+              ] ;
+          ]
+          [
+            sp:object <http://fhnw.ch/functionalOntology#Level-2-Sub-functions> ;
+            sp:predicate rdf:type ;
+            sp:subject [
+                sp:varName "FO" ;
+              ] ;
+          ]
+        ) ;
+    ] ;
+.
+<http://fhnw.ch/functionalOntology#Level-3-Processes>
+  spin:query [
+      rdf:type sp:Select ;
+      sp:resultVariables (
+          [
+            sp:varName "cs" ;
+          ]
+        ) ;
+      sp:where (
+          [
+            sp:object [
+                sp:varName "FO" ;
+              ] ;
+            sp:predicate <http://ikm-group.ch/archimeo/bpaas#CloudServiceIsAnnotatedWithFunctionalOntology> ;
+            sp:subject [
+                sp:varName "cs" ;
+              ] ;
+          ]
+          [
+            sp:object <http://fhnw.ch/functionalOntology#Level-3-Processes> ;
+            sp:predicate rdf:type ;
+            sp:subject [
+                sp:varName "FO" ;
+              ] ;
+          ]
+        ) ;
+    ] ;
+.
 <http://ikm-group.ch/archiMEO/questionnaire>
   rdf:type owl:Ontology ;
   owl:imports <http://ikm-group.ch/archiMEO/bdata> ;
