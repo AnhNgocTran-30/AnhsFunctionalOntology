@@ -637,6 +637,7 @@ Sustain awareness and engagement""" ;
   fo:hasExample "All aspects relating to Human Resource Management can include: performance management, compensation management, talent management" ;
   fo:hasSynonym "HR" ;
   fo:hasSynonym "HRM" ;
+  fo:isReferencedToFramework "<http://ikm-group.ch/archimeo/apqc#7_0_Develop_and_Manage_Human_Capital_10007>" ;
   fo:isReferencedToFramework "https://github.com/AnhNgocTran-30/AnhsFunctionalOntology/tree/master/Related%20Literature/02.%20HRM" ;
   rdfs:label "HumanResourceManagement" ;
 .
@@ -857,6 +858,8 @@ Day 5: Culture day""" ;
   fo:hasExample "Some processe belonging to IT management can be: IT strategy management, manage incidents, manage problems, helpdesk, etc." ;
   fo:hasSynonym " Computer and Information Systems Management" ;
   fo:hasSynonym "ITM" ;
+  fo:isReferencedToFramework "<http://ikm-group.ch/archimeo/apqc#8_0_Manage_Information_Technology__IT__10008>" ;
+  fo:isReferencedToFramework "https://github.com/AnhNgocTran-30/AnhsFunctionalOntology/tree/master/Related%20Literature/03.ITM" ;
   rdfs:label "Information Technology (IT) Management" ;
 .
 <http://fhnw.ch/functionalOntology#3.1.1.ManageITCustomerRelationship>
@@ -1166,6 +1169,12 @@ Which security guideline: ISO 27K, COBIT, NIST, PSR, ASD 8""" ;
 .
 <http://fhnw.ch/functionalOntology#4.0RiskAndComplianceManagement>
   rdf:type fo:Level-1-Functions ;
+  fo:hasDefinition "Risk management is predicting and managing risks that could hinder the organization from reliably achieving its objectives under uncertainty. Compliance refers to adhering with the mandated boundaries (laws and regulations) and voluntary boundaries (company's policies, procedures, etc.)" ;
+  fo:hasExample "Some processes in this function can be manage and mitigate enterprise risks, manage compliance, manage internal and external audit, etc." ;
+  fo:hasSynonym "GRC" ;
+  fo:hasSynonym "Governance, risk management, and compliance" ;
+  fo:isReferencedToFramework "<http://ikm-group.ch/archimeo/apqc#11_0_Manage_Enterprise_Risk_Compliance_Remediation_and_Resiliency_16437>" ;
+  fo:isReferencedToFramework "https://aws.amazon.com/blogs/security/scaling-a-governance-risk-and-compliance-program-for-the-cloud/" ;
   rdfs:label "Risk and compliance management" ;
 .
 <http://fhnw.ch/functionalOntology#4.1.1.EstablishEnterpriseRiskFrameworkAndPolicies>
@@ -1319,6 +1328,9 @@ Implement risks management tools\"""" ;
 .
 <http://fhnw.ch/functionalOntology#5.0.PulicRelationManagement>
   rdf:type fo:Level-1-Functions ;
+  fo:hasDefinition "Public relation management is managing the spread of information between an organization (such as a business, government agency, or a nonprofit organization) and the public." ;
+  fo:hasExample "Some processes within this function can be manage relationship with stakeholders, managerelationship with media, manage relationship with bsuiness associations and competitors" ;
+  fo:hasSynonym "PR management" ;
   rdfs:label "Public Relation Management" ;
 .
 <http://fhnw.ch/functionalOntology#5.1.1ManageRelationshipWIthBoardOfDirectors>
@@ -1464,6 +1476,10 @@ Typical lenders are banks, financial institutions, etc.""" ;
 .
 <http://fhnw.ch/functionalOntology#6.0.FinanceAndAccounting>
   rdf:type fo:Level-1-Functions ;
+  fo:hasDefinition "Accounting is the recording of financial transactions for informational and reporting purposes. Finance is the use of accounting information to make investment and monetary decisions required to operate and grow a business." ;
+  fo:hasExample "Some processes in this function can include: Account Payable (AP), Account Receivable (AR), Cost analysis, Internal Audit, etc." ;
+  fo:hasSynonym "F&A" ;
+  fo:isReferencedToFramework "<http://ikm-group.ch/archimeo/apqc#9_0_Manage_Financial_Resources_17058>" ;
   rdfs:label "Finance and Accounting" ;
 .
 <http://fhnw.ch/functionalOntology#6.1.1.AccountPayable>
