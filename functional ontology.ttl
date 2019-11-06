@@ -637,6 +637,7 @@ Sustain awareness and engagement""" ;
   fo:hasExample "All aspects relating to Human Resource Management can include: performance management, compensation management, talent management" ;
   fo:hasSynonym "HR" ;
   fo:hasSynonym "HRM" ;
+  fo:isReferencedToFramework "https://github.com/AnhNgocTran-30/AnhsFunctionalOntology/tree/master/Related%20Literature/02.%20HRM" ;
   rdfs:label "HumanResourceManagement" ;
 .
 <http://fhnw.ch/functionalOntology#2.1.1.DevelopHRStrategy>
@@ -852,6 +853,10 @@ Day 5: Culture day""" ;
 .
 <http://fhnw.ch/functionalOntology#3.0.InformationTechnologyManagement>
   rdf:type fo:Level-1-Functions ;
+  fo:hasDefinition "IT management deals with all the management of computer-based activities within an organization" ;
+  fo:hasExample "Some processe belonging to IT management can be: IT strategy management, manage incidents, manage problems, helpdesk, etc." ;
+  fo:hasSynonym " Computer and Information Systems Management" ;
+  fo:hasSynonym "ITM" ;
   rdfs:label "Information Technology (IT) Management" ;
 .
 <http://fhnw.ch/functionalOntology#3.1.1.ManageITCustomerRelationship>
