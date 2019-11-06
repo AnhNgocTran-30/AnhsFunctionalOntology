@@ -278,7 +278,7 @@ Mission statement of Prezi: Prezi: To reinvent how people share knowledge, tell 
 .
 <http://fhnw.ch/functionalOntology#1.4.ManageAndMeasureStrategicInitiatives>
   rdf:type fo:Level-2-Sub-functions ;
-  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#10.OrganizationAssetManagement> ;
+  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#1.0.StrategicManagement> ;
   fo:hasDefinition "When strategic initiatives are set, they are controlled, measured and adapted in a regular basis" ;
   fo:hasExample "Usage of KPIs to measure strategic initiatives, review the initiatives quarterly" ;
   fo:hasSynonym "Implementation schedule" ;
@@ -475,6 +475,15 @@ Sustain awareness and engagement""" ;
   fo:hasSynonym "Knowledge Management" ;
   rdfs:label "Manage enterprise-wide knowledge management capability" ;
 .
+<http://fhnw.ch/functionalOntology#10.0.OrganizationAssetManagement>
+  rdf:type fo:Level-1-Functions ;
+  fo:hasDefinition "The Asset Management SUnction provides resources and expertise to support the acquisition, in-service support and disposal of the physical assets required by the organization" ;
+  fo:hasExample "Asset management in a company can range from in sizes: from building blocks, big machinary to small office supplies like paper, pens, files, etc. This function is in charge of assessing new assets, maintaining productive assets as well as dispose unproductive assets." ;
+  fo:hasSynonym "Asset management" ;
+  fo:isReferencedToFramework "<http://ikm-group.ch/archimeo/apqc#10_0_Acquire_Construct_and_Manage_Assets_19207>" ;
+  fo:isReferencedToFramework "The Asset Management Function. (2010). Physical Asset Management, 13–26. doi:10.1007/978-1-84882-751-6_2" ;
+  rdfs:label "Organization Asset Management" ;
+.
 <http://fhnw.ch/functionalOntology#10.1.1.DevelopAssetStrategy>
   rdf:type fo:Level-3-Processes ;
   fo:IsProcessOf <http://fhnw.ch/functionalOntology#10.1.PlanAndAcquireAsset> ;
@@ -502,7 +511,7 @@ Sustain awareness and engagement""" ;
 .
 <http://fhnw.ch/functionalOntology#10.1.PlanAndAcquireAsset>
   rdf:type fo:Level-2-Sub-functions ;
-  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#10.OrganizationAssetManagement> ;
+  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#10.0.OrganizationAssetManagement> ;
   fo:hasDefinition "Based on the organization's overall strategy, needs for new asset or disposal of assets are assessed. Timeline for the activities are develivered as well as stakeholders are mentioned" ;
   fo:hasExample "If the organization's strategy is to open a new production site in Solothurn, Switzerland in the next 3 years, they need to plan which land they want to buy, how much money they can afford, which devision whill be transffered, who will be the project lead, etc." ;
   fo:hasSynonym "Asset strategy" ;
@@ -542,7 +551,7 @@ Sustain awareness and engagement""" ;
 .
 <http://fhnw.ch/functionalOntology#10.2.ConstructProductiveAssets>
   rdf:type fo:Level-2-Sub-functions ;
-  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#10.OrganizationAssetManagement> ;
+  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#10.0.OrganizationAssetManagement> ;
   fo:hasDefinition "Design, construct and manage productive assets based on asset management strategy" ;
   fo:hasExample "If a company acquires a new land to for their new production site, they must have a plan of how to construct that production site, schedule the construction as well as manage the construction's quality" ;
   fo:hasSynonym "Design assets" ;
@@ -574,7 +583,7 @@ Sustain awareness and engagement""" ;
 .
 <http://fhnw.ch/functionalOntology#10.3.MaintainProductiveAsset>
   rdf:type fo:Level-2-Sub-functions ;
-  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#10.OrganizationAssetManagement> ;
+  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#10.0.OrganizationAssetManagement> ;
   fo:hasDefinition "Performance of maintainance work in order to preserve the productive assets" ;
   fo:hasExample "A company's car needed to be maintained after 10'000 km of running. This maintainance need to have a schedule and people working in this sub-function need to schedule the appointment, bring the car to the maintaince site and check the progress." ;
   fo:hasSynonym "asset maintainance" ;
@@ -615,19 +624,19 @@ Sustain awareness and engagement""" ;
 .
 <http://fhnw.ch/functionalOntology#10.4.DisposeAsset>
   rdf:type fo:Level-2-Sub-functions ;
-  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#10.OrganizationAssetManagement> ;
+  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#10.0.OrganizationAssetManagement> ;
   fo:hasDefinition "When the asset is out of order, or when it does not contribute value to the organization anymore, it will be disposed. This process need to have different exist strategy for different kinds of assets" ;
   fo:hasExample "A building can be re-rented, while a machine can be sold to the third country that needs it" ;
   fo:hasSynonym "asset disposal" ;
   fo:hasSynonym "selling assets" ;
   rdfs:label "Dispose Assets" ;
 .
-<http://fhnw.ch/functionalOntology#10.OrganizationAssetManagement>
-  rdf:type fo:Level-1-Functions ;
-  rdfs:label "Organization Asset Management" ;
-.
 <http://fhnw.ch/functionalOntology#2.0.HumanResourceManagement>
   rdf:type fo:Level-1-Functions ;
+  fo:hasDefinition "Human Resource Management aims at effective management of people in an organization in order to gain competitive advantage." ;
+  fo:hasExample "All aspects relating to Human Resource Management can include: performance management, compensation management, talent management" ;
+  fo:hasSynonym "HR" ;
+  fo:hasSynonym "HRM" ;
   rdfs:label "HumanResourceManagement" ;
 .
 <http://fhnw.ch/functionalOntology#2.1.1.DevelopHRStrategy>
