@@ -1528,6 +1528,7 @@ Typical lenders are banks, financial institutions, etc.""" ;
   fo:IsProcessOf <http://fhnw.ch/functionalOntology#6.1.ProcessTransaction> ;
   fo:hasDefinition "The process of preparing accounts for tax reasons" ;
   fo:hasExample "Prepare tax returns, prepare foreign taxes, calculate deffered taxes, account for taxes" ;
+  fo:hasSynonym "Tax accounting" ;
   fo:hasSynonym "taxation" ;
   rdfs:label "Conduct Tax Accounting" ;
 .
@@ -1707,6 +1708,7 @@ Rport Accounting Period""" ;
   fo:IsProcessOf <http://fhnw.ch/functionalOntology#6.2.FinancialRiskManagement> ;
   fo:hasDefinition "The process of interpreting tax codes according to regulation." ;
   fo:hasExample "Fixed-asset taxes, profit taxes, etc." ;
+  fo:hasSynonym "Tax compliance" ;
   rdfs:label "Conduct Tax Regulatory" ;
 .
 <http://fhnw.ch/functionalOntology#6.2.FinancialRiskManagement>
@@ -1724,8 +1726,8 @@ Rport Accounting Period""" ;
   fo:IsProcessOf <http://fhnw.ch/functionalOntology#6.3.DecisionSupport> ;
   fo:hasDefinition "Analze cost-related activities in order to optimize costs for the next year" ;
   fo:hasExample "Cost of inventory" ;
+  fo:hasExample "cost of good produced" ;
   fo:hasExample "cost of good sold" ;
-  fo:hasExample "vost of good produced" ;
   fo:hasSynonym "cost" ;
   rdfs:label "Cost Analysis" ;
 .
@@ -1735,6 +1737,7 @@ Rport Accounting Period""" ;
   fo:hasDefinition "Assess product feasibility, profitability, consistency. Check the completion of financial milestones" ;
   fo:hasExample "Optimize customer and product mix" ;
   fo:hasExample "Perform life cycle costing" ;
+  fo:hasSynonym "business performance" ;
   rdfs:label "Analyze Business Performance" ;
 .
 <http://fhnw.ch/functionalOntology#6.3.3.AsessNewBusinessAndProducts>
@@ -1752,6 +1755,7 @@ Rport Accounting Period""" ;
   fo:hasDefinition "Prepare all necessary reports for the strategic decisions" ;
   fo:hasExample "Perform variance analysis against forecasts and budgets" ;
   fo:hasExample "Prepare periodic financial forecasts" ;
+  fo:hasSynonym "support strategic planning" ;
   rdfs:label "Support Strategic Planning" ;
 .
 <http://fhnw.ch/functionalOntology#6.3.5.ManageInternationalServices>
