@@ -1167,7 +1167,7 @@ Which security guideline: ISO 27K, COBIT, NIST, PSR, ASD 8""" ;
   fo:hasSynonym "IT operation" ;
   rdfs:label "Manage IT Operation" ;
 .
-<http://fhnw.ch/functionalOntology#4.0RiskAndComplianceManagement>
+<http://fhnw.ch/functionalOntology#4.0.RiskAndComplianceManagement>
   rdf:type fo:Level-1-Functions ;
   fo:hasDefinition "Risk management is predicting and managing risks that could hinder the organization from reliably achieving its objectives under uncertainty. Compliance refers to adhering with the mandated boundaries (laws and regulations) and voluntary boundaries (company's policies, procedures, etc.)" ;
   fo:hasExample "Some processes in this function can be manage and mitigate enterprise risks, manage compliance, manage internal and external audit, etc." ;
@@ -1214,7 +1214,7 @@ Implement risks management tools\"""" ;
 .
 <http://fhnw.ch/functionalOntology#4.1.ManageEnterpriseRisks>
   rdf:type fo:Level-2-Sub-functions ;
-  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#4.0RiskAndComplianceManagement> ;
+  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#4.0.RiskAndComplianceManagement> ;
   fo:hasDefinition "The process of soping enterprise risks as well as mitigation plans to these risks" ;
   fo:hasExample "Enterprise using risk matrix in order to identify which risks are highly destructive (likely to occur and have severe impacts) and which risks are not important (not likely to occur or does not have severe impacts)" ;
   fo:hasSynonym "risk strategy" ;
@@ -1239,7 +1239,7 @@ Implement risks management tools\"""" ;
 .
 <http://fhnw.ch/functionalOntology#4.2.ManageCompliance>
   rdf:type fo:Level-2-Sub-functions ;
-  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#4.0RiskAndComplianceManagement> ;
+  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#4.0.RiskAndComplianceManagement> ;
   fo:hasDefinition "The process of identifying compliance frameworks, issues that an organization  need to accomplish as well as difficulties in accomplish the compliance framework" ;
   fo:hasExample "In the U.S, public companies (companies listed on the stock exchange) and non profit organizations are obligated to have external audits. SME do not have the obligation to do so" ;
   fo:hasSynonym "Compliance" ;
@@ -1289,7 +1289,7 @@ Implement risks management tools\"""" ;
 .
 <http://fhnw.ch/functionalOntology#4.3.ManageMitigationEfforts>
   rdf:type fo:Level-2-Sub-functions ;
-  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#4.0RiskAndComplianceManagement> ;
+  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#4.0.RiskAndComplianceManagement> ;
   fo:hasDefinition "For critical risks (risks that have severe impacts and is likely to happen), mitigation plans need to be in place in case it does happen in reality. This mitigation plan needed to be controlled, followed and adjusted" ;
   fo:hasExample "For natural disaster risks for IT (an earthquake could shut down the IT system in the organization), the organization need to have different databases in different places in the world." ;
   fo:hasSynonym "Mitigation" ;
@@ -1320,7 +1320,7 @@ Implement risks management tools\"""" ;
 .
 <http://fhnw.ch/functionalOntology#4.4.ManageBusinessResilencies>
   rdf:type fo:Level-2-Sub-functions ;
-  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#4.0RiskAndComplianceManagement> ;
+  fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#4.0.RiskAndComplianceManagement> ;
   fo:hasDefinition "The process of rapidly adapt business according to its environment changes" ;
   fo:hasExample "The process of rapidly adapt business according to its environment changes" ;
   fo:hasSynonym "Resiliency" ;
@@ -1778,6 +1778,12 @@ Rport Accounting Period""" ;
 .
 <http://fhnw.ch/functionalOntology#7.0.ResearchAndDevelopment>
   rdf:type fo:Level-1-Functions ;
+  fo:hasDefinition "Research and development (R&D) refers to the activities organizations undertake to innovate and introduce new products and services" ;
+  fo:hasExample "Some sub-functions performed in this function can be: define new products/ service ideas, manage R&D operation, develop new products/ service, test new products, service" ;
+  fo:hasSynonym "Research and technical" ;
+  fo:hasSynonym "technological development (RTD)" ;
+  fo:isReferencedToFramework "<http://ikm-group.ch/archimeo/apqc#2_0_Develop_and_Manage_Products_and_Services_10003>" ;
+  fo:isReferencedToFramework "https://github.com/AnhNgocTran-30/AnhsFunctionalOntology/tree/master/Related%20Literature/07.R%26D" ;
   rdfs:label "Research and Development" ;
 .
 <http://fhnw.ch/functionalOntology#7.1.1.ManageR&DBudget>
