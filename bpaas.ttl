@@ -49,6 +49,9 @@
 <http://ikm-group.ch/archiMEO/bdata#Access_aCloud_Expense>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.1.1.AccountPayable> ;
 .
+<http://ikm-group.ch/archiMEO/bdata#Access_aCloud_Financials>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#9.6.3.CompleteServiceDelivery> ;
+.
 <http://ikm-group.ch/archiMEO/bdata#Advanced_eDiscovery_Storage>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.2.1.ManageIncidents> ;
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.2.2.ManageProblems> ;
@@ -150,6 +153,10 @@
 <http://ikm-group.ch/archiMEO/bdata#Bramble_Hub_Cauwill_Technologies__Herotext>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.2.DevelopBusinessStrategy> ;
 .
+<http://ikm-group.ch/archiMEO/bdata#BravoAdvantage_BravoSolution_Source_to_Pay>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#9.2.1.DevelopSourcingStrategy> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#9.2.ManageSupplyChain> ;
+.
 <http://ikm-group.ch/archiMEO/bdata#Business_Intelligence_by_Tribal>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.1.1.ConductMarketAndCustomerAnalysis> ;
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.1.AssessMarketAndCustomers> ;
@@ -174,6 +181,7 @@
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.1.7.ManageCollections> ;
 .
 <http://ikm-group.ch/archiMEO/bdata#Casserole_Club>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#9.1.1DevelopProductionAndMaterialStrategy> ;
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#9.1.4.ManageDistribution> ;
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#9.1.manageOperationFunction> ;
 .
@@ -225,14 +233,39 @@
 <http://ikm-group.ch/archiMEO/bdata#Financial_Consolidation_and_Close_Cloud_Service>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.2.2.BusinessPerformanceReporting> ;
 .
+<http://ikm-group.ch/archiMEO/bdata#Fusion_Self_Service_Procurement_Cloud_Service>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#9.2.ManageSupplyChain> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Grow_Local>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#9.2.4.ManageSuppliers> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#9.2.ManageSupplyChain> ;
+.
 <http://ikm-group.ch/archiMEO/bdata#Opus_Case_Management_System>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.1.13.ManageCash> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Oracle_Fleet_Management_Cloud_Service>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#9.4.1.DevelopLogisticGovernance> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Oracle_Logistics_Inventory_Visibility_Cloud_Service>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#9.4.3.OperateOutboundTransportation> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Oracle_Transportation_Intelligence_Cloud_Service>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#9.4.1.DevelopLogisticGovernance> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#P2P>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#9.2.3.OrderMaterialOrService> ;
 .
 <http://ikm-group.ch/archiMEO/bdata#Planning_and_Budgeting_Cloud_Service>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.3.4.SupportStrategicPlanning> ;
 .
 <http://ikm-group.ch/archiMEO/bdata#RecordPoint_for_SharePoint_2013_SharePoint_2016_and_Office_365_Hybrid_Cloud>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.1.11.ConductProjectAccounting> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Softools_is_a_Zero_code_App_build_and_deployment_platform>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#9.3.2.ProduceProducts> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Sourcing_Optimisation>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#9.2.2.SelectSupplierAndMaintainContract> ;
 .
 <http://ikm-group.ch/archimeo/apqc#9_2_2_Invoice_customer_10743>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.1.5.ManageAccountReceivable> ;
