@@ -74,6 +74,9 @@
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.8.ManageAfterSaleService> ;
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.9.ManageRecalls> ;
 .
+<http://ikm-group.ch/archiMEO/bdata#Amazon_Route_53>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.0.MarketingAndSales> ;
+.
 <http://ikm-group.ch/archiMEO/bdata#Amazon_WorkMail>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.0.MarketingAndSales> ;
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.10.EvaluateCustomerSatifaction> ;
@@ -96,6 +99,10 @@
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.5.3.DevelopSalesProposals> ;
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.5.4.ManageSalesOrders> ;
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.5.5.ManageSalesPartners> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.5.DevelopAndManageSalesPlan> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Arcus_Local_Government_CRM>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.5.2.ManageCustomerAndAccounts> ;
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.5.DevelopAndManageSalesPlan> ;
 .
 <http://ikm-group.ch/archiMEO/bdata#Armour_Mobile>
@@ -161,6 +168,9 @@
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.1.1.ConductMarketAndCustomerAnalysis> ;
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.1.AssessMarketAndCustomers> ;
 .
+<http://ikm-group.ch/archiMEO/bdata#CRM_Onboarding_Cloud_Service>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.5.2.ManageCustomerAndAccounts> ;
+.
 <http://ikm-group.ch/archiMEO/bdata#CTrack_Case_Management_System>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#5.5.1.ManageLegalService> ;
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#5.5.ManageLEgalAndEthicalIssues> ;
@@ -212,6 +222,9 @@
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.2.FinancialRiskManagement> ;
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.3.4.SupportStrategicPlanning> ;
 .
+<http://ikm-group.ch/archiMEO/bdata#Customer_Relationship_Management_CRM_Public_Sector_CRM>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.5.DevelopAndManageSalesPlan> ;
+.
 <http://ikm-group.ch/archiMEO/bdata#Debt_Management>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.1.7.ManageCollections> ;
 .
@@ -221,11 +234,22 @@
 <http://ikm-group.ch/archiMEO/bdata#Dropbox>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.1.8.BillCustomers> ;
 .
+<http://ikm-group.ch/archiMEO/bdata#Dropbox_Enterprise>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.0.MarketingAndSales> ;
+.
 <http://ikm-group.ch/archiMEO/bdata#EInvoicing>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.1.8.BillCustomers> ;
 .
 <http://ikm-group.ch/archiMEO/bdata#Electronic_Forms_and_CloudBased_Processing_System>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.1.1.AccountPayable> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Eloqua_Business_Intelligence_Cloud_Service>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.2.5.ManageCustomerLoyaltyProgram> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.2.DevelopMarketingStrategy> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Eloqua_Event_Management_Cloud_Service>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.4.1.DevelopSalesStrategy> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.4.DevelopSalesStrategy> ;
 .
 <http://ikm-group.ch/archiMEO/bdata#Enterprise_Performance_Reporting_Cloud_Service>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.1.9.PerformGeneralAccounting> ;
@@ -233,12 +257,18 @@
 <http://ikm-group.ch/archiMEO/bdata#Financial_Consolidation_and_Close_Cloud_Service>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.2.2.BusinessPerformanceReporting> ;
 .
+<http://ikm-group.ch/archiMEO/bdata#Fusion_CRM_Base_Enterprise_Offering_Cloud_Service>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.5.2.ManageCustomerAndAccounts> ;
+.
 <http://ikm-group.ch/archiMEO/bdata#Fusion_Self_Service_Procurement_Cloud_Service>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#9.2.ManageSupplyChain> ;
 .
 <http://ikm-group.ch/archiMEO/bdata#Grow_Local>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#9.2.4.ManageSuppliers> ;
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#9.2.ManageSupplyChain> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Online_Appointment_and_Event_Booking_System_for_Local_Government>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.5.2.ManageCustomerAndAccounts> ;
 .
 <http://ikm-group.ch/archiMEO/bdata#Opus_Case_Management_System>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.1.13.ManageCash> ;
@@ -249,23 +279,82 @@
 <http://ikm-group.ch/archiMEO/bdata#Oracle_Logistics_Inventory_Visibility_Cloud_Service>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#9.4.3.OperateOutboundTransportation> ;
 .
+<http://ikm-group.ch/archiMEO/bdata#Oracle_Social_Marketing_Cloud_Service_Essential_Edition>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.2.5.ManageCustomerLoyaltyProgram> ;
+.
 <http://ikm-group.ch/archiMEO/bdata#Oracle_Transportation_Intelligence_Cloud_Service>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#9.4.1.DevelopLogisticGovernance> ;
 .
 <http://ikm-group.ch/archiMEO/bdata#P2P>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#9.2.3.OrderMaterialOrService> ;
 .
+<http://ikm-group.ch/archiMEO/bdata#PAS_Business_Intelligence_Accelerator>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.5.4.ManageSalesOrders> ;
+.
 <http://ikm-group.ch/archiMEO/bdata#Planning_and_Budgeting_Cloud_Service>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.3.4.SupportStrategicPlanning> ;
 .
+<http://ikm-group.ch/archiMEO/bdata#Profitability_and_Cost_Management_Cloud_Service>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.5.3.DevelopSalesProposals> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.5.DevelopAndManageSalesPlan> ;
+.
 <http://ikm-group.ch/archiMEO/bdata#RecordPoint_for_SharePoint_2013_SharePoint_2016_and_Office_365_Hybrid_Cloud>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.1.11.ConductProjectAccounting> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Salesforce__Communities_Cloud>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.5.2.ManageCustomerAndAccounts> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.5.DevelopAndManageSalesPlan> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Salesforce__Configure_Price_Quote_CPQ>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.5.DevelopAndManageSalesPlan> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Salesforce__Health_Cloud>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.5.2.ManageCustomerAndAccounts> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Salesforce__Lightning_CRM>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.5.DevelopAndManageSalesPlan> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Salesforce__Lightning_Sales_Cloud>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.5.DevelopAndManageSalesPlan> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Salesforce__Lightning_Service_Cloud>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.5.DevelopAndManageSalesPlan> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Salesforce__Marketing_Cloud>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.2.DevelopMarketingStrategy> ;
 .
 <http://ikm-group.ch/archiMEO/bdata#Softools_is_a_Zero_code_App_build_and_deployment_platform>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#9.3.2.ProduceProducts> ;
 .
 <http://ikm-group.ch/archiMEO/bdata#Sourcing_Optimisation>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#9.2.2.SelectSupplierAndMaintainContract> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Traffic_Management_App_with_Signage_Addon>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.3.DevelopMarketingPlan> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#VidMeUp>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.3.DevelopMarketingPlan> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#YMENS_CRM>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.5.DevelopAndManageSalesPlan> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Zipporah_Advance__Hot_Desk_Bookings>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.4.2.DevelopSalesPartners> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.4.DevelopSalesStrategy> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Zipporah_Advance__Pest_Control_Bookings>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.7.2.ManageCustomerRequests,Problems,Inquiries> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.7.ManageCustomerContacts> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#cs24_X_7_Premium_Phone_Support__1_Incident>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.8.3.ManageSupplierRecovery> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.8.ManageAfterSaleService> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#cs24_X_7_Premium_Phone_Support__5_Incident_Pack>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.8.ManageAfterSaleService> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#storm_INTEGRATE_Salesforce>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.5.DevelopAndManageSalesPlan> ;
 .
 <http://ikm-group.ch/archimeo/apqc#9_2_2_Invoice_customer_10743>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.1.5.ManageAccountReceivable> ;
