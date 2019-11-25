@@ -34,6 +34,15 @@
 <http://ikm-group.ch/archiMEO/bdata#ALSO_SMB_WaaS_Subscription__12_Monate>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.3.ManageITOperation> ;
 .
+<http://ikm-group.ch/archiMEO/bdata#ALSO_SMB_WaaS_Subscription__24_Monate>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.1.4.DevelopITArchitecture> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.1.ManageITFunction> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.2.ManageITServices> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#ALSO_SMB_WaaS_Subscription__36_Monate>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.1.4.DevelopITArchitecture> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.1.ManageITFunction> ;
+.
 <http://ikm-group.ch/archiMEO/bdata#API_Connect>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.1.15.DevelopSolutions> ;
 .
@@ -42,6 +51,7 @@
 .
 <http://ikm-group.ch/archiMEO/bdata#Accelerate_Backup_Order>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.2.1.ManageIncidents> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.2.ManageITServices> ;
 .
 <http://ikm-group.ch/archiMEO/bdata#Accellion_Mobile_Productivity_and_Collaboration_kiteworks>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.0.FinanceAndAccounting> ;
@@ -86,6 +96,7 @@
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.9.ManageRecalls> ;
 .
 <http://ikm-group.ch/archiMEO/bdata#AnalytiXagility_Virtual_Desktop_Service>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#4.2.1.EstablishComplianceFrameworkAndPolicies> ;
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#4.2.ManageCompliance> ;
 .
 <http://ikm-group.ch/archiMEO/bdata#ArcGIS_Online>
@@ -107,6 +118,29 @@
 .
 <http://ikm-group.ch/archiMEO/bdata#Armour_Mobile>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.1.3.ManageITRisks> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.1.ManageITFunction> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Assure_Risk_Management_Software_Module_Fire_Risk_Assessment>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#4.1.ManageEnterpriseRisks> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Atrium_Enterprise_Asset_Management_Atrium_EAM_Software_Solution>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.1.4.DevelopITArchitecture> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.1.ManageITFunction> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Audio_Conferencing_for_faculty>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.1.4.DevelopITArchitecture> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.1.ManageITFunction> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Azure_Active_Directory_Premium_P1>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.1.4.DevelopITArchitecture> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.1.ManageITFunction> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Azure_Active_Directory_Premium_P2_Government_Pricing>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.3.3.ManageConfiguration> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#BaaS_Reseller_Administrator>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.3.3.ManageConfiguration> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.3.ManageITOperation> ;
 .
 <http://ikm-group.ch/archiMEO/bdata#BacsActive_Enterpise_Solution>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.0.FinanceAndAccounting> ;
@@ -143,6 +177,9 @@
 <http://ikm-group.ch/archiMEO/bdata#Bare_Metal_Server>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.0.InformationTechnologyManagement> ;
 .
+<http://ikm-group.ch/archiMEO/bdata#Barracuda_Next_Generation_and_Web_Application_Firewall>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.1.ManageITFunction> ;
+.
 <http://ikm-group.ch/archiMEO/bdata#Be_Informed_Platform>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.5.1.DefineProcesses> ;
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.5.2.DefineProcess> ;
@@ -154,19 +191,32 @@
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.1.2.DevelopITBusinessStrategy> ;
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#4.1.2.AssessEnterpriseRisks> ;
 .
+<http://ikm-group.ch/archiMEO/bdata#Blockchain>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.0.InformationTechnologyManagement> ;
+.
 <http://ikm-group.ch/archiMEO/bdata#Brainloop_BoardRoom>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#5.1.1ManageRelationshipWIthBoardOfDirectors> ;
 .
 <http://ikm-group.ch/archiMEO/bdata#Bramble_Hub_Cauwill_Technologies__Herotext>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.2.DevelopBusinessStrategy> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.6.2.DefineCustomerServiceExperience> ;
 .
 <http://ikm-group.ch/archiMEO/bdata#BravoAdvantage_BravoSolution_Source_to_Pay>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#9.2.1.DevelopSourcingStrategy> ;
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#9.2.ManageSupplyChain> ;
 .
+<http://ikm-group.ch/archiMEO/bdata#BusinessOptix_Business_and_Process_Modelling_for_Digital_Transformation_and_Business_Operations>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.5.ManageBusinessProcesses> ;
+.
 <http://ikm-group.ch/archiMEO/bdata#Business_Intelligence_by_Tribal>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.1.1.ConductMarketAndCustomerAnalysis> ;
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.1.AssessMarketAndCustomers> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Business_Rules>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.0.MarketingAndSales> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#CGI__Security_Operations_Centre_SOC>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.1.ManageITFunction> ;
 .
 <http://ikm-group.ch/archiMEO/bdata#CRM_Onboarding_Cloud_Service>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.5.2.ManageCustomerAndAccounts> ;
@@ -222,11 +272,36 @@
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.2.FinancialRiskManagement> ;
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.3.4.SupportStrategicPlanning> ;
 .
+<http://ikm-group.ch/archiMEO/bdata#Content_Delivery_Network>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.1.ManageITFunction> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Custombuilt_elearning_content>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.4.1.EstablishImplementationSchedule> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.4.ManageAndMeasureStrategicInitiatives> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Customer_Effort_Dashboard>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.2.DevelopBusinessStrategy> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.6.2.DefineCustomerServiceExperience> ;
+.
 <http://ikm-group.ch/archiMEO/bdata#Customer_Relationship_Management_CRM_Public_Sector_CRM>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.5.DevelopAndManageSalesPlan> ;
 .
+<http://ikm-group.ch/archiMEO/bdata#DATALYTYX_Assessmint_Shared_Services_360_Assessment>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.2.2.DefineOrganizationalGoals> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.2.DevelopBusinessStrategy> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Darzin_Stakeholder_Relationship_Management_Software_CRMSRMS>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.4.1.EstablishImplementationSchedule> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.4.ManageAndMeasureStrategicInitiatives> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Data_Consolidation_Data_collection_data_cleansing_data_migration>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#7.1.DevelopR&DStrategyAndManageOperation> ;
+.
 <http://ikm-group.ch/archiMEO/bdata#Debt_Management>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.1.7.ManageCollections> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Domain_Name_Service>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#7.0.ResearchAndDevelopment> ;
 .
 <http://ikm-group.ch/archiMEO/bdata#Drive>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.1.8.BillCustomers> ;
@@ -251,21 +326,184 @@
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.4.1.DevelopSalesStrategy> ;
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.4.DevelopSalesStrategy> ;
 .
+<http://ikm-group.ch/archiMEO/bdata#Emis_Web>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#7.1.DevelopR&DStrategyAndManageOperation> ;
+.
 <http://ikm-group.ch/archiMEO/bdata#Enterprise_Performance_Reporting_Cloud_Service>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.1.9.PerformGeneralAccounting> ;
 .
 <http://ikm-group.ch/archiMEO/bdata#Financial_Consolidation_and_Close_Cloud_Service>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.2.2.BusinessPerformanceReporting> ;
 .
+<http://ikm-group.ch/archiMEO/bdata#Formation_Software>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.10.3.EvaluateProcessPerformance> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.10.MeasureAndBenchmark> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#FortiGate_Security_Appliance_10Gbps>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.1.ManageITFunction> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#FortiGate_Security_Appliance_1Gbps>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.1.ManageITFunction> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Funding_and_policy_information_portals>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.6.3.ManageProjects> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.6.ManagePortfolio,Programs,Projects> ;
+.
 <http://ikm-group.ch/archiMEO/bdata#Fusion_CRM_Base_Enterprise_Offering_Cloud_Service>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.5.2.ManageCustomerAndAccounts> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Fusion_Grants_Management_Cloud_Service>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.6.3.ManageProjects> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.6.ManagePortfolio,Programs,Projects> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Fusion_Human_Capital_Management_Base_Cloud_Service>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#2.0.HumanResourceManagement> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Fusion_Partner_Relationship_Management_for_Partners_Cloud_Service>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#5.0.PulicRelationManagement> ;
 .
 <http://ikm-group.ch/archiMEO/bdata#Fusion_Self_Service_Procurement_Cloud_Service>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#9.2.ManageSupplyChain> ;
 .
+<http://ikm-group.ch/archiMEO/bdata#Fusion_Talent_Management_Base_Cloud_Service>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#2.7.2.ManageHRMSystem> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#2.7.ManageEmployeeInformatics> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Fusion_Workforce_Compensation_Cloud_Service>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.8.2.DesignChange> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.8.ManageChange> ;
+.
 <http://ikm-group.ch/archiMEO/bdata#Grow_Local>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#9.2.4.ManageSuppliers> ;
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#9.2.ManageSupplyChain> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Hardware_Firewall>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.1.ManageITFunction> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Hardware_Firewall_Dedicated>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.1.ManageITFunction> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Hearings_Manager>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.1.2.DevelopITBusinessStrategy> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.1.ManageITFunction> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Historic_Buildings_Sites_and_Monuments_Record_system_HBSMR>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#7.1.DevelopR&DStrategyAndManageOperation> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Housing_Options_Pre_Assessment>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#2.2.2.ScreenCandidates> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#2.2.Recruitment> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#IBM_BPM_Business_Process_Manager_on_Cloud_for_Process_Automation>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.5.ManageBusinessProcesses> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#IBM_Blockchain_on_Bluemix__High_Security_Business_Network_HSBN>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.1.2.DevelopITBusinessStrategy> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#IBM_Business_Process_Manager_on_Cloud_BPMoC_for_orchestration_and_automation_SaaS_for_OFFICIAL>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.5.ManageBusinessProcesses> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#IBM_Case_Manager_on_Cloud>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.6.3.ManageProjects> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.6.ManagePortfolio,Programs,Projects> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#IBM_Cloud_Load_Balancer>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#7.0.ResearchAndDevelopment> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#IBM_Data_Centre_Network_Services_for_Cloud>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.1.2.DevelopITBusinessStrategy> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#IBM_Enterprise_Managed_Mobility_EMM>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.1.ManageITFunction> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#IBM_Integration_Bus_on_Cloud_SaaS_for_OFFICIAL>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.1.ManageITFunction> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#IBM_Kenexa_Talent_Acquisition_Suite>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#2.2.Recruitment> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#IBM_MobileFirst_Virtualisation_Services_MVS>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.1.2.DevelopITBusinessStrategy> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.1.ManageITFunction> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#IBM_Operational_Decision_Manager_on_Cloud_ODMOC_SaaS_for_OFFICIAL>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.5.ManageBusinessProcesses> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#IBM_Sterling_File_Transfer_Service>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.1.ManageITFunction> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Ideagen_Covalent>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.6.1.ManagePortfolio> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.6.ManagePortfolio,Programs,Projects> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#4.2.1.EstablishComplianceFrameworkAndPolicies> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#4.2.ManageCompliance> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Internet_of_Things_Platform_Starter>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.0.MarketingAndSales> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#IoT_for_Electronics_Starter>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.0.InformationTechnologyManagement> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Java_Workload_Scheduler_Web_Starter>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.0.InformationTechnologyManagement> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#KnowledgeKube_LowCode_Rapid_Application_Development_Platform>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#7.0.ResearchAndDevelopment> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Kubernetes_Cluster>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.1.ManageITFunction> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#LabGuru>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.7.2.ControlQuality> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.7.ManageEnterpriseQuality> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#LeanPrint>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#7.4.1.DesignPrototype> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#7.4.DevelopProductsAndServices> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Lean_Process_Modeler__We_are_Lean_and_Agile>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.5.1.DefineProcesses> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.5.ManageBusinessProcesses> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Learning_Cloud_Service>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.9.ManageEnterpriseKnowledgeManagement> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Local_Load_Balancer>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#7.0.ResearchAndDevelopment> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Love_Clean_Streets>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.11.ManageEnvironmentalHealthAndSafety> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Mendix_Rapid_Apps>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.0.InformationTechnologyManagement> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Message_Hub>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.0.InformationTechnologyManagement> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#MinutePad>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#5.2.1.ManageRelationshipWithGovernment> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#5.2.ManageGovernmentAndIndustryRelationship> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#NPS_Housing>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#7.1.DevelopR&DStrategyAndManageOperation> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#7.2.1.ManageR&DProjectsAndPortfolio> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#NPS_Transact__Eligibility_and_Assessment>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#2.2.2.ScreenCandidates> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#2.2.Recruitment> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#NetApp_ONTAP_Select>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.0.InformationTechnologyManagement> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#NodeRED_Starter>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.0.InformationTechnologyManagement> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Nodejs_Cloudant_DB_Web_Starter>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.0.InformationTechnologyManagement> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Objective_for_Licensing>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#5.5.ManageLEgalAndEthicalIssues> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#7.2.2.ManageItellectualProperties> ;
 .
 <http://ikm-group.ch/archiMEO/bdata#Online_Appointment_and_Event_Booking_System_for_Local_Government>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.5.2.ManageCustomerAndAccounts> ;
@@ -279,11 +517,20 @@
 <http://ikm-group.ch/archiMEO/bdata#Oracle_Logistics_Inventory_Visibility_Cloud_Service>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#9.4.3.OperateOutboundTransportation> ;
 .
+<http://ikm-group.ch/archiMEO/bdata#Oracle_RightNow_Instance_Cloud_Service_Instance>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.9.ManageEnterpriseKnowledgeManagement> ;
+.
 <http://ikm-group.ch/archiMEO/bdata#Oracle_Social_Marketing_Cloud_Service_Essential_Edition>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.2.5.ManageCustomerLoyaltyProgram> ;
 .
+<http://ikm-group.ch/archiMEO/bdata#Oracle_Trade_Compliance_Cloud_Service>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#4.2.ManageCompliance> ;
+.
 <http://ikm-group.ch/archiMEO/bdata#Oracle_Transportation_Intelligence_Cloud_Service>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#9.4.1.DevelopLogisticGovernance> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Oracle_Virtual_Private_Network_for_Oracle_RightNow_Cloud_Service_VPN_Connection>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.1.ManageITFunction> ;
 .
 <http://ikm-group.ch/archiMEO/bdata#P2P>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#9.2.3.OrderMaterialOrService> ;
@@ -291,15 +538,51 @@
 <http://ikm-group.ch/archiMEO/bdata#PAS_Business_Intelligence_Accelerator>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.5.4.ManageSalesOrders> ;
 .
+<http://ikm-group.ch/archiMEO/bdata#Personality_Insights_Java_Web_Starter>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.0.InformationTechnologyManagement> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Personality_Insights_Nodejs_Web_Starter>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.0.InformationTechnologyManagement> ;
+.
 <http://ikm-group.ch/archiMEO/bdata#Planning_and_Budgeting_Cloud_Service>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.3.4.SupportStrategicPlanning> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Primavera_Data_Access>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#7.1.1.ManageR&DBudget> ;
 .
 <http://ikm-group.ch/archiMEO/bdata#Profitability_and_Cost_Management_Cloud_Service>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.5.3.DevelopSalesProposals> ;
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.5.DevelopAndManageSalesPlan> ;
 .
+<http://ikm-group.ch/archiMEO/bdata#PublishMyData>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.5.1.DefineProcesses> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.5.ManageBusinessProcesses> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Python_Flask>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.0.InformationTechnologyManagement> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Rally_Round>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#2.3.2.ManagePerformance> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#2.4.1.DevelopCompensationProgram> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#2.4.2.AdministerCompensationBenefitProgram> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#2.4.CompensationManagement> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#2.6.RedeployAndRetirement> ;
+.
 <http://ikm-group.ch/archiMEO/bdata#RecordPoint_for_SharePoint_2013_SharePoint_2016_and_Office_365_Hybrid_Cloud>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#6.1.11.ConductProjectAccounting> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Responsiv_Solutions_IBM_Business_Process_Manager_BPM>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.5.ManageBusinessProcesses> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#SECURITY_ASSESEMENT_SOFTWARE_AS_A_SERVICE>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.1.ManageITFunction> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#SSL_Certificates>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.1.ManageITFunction> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Salesforce__Addons>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.9.1.DevelopKnowledgeManagementStrategy> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.9.ManageEnterpriseKnowledgeManagement> ;
 .
 <http://ikm-group.ch/archiMEO/bdata#Salesforce__Communities_Cloud>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.5.2.ManageCustomerAndAccounts> ;
@@ -323,17 +606,89 @@
 <http://ikm-group.ch/archiMEO/bdata#Salesforce__Marketing_Cloud>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.2.DevelopMarketingStrategy> ;
 .
+<http://ikm-group.ch/archiMEO/bdata#Secure_Portal_for_Communications_Data_Disclosure>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.5.ManageBusinessProcesses> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#SharePoint_Knowledge_Portal>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.9.ManageEnterpriseKnowledgeManagement> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#SharePoint_Online_Business_Process_Automation>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.5.ManageBusinessProcesses> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Sharepoint_Service>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#2.7.1.ManageEmployeeData> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#2.7.ManageEmployeeInformatics> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Skillstream>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#2.6.1.Redeploy/Retire/Promotion/Relocate> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#2.6.RedeployAndRetirement> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#2.7.2.ManageHRMSystem> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#SmartSurvey_Business>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.10.3.EvaluateProcessPerformance> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.10.MeasureAndBenchmark> ;
+.
 <http://ikm-group.ch/archiMEO/bdata#Softools_is_a_Zero_code_App_build_and_deployment_platform>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#9.3.2.ProduceProducts> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Software_License_Optimisation_Service>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#7.0.ResearchAndDevelopment> ;
 .
 <http://ikm-group.ch/archiMEO/bdata#Sourcing_Optimisation>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#9.2.2.SelectSupplierAndMaintainContract> ;
 .
+<http://ikm-group.ch/archiMEO/bdata#SubnetsIps>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#7.0.ResearchAndDevelopment> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#SwiftStack>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#7.2.1.ManageR&DProjectsAndPortfolio> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Taleo_Scheduling_Cloud_Service_B82310>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#2.2.2.ScreenCandidates> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#2.2.Recruitment> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Texuna_Itembank_and_eAssessment>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#2.3.2.ManagePerformance> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#2.3.3.ManageEmployeeDevelopment> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#2.3.PerformanceManagement> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#2.5.Talent_Management> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#2.7.1.ManageEmployeeData> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#2.7.ManageEmployeeInformatics> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Timebase_247>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#2.7.2.ManageHRMSystem> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#2.7.ManageEmployeeInformatics> ;
+.
 <http://ikm-group.ch/archiMEO/bdata#Traffic_Management_App_with_Signage_Addon>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.3.DevelopMarketingPlan> ;
 .
+<http://ikm-group.ch/archiMEO/bdata#VLAN_Spanning>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.0.InformationTechnologyManagement> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#VMware_Cloud_Foundation_on_IBM_Cloud>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.0.InformationTechnologyManagement> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#VMware_vCenter_Server_on_IBM_Cloud>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.0.InformationTechnologyManagement> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#VMware_vSphere_on_IBM_Cloud>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.0.InformationTechnologyManagement> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Verto>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.6.3.ManageProjects> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.6.ManagePortfolio,Programs,Projects> ;
+.
 <http://ikm-group.ch/archiMEO/bdata#VidMeUp>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.3.DevelopMarketingPlan> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Virtual_Router_Appliance>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#7.0.ResearchAndDevelopment> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#WebSphere_Application_Server>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.0.InformationTechnologyManagement> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Workload_Scheduler>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#3.0.InformationTechnologyManagement> ;
 .
 <http://ikm-group.ch/archiMEO/bdata#YMENS_CRM>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.5.DevelopAndManageSalesPlan> ;
@@ -345,6 +700,12 @@
 <http://ikm-group.ch/archiMEO/bdata#Zipporah_Advance__Pest_Control_Bookings>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.7.2.ManageCustomerRequests,Problems,Inquiries> ;
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.7.ManageCustomerContacts> ;
+.
+<http://ikm-group.ch/archiMEO/bdata#Zipporah_Advance__Registrars_Cashbook>
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#2.3.2.ManagePerformance> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#2.3.3.ManageEmployeeDevelopment> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#2.3.PerformanceManagement> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#2.5.Talent_Management> ;
 .
 <http://ikm-group.ch/archiMEO/bdata#cs24_X_7_Premium_Phone_Support__1_Incident>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.8.3.ManageSupplierRecovery> ;
@@ -646,7 +1007,7 @@ bpaas:CloudServiceHasMediaTypeImportExport
 bpaas:CloudServiceIsAnnotatedWithFunctionalOntology
   rdf:type rdf:Property ;
   rdfs:domain bpaas:CloudService ;
-  rdfs:label "BdataOntology" ;
+  rdfs:label "Cloud Services Is Annotated With Functional Ontology" ;
   rdfs:range functionalOntology:FunctionalOntology ;
 .
 bpaas:ConsultingService
