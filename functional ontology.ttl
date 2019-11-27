@@ -2027,7 +2027,6 @@ Pricing and forecast: pricing strategy to go for which pricing strategy
   rdf:type fo:Level-3-Processes ;
   fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.10.EvaluateCustomerSatifaction> ;
   fo:hasDefinition "Evaluate performance of recalls (if happens) and caluclate how recalls effect the business" ;
-  fo:hasExample "Evaluate performance of recalls (if happens) and caluclate how recalls effect the business" ;
   fo:hasSynonym "Evaluate recalls" ;
   rdfs:label "Evaluate Recalls Performance" ;
 .
@@ -2405,7 +2404,7 @@ approve or deny the transaction; and the originator being notified and payment a
   rdf:type fo:Level-3-Processes ;
   fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.9.ManageRecalls> ;
   fo:hasDefinition "This process manages the channels that organization publish their recalls: over official government channels, newspaper, official web page, etc." ;
-  fo:hasExample "This process manages the channels that organization publish their recalls: over official government channels, newspaper, official web page, etc." ;
+  fo:hasExample "If the products went out of the company, the organization will contact the distributors to stop delivering it. If the products went to the end-customers, the organization will communicate in every channels that they can reach the customers: via TV channels, in stores, etc. and explain what happened" ;
   fo:hasSynonym "communicate recalls" ;
   rdfs:label "Communicate Recalls" ;
 .
@@ -2421,7 +2420,7 @@ approve or deny the transaction; and the originator being notified and payment a
   rdf:type fo:Level-3-Processes ;
   fo:IsProcessOf <http://fhnw.ch/functionalOntology#8.9.ManageRecalls> ;
   fo:hasDefinition "The closing of recall process including recall results, recall periods, number of recalled prodcucts, potential problems with unreturend products, next steps, etc. " ;
-  fo:hasExample "The closing of recall process including recall results, recall periods, number of recalled prodcucts, potential problems with unreturend products, next steps, etc. " ;
+  fo:hasExample "When an organization sells to the end customer, they will make a public announcement that the recall is over" ;
   fo:hasSynonym "recall termination" ;
   rdfs:label "Manage Recall Termination" ;
 .
