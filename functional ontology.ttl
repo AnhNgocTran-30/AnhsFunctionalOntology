@@ -1539,7 +1539,7 @@ Typical lenders are banks, financial institutions, etc.""" ;
   fo:hasSynonym "Process taxes" ;
   rdfs:label "Tax Filling And Reporting" ;
 .
-<http://fhnw.ch/functionalOntology#6.1.2.FreightPayment>
+<http://fhnw.ch/functionalOntology#6.1.2.FreighServiceAndCustoms>
   rdf:type fo:Level-3-Processes ;
   fo:IsProcessOf <http://fhnw.ch/functionalOntology#6.1.ProcessTransaction> ;
   fo:hasDefinition "The payment transportation invoices that the company was using during the last financial year" ;
@@ -1551,7 +1551,7 @@ Typical lenders are banks, financial institutions, etc.""" ;
 - Manage exception
 - Make payment for carrier""" ;
   fo:hasSynonym "Freight payment" ;
-  rdfs:label "Freight Payment" ;
+  rdfs:label "Freight Service and Customs" ;
 .
 <http://fhnw.ch/functionalOntology#6.1.3.ProcessPayrollAndExpenses>
   rdf:type fo:Level-3-Processes ;
@@ -1574,7 +1574,7 @@ Typical lenders are banks, financial institutions, etc.""" ;
 <http://fhnw.ch/functionalOntology#6.1.5.ManageAccountReceivable>
   rdf:type fo:Level-3-Processes ;
   fo:IsProcessOf <http://fhnw.ch/functionalOntology#6.1.ProcessTransaction> ;
-  fo:hasDefinition "Accounts receivable is the balance for goods or services delivered or used but not yet paid for by customers." ;
+  fo:hasDefinition "Accounts receivable accounts for all activities that the goods and services are already delivered." ;
   fo:hasExample "An electric company that bills its clients after the clients received the electricity. The electric company records an account receivable for unpaid invoices as it waits for its customers to pay their bills. " ;
   fo:hasSynonym "AR" ;
   rdfs:label "Manage Account Receivable" ;
@@ -1590,7 +1590,7 @@ Typical lenders are banks, financial institutions, etc.""" ;
 <http://fhnw.ch/functionalOntology#6.1.7.ManageCollections>
   rdf:type fo:Level-3-Processes ;
   fo:IsProcessOf <http://fhnw.ch/functionalOntology#6.1.ProcessTransaction> ;
-  fo:hasDefinition "This is the process of posting entries to respective accounts, preparing accounts for receivables, managing the cash collected by the business from its debtors and recording it in the books of accounts to provide clear information about the availability of the cash." ;
+  fo:hasDefinition "The process of managing loans from customers to buy products/ services" ;
   fo:hasExample "When one of the debtors of the business goes bankrupt, the business immediately has to record it, discuss claims of value and writeoff balance on the respective account" ;
   fo:hasSynonym "debtors" ;
   rdfs:label "Manage Collections" ;
@@ -2151,7 +2151,7 @@ Traditional - 10 - 15% ($50 - 75K)""" ;
 <http://fhnw.ch/functionalOntology#8.3.DevelopMarketingPlan>
   rdf:type fo:Level-2-Sub-functions ;
   fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#8.0.MarketingAndSales> ;
-  fo:hasDefinition "processes for making budgets, identifying and developing media, pricing products and services, managing packaging, managing marketing content and promotional activities, tracking and responding to customer insight and monitoring measures established within develop marketing strategy" ;
+  fo:hasDefinition "After the marketing strategy is defined, marketing plans are developed in order to follow with the strategy." ;
   fo:hasExample "processes for making budgets, identifying and developing media, pricing products and services, managing packaging, managing marketing content and promotional activities, tracking and responding to customer insight and monitoring measures established within develop marketing strategy" ;
   fo:hasSynonym "marketing strategy" ;
   rdfs:label "Develop And Manage Marketing Plan" ;
