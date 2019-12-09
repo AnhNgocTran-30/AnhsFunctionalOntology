@@ -95,7 +95,7 @@
   fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.10.MeasureAndBenchmark> ;
   fo:hasDefinition "Assess process data, measures and trands in an effort to evaluare process performance and identify possible improvements" ;
   fo:hasExample "Establish performance metrics, collect data and trends, prepare report" ;
-  fo:hasSynonym "Process performance" ;
+  fo:hasSynonym "n/a" ;
   rdfs:label "Evaluate Process Performance" ;
 .
 <http://fhnw.ch/functionalOntology#1.10.MeasureAndBenchmark>
@@ -180,7 +180,7 @@ Mission statement of Prezi: Prezi: To reinvent how people share knowledge, tell 
   fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.2.DevelopBusinessStrategy> ;
   fo:hasDefinition "Strategic options is sets of strategic decions designed to drive the organization's long-term objectives" ;
   fo:hasExample "Options about suppliers, partnership, alignment of business functions with strategy, etc." ;
-  fo:hasSynonym "Strategic Options" ;
+  fo:hasSynonym "n/a" ;
   rdfs:label "Define Strategic Options to Achieve Goals" ;
 .
 <http://fhnw.ch/functionalOntology#1.2.4.CreateOrganizationalStructure>
@@ -206,7 +206,7 @@ Mission statement of Prezi: Prezi: To reinvent how people share knowledge, tell 
   fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#1.0.StrategicManagement> ;
   fo:hasDefinition "Basing on the external and internal assessment, business's strategy is determined on a high level" ;
   fo:hasExample "Determining primary business, business model, values, mission statement, organizational goals and structure" ;
-  fo:hasSynonym "Business Strategy" ;
+  fo:hasSynonym "n/a" ;
   rdfs:label "Develop Business Strategy" ;
 .
 <http://fhnw.ch/functionalOntology#1.3.1.SetShortTermGoals>
@@ -216,7 +216,7 @@ Mission statement of Prezi: Prezi: To reinvent how people share knowledge, tell 
   fo:hasExample """To achieve the company's goals - increase customer satisfication, short-tem plans are proposed using the following methods:
 * SMART goal setting (specific, measurable, actionable, relevant, timely): in the next year, we will decrease time to process customer complaint by 25% ( meaning increaase customer satisfaction through customer complaint process) 
 * Balanced scorecard (Financial perspective, customer perspective, internal process outlook, learning and growth): as the customer perspective is the core strategy, we need to increase internlal process efficiency, cummulate learnings through all customer-related processes and by doing that, we need to increase financial spending in the next year""" ;
-  fo:hasSynonym "goals" ;
+  fo:hasSynonym "n/a" ;
   rdfs:label "Set Short-Term Organizational Goals" ;
 .
 <http://fhnw.ch/functionalOntology#1.3.2.IdentifyPriority>
@@ -265,7 +265,7 @@ Mission statement of Prezi: Prezi: To reinvent how people share knowledge, tell 
   fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.4.ManageAndMeasureStrategicInitiatives> ;
   fo:hasDefinition "Measuring progress of the company through predefined KPIs" ;
   fo:hasExample "Progress to achieve goal will be quantify and measured via KPI, if they achieve the predefined goals" ;
-  fo:hasSynonym "Progress" ;
+  fo:hasSynonym "n/a" ;
   rdfs:label "Measure Progress" ;
 .
 <http://fhnw.ch/functionalOntology#1.4.3.ReviewAndAdaptProgress>
@@ -299,7 +299,7 @@ Identify any cross-function processes""" ;
   fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.5.ManageBusinessProcesses> ;
   fo:hasDefinition "Establishing the business processes of the organization. Scope, analyze, map and publics process" ;
   fo:hasExample "The marketing process is defined as \"A series of steps that allow organizations to identify customer problems, analyze market opportunities, and create marketing materials to reach the desired audience" ;
-  fo:hasSynonym "Process definition" ;
+  fo:hasSynonym "n/a" ;
   rdfs:label "Define Processes" ;
 .
 <http://fhnw.ch/functionalOntology#1.5.3.ManageProcessPerformance>
@@ -331,7 +331,7 @@ Identify any cross-function processes""" ;
   fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.6.ManagePortfolio,Programs,Projects> ;
   fo:hasDefinition "Manage business portfolio, including brands, products, holdings, investments, etc." ;
   fo:hasExample "P&G (Procter and Gamble) own several different brands:  Always®, Ambi Pur®, Ariel®, Bounty®, Charmin®, Crest®, Dawn®, Downy®, Fairy®, Febreze®, Gain®, Gillette®, Head & Shoulders®, Lenor®, Olay®, Oral-B®, Pampers®, Pantene®, SK-II®, Tide®, Vicks®, and Whisper® " ;
-  fo:hasSynonym "Organization Porfolio" ;
+  fo:hasSynonym "n/a" ;
   rdfs:label "Manage Organization Portfolio" ;
 .
 <http://fhnw.ch/functionalOntology#1.6.2.ManagePrograms>
@@ -347,7 +347,7 @@ Identify any cross-function processes""" ;
   fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.6.ManagePortfolio,Programs,Projects> ;
   fo:hasDefinition "Manage projects in company" ;
   fo:hasExample "Alpig Holding (CH) is developing a RPA (robotic process automation project. In order to manage this project, a lot of factors needed to be considered: budget, vendors, consultants, outsource or in-shouse, etc.). Project excution time frame, quality control, etc\\" ;
-  fo:hasSynonym "Organization Project" ;
+  fo:hasSynonym "n/a" ;
   rdfs:label "Manage Organization Projects" ;
 .
 <http://fhnw.ch/functionalOntology#1.6.ManagePortfolio,Programs,Projects>
@@ -442,7 +442,7 @@ Perform actions to reduce this gap""" ;
 .
 <http://fhnw.ch/functionalOntology#1.9.1.DevelopKnowledgeManagementStrategy>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.9.ManageEnterpriseKnowledgeManagement> ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.9.ManageEnterpriseKnowledge> ;
   fo:hasDefinition "Building strategy on how to maintain knowledge" ;
   fo:hasExample "Define roles and accountability of core groups vs operating units, develop core knowledge management methodology" ;
   fo:hasSynonym "Knowledge Management" ;
@@ -450,7 +450,7 @@ Perform actions to reduce this gap""" ;
 .
 <http://fhnw.ch/functionalOntology#1.9.2.DesignAndImplementKnowledgeManagementInitiatives>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.9.ManageEnterpriseKnowledgeManagement> ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.9.ManageEnterpriseKnowledge> ;
   fo:hasDefinition "Design KM resource model, implement KM approaches" ;
   fo:hasExample "If an organization decides to use CoE for its RPA (robotic process automation) program, it has to start deciding which process to be automated, the process of automation and how to maintain the documentation inside of CoE" ;
   fo:hasSynonym "KM" ;
@@ -459,7 +459,7 @@ Perform actions to reduce this gap""" ;
 .
 <http://fhnw.ch/functionalOntology#1.9.3.EnhanceAndMaintainKnowledgeManagementCapabilities>
   rdf:type fo:Level-3-Processes ;
-  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.9.ManageEnterpriseKnowledgeManagement> ;
+  fo:IsProcessOf <http://fhnw.ch/functionalOntology#1.9.ManageEnterpriseKnowledge> ;
   fo:hasDefinition """Enhance/ modify existing KM approaches
 Sustain awareness and engagement""" ;
   fo:hasExample "Knowledge Management enhancement" ;
@@ -467,9 +467,10 @@ Sustain awareness and engagement""" ;
   fo:hasSynonym "Knowledge Management" ;
   rdfs:label "Enhance and maintain knowledge management capabilities" ;
 .
-<http://fhnw.ch/functionalOntology#1.9.ManageEnterpriseKnowledgeManagement>
+<http://fhnw.ch/functionalOntology#1.9.ManageEnterpriseKnowledge>
   rdf:type fo:Level-2-Sub-functions ;
   fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#1.0.StrategicManagement> ;
+  fo:hasDefinition "This sub-function deals with how enterprise manage its knowledge about certain processes" ;
   fo:hasExample "Some organizations use Center of exellence (CoE) to manage their knowledge, some outsource their process and therfore, have their knowledge outsourced" ;
   fo:hasSynonym "CoE (center of exellence)" ;
   fo:hasSynonym "Knowledge Management" ;
@@ -479,7 +480,7 @@ Sustain awareness and engagement""" ;
   rdf:type fo:Level-1-Functions ;
   fo:hasDefinition "The Asset Management SUnction provides resources and expertise to support the acquisition, in-service support and disposal of the physical assets required by the organization" ;
   fo:hasExample "Asset management in a company can range from in sizes: from building blocks, big machinary to small office supplies like paper, pens, files, etc. This function is in charge of assessing new assets, maintaining productive assets as well as dispose unproductive assets." ;
-  fo:hasSynonym "Asset management" ;
+  fo:hasSynonym "n/a" ;
   fo:isReferencedToFramework "<http://ikm-group.ch/archimeo/apqc#10_0_Acquire_Construct_and_Manage_Assets_19207>" ;
   fo:isReferencedToFramework "The Asset Management Function. (2010). Physical Asset Management, 13–26. doi:10.1007/978-1-84882-751-6_2" ;
   rdfs:label "Organization Asset Management" ;
@@ -849,7 +850,7 @@ Day 5: Culture day""" ;
   fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#2.0.HumanResourceManagement> ;
   fo:hasDefinition "Manage and maintain employee inquiries, data, HRM systems, etc" ;
   fo:hasExample "All the employees informatics (gender, age, marial status, nationality, etc.) are stored in a HRM system and are updated on a pushing basis" ;
-  fo:hasSynonym "Employee informatics" ;
+  fo:hasSynonym "n/a" ;
   rdfs:label "Manage Employees Informatics" ;
 .
 <http://fhnw.ch/functionalOntology#3.0.InformationTechnologyManagement>
@@ -1164,7 +1165,7 @@ Which security guideline: ISO 27K, COBIT, NIST, PSR, ASD 8""" ;
   fo:hasDefinition "Everyday activities that IT performs including incident resolution or problem management" ;
   fo:hasExample "Ticket opening" ;
   fo:hasExample "incident resolution" ;
-  fo:hasSynonym "IT operation" ;
+  fo:hasSynonym "n/a" ;
   rdfs:label "Manage IT Operation" ;
 .
 <http://fhnw.ch/functionalOntology#4.0.RiskAndComplianceManagement>
@@ -1217,7 +1218,7 @@ Implement risks management tools\"""" ;
   fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#4.0.RiskAndComplianceManagement> ;
   fo:hasDefinition "The process of soping enterprise risks as well as mitigation plans to these risks" ;
   fo:hasExample "Enterprise using risk matrix in order to identify which risks are highly destructive (likely to occur and have severe impacts) and which risks are not important (not likely to occur or does not have severe impacts)" ;
-  fo:hasSynonym "risk strategy" ;
+  fo:hasSynonym "n/a" ;
   rdfs:label "Manage Enterprise Risks" ;
 .
 <http://fhnw.ch/functionalOntology#4.2.1.EstablishComplianceFrameworkAndPolicies>
@@ -1242,7 +1243,7 @@ Implement risks management tools\"""" ;
   fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#4.0.RiskAndComplianceManagement> ;
   fo:hasDefinition "The process of identifying compliance frameworks, issues that an organization  need to accomplish as well as difficulties in accomplish the compliance framework" ;
   fo:hasExample "In the U.S, public companies (companies listed on the stock exchange) and non profit organizations are obligated to have external audits. SME do not have the obligation to do so" ;
-  fo:hasSynonym "Compliance" ;
+  fo:hasSynonym "n/a" ;
   rdfs:label "Manage Compliance" ;
 .
 <http://fhnw.ch/functionalOntology#4.3.1.CreateMitigationPlan>
@@ -1292,7 +1293,7 @@ Implement risks management tools\"""" ;
   fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#4.0.RiskAndComplianceManagement> ;
   fo:hasDefinition "For critical risks (risks that have severe impacts and is likely to happen), mitigation plans need to be in place in case it does happen in reality. This mitigation plan needed to be controlled, followed and adjusted" ;
   fo:hasExample "For natural disaster risks for IT (an earthquake could shut down the IT system in the organization), the organization need to have different databases in different places in the world." ;
-  fo:hasSynonym "Mitigation" ;
+  fo:hasSynonym "n/a" ;
   rdfs:label "Manage Mitigation Efforts" ;
 .
 <http://fhnw.ch/functionalOntology#4.4.1.CreateResiliencyStrategy>
@@ -1323,7 +1324,7 @@ Implement risks management tools\"""" ;
   fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#4.0.RiskAndComplianceManagement> ;
   fo:hasDefinition "The process of rapidly adapt business according to its environment changes" ;
   fo:hasExample "The process of rapidly adapt business according to its environment changes" ;
-  fo:hasSynonym "Resiliency" ;
+  fo:hasSynonym "n/a" ;
   rdfs:label "Manage Business Resiliencies" ;
 .
 <http://fhnw.ch/functionalOntology#5.0.PulicRelationManagement>
@@ -1354,7 +1355,7 @@ Implement risks management tools\"""" ;
   fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#5.0.PulicRelationManagement> ;
   fo:hasDefinition "keep the stockholders updated about company's situation" ;
   fo:hasExample "issuing managerial report at annual general meeting" ;
-  fo:hasSynonym "owners" ;
+  fo:hasSynonym "Relationship with Business Owners" ;
   rdfs:label "Manage Stockholders Relationship" ;
 .
 <http://fhnw.ch/functionalOntology#5.2.1.ManageRelationshipWithGovernment>
@@ -1406,7 +1407,7 @@ Typical lenders are banks, financial institutions, etc.""" ;
   fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#5.0.PulicRelationManagement> ;
   fo:hasDefinition "Manage relationship with lenders (banks, mutual funds, etc.) and analysts" ;
   fo:hasExample "Companies nowadays often have loand from banks. Bank acts as investors, not stockholders of the company" ;
-  fo:hasSynonym "Investor" ;
+  fo:hasSynonym "Relationship with Investor" ;
   rdfs:label "Manage Investor Relationship" ;
 .
 <http://fhnw.ch/functionalOntology#5.4.1.ManageRelationshipWithCommunity>
@@ -1773,7 +1774,7 @@ Rport Accounting Period""" ;
   fo:hasExample "Business Performance Analysis" ;
   fo:hasExample "Cost Analysis" ;
   fo:hasExample "Manage Finance Function" ;
-  fo:hasSynonym "Decision support" ;
+  fo:hasSynonym "n/a" ;
   rdfs:label "Decision Support" ;
 .
 <http://fhnw.ch/functionalOntology#7.0.ResearchAndDevelopment>
@@ -1834,7 +1835,7 @@ Rport Accounting Period""" ;
   fo:hasExample "Manage R&D Budgets" ;
   fo:hasExample "Manage R&D Equipments and Facilities" ;
   fo:hasExample "Track KPIs" ;
-  fo:hasSynonym "R&D strategy and operation" ;
+  fo:hasSynonym "n/a" ;
   rdfs:label "Develop R&D Function Strategy and Manage R&D Operations" ;
 .
 <http://fhnw.ch/functionalOntology#7.2.1.ManageR&DProjectsAndPortfolio>
@@ -1893,7 +1894,7 @@ Rport Accounting Period""" ;
   fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#7.0.ResearchAndDevelopment> ;
   fo:hasDefinition "This set of activities deals with coming up with product ideas, concepts, requirements of market" ;
   fo:hasExample "Using design thinking to come up with product ideas and requirements" ;
-  fo:hasSynonym "new ideas" ;
+  fo:hasSynonym "n/a" ;
   rdfs:label "Define New Products/ Services Ideas" ;
 .
 <http://fhnw.ch/functionalOntology#7.4.1.DesignPrototype>
@@ -1924,8 +1925,8 @@ Rport Accounting Period""" ;
   rdf:type fo:Level-2-Sub-functions ;
   fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#7.0.ResearchAndDevelopment> ;
   fo:hasDefinition "Bring the ideas into reality and test it" ;
-  fo:hasExample "Bring the ideas into reality and test it" ;
-  fo:hasSynonym "develop products" ;
+  fo:hasExample "Before, there was no electric toothbrush. COming up with this idea, P&G has to design, implment, build it and test it with a small sample of potential customers in order to tell if the product has any demands" ;
+  fo:hasSynonym "n/a" ;
   rdfs:label "Develop Products And Services" ;
 .
 <http://fhnw.ch/functionalOntology#7.5.1.AnalyzeExistingTechnique>
@@ -1996,7 +1997,7 @@ Target market: market size, demographics, location, pshychographics, behaviour, 
 Competition: direct, indirect competition
 Pricing and forecast: pricing strategy to go for which pricing strategy
 """ ;
-  fo:hasSynonym "Assess customer and market" ;
+  fo:hasSynonym "n/a" ;
   rdfs:label "Assess Market And Customer" ;
 .
 <http://fhnw.ch/functionalOntology#8.10.1.MeasureCustomerHandlingSatisfaction>
@@ -2035,7 +2036,7 @@ Pricing and forecast: pricing strategy to go for which pricing strategy
   fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#8.0.MarketingAndSales> ;
   fo:hasDefinition "Caluculate operational exellence of customer service function through measurements in cutomer problem handling, complaints, products and services and warranty" ;
   fo:hasExample "A company can use teh system of customer evaluateion from 1 to 10 (with 1 is lowest- very dissatisfied and 10 is highest - extremely satisfied) to rate their service, product, employees attitude, etc." ;
-  fo:hasSynonym "customer satisfaction" ;
+  fo:hasSynonym "n/a" ;
   rdfs:label "Evaluate Customer Satisfaction" ;
 .
 <http://fhnw.ch/functionalOntology#8.2.1.DefinePricingStrategy>
@@ -2091,7 +2092,7 @@ Social media
 Events
 Blogs
 Press coverage""" ;
-  fo:hasSynonym "marketing strategy" ;
+  fo:hasSynonym "n/a" ;
   rdfs:label "Develop Marketing Strategy" ;
 .
 <http://fhnw.ch/functionalOntology#8.3.1.EstablishGoals,ObjectivesAndMetricsForProducts/Services>
@@ -2153,7 +2154,7 @@ Traditional - 10 - 15% ($50 - 75K)""" ;
   fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#8.0.MarketingAndSales> ;
   fo:hasDefinition "After the marketing strategy is defined, marketing plans are developed in order to follow with the strategy." ;
   fo:hasExample "processes for making budgets, identifying and developing media, pricing products and services, managing packaging, managing marketing content and promotional activities, tracking and responding to customer insight and monitoring measures established within develop marketing strategy" ;
-  fo:hasSynonym "marketing strategy" ;
+  fo:hasSynonym "n/a" ;
   rdfs:label "Develop And Manage Marketing Plan" ;
 .
 <http://fhnw.ch/functionalOntology#8.4.1.DevelopSalesStrategy>
@@ -2194,7 +2195,7 @@ Establish sales targets along with metrics to quantify goals""" ;
   fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#8.0.MarketingAndSales> ;
   fo:hasDefinition "Develop concrete plan for sale activities" ;
   fo:hasExample "Targeted customers, sales forecast, etc." ;
-  fo:hasSynonym "Sale strategy" ;
+  fo:hasSynonym "n/a" ;
   rdfs:label "Develop Sales Strategy" ;
 .
 <http://fhnw.ch/functionalOntology#8.5.1.ManageLeads/Opportunity>
@@ -2243,7 +2244,7 @@ Establish sales targets along with metrics to quantify goals""" ;
   fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#8.0.MarketingAndSales> ;
   fo:hasDefinition "Develop sales plan in accordance with the predefined sales strategy" ;
   fo:hasExample "Branding, sale channels, customer services in combinatioin with marketing campaign, etc" ;
-  fo:hasSynonym "Sales plan" ;
+  fo:hasSynonym "n/a" ;
   rdfs:label "Develop And Manage Sales Plan" ;
 .
 <http://fhnw.ch/functionalOntology#8.6.1.DefineCustomerServiceRequirements>
@@ -2291,7 +2292,7 @@ Establish sales targets along with metrics to quantify goals""" ;
   fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#8.0.MarketingAndSales> ;
   fo:hasDefinition "Define rules and regulations for customer service. Establish service levels for customers in order to help improve customer experience" ;
   fo:hasExample "Which point of contact to customers: self-service, dedicated personal assitant, somewhere in between, etc." ;
-  fo:hasSynonym "Customer Experience" ;
+  fo:hasSynonym "n/a" ;
   rdfs:label "Develop Customer Experience Strategy" ;
 .
 <http://fhnw.ch/functionalOntology#8.7.1.ManageCustomerServiceWorkforce>
@@ -2429,7 +2430,7 @@ approve or deny the transaction; and the originator being notified and payment a
   fo:IsSubFunctionOf <http://fhnw.ch/functionalOntology#8.0.MarketingAndSales> ;
   fo:hasDefinition "This process manages recalls if happens as well as fulfillment of regulatory assessment about recalls" ;
   fo:hasExample "From 2013 until now, roughly 41.6 million vehicles equipped with 56 million defective Takata air bags are under recall because these air bags can explode when deployed, causing serious injury or even death. Takata has to go through a procedure of recalls like initiate recalls, assess hazards, make regulatory reports, etc." ;
-  fo:hasSynonym "recalls" ;
+  fo:hasSynonym "n/a" ;
   rdfs:label "Manage Recalls" ;
 .
 <http://fhnw.ch/functionalOntology#9.0.Operation>

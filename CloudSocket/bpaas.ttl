@@ -466,7 +466,7 @@
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.5.ManageBusinessProcesses> ;
 .
 <http://ikm-group.ch/archiMEO/bdata#Learning_Cloud_Service>
-  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.9.ManageEnterpriseKnowledgeManagement> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.9.ManageEnterpriseKnowledge> ;
 .
 <http://ikm-group.ch/archiMEO/bdata#Local_Load_Balancer>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#7.0.ResearchAndDevelopment> ;
@@ -518,7 +518,7 @@
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#9.4.3.OperateOutboundTransportation> ;
 .
 <http://ikm-group.ch/archiMEO/bdata#Oracle_RightNow_Instance_Cloud_Service_Instance>
-  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.9.ManageEnterpriseKnowledgeManagement> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.9.ManageEnterpriseKnowledge> ;
 .
 <http://ikm-group.ch/archiMEO/bdata#Oracle_Social_Marketing_Cloud_Service_Essential_Edition>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.2.5.ManageCustomerLoyaltyProgram> ;
@@ -582,7 +582,7 @@
 .
 <http://ikm-group.ch/archiMEO/bdata#Salesforce__Addons>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.9.1.DevelopKnowledgeManagementStrategy> ;
-  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.9.ManageEnterpriseKnowledgeManagement> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.9.ManageEnterpriseKnowledge> ;
 .
 <http://ikm-group.ch/archiMEO/bdata#Salesforce__Communities_Cloud>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#8.5.2.ManageCustomerAndAccounts> ;
@@ -610,7 +610,7 @@
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.5.ManageBusinessProcesses> ;
 .
 <http://ikm-group.ch/archiMEO/bdata#SharePoint_Knowledge_Portal>
-  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.9.ManageEnterpriseKnowledgeManagement> ;
+  bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.9.ManageEnterpriseKnowledge> ;
 .
 <http://ikm-group.ch/archiMEO/bdata#SharePoint_Online_Business_Process_Automation>
   bpaas:CloudServiceIsAnnotatedWithFunctionalOntology <http://fhnw.ch/functionalOntology#1.5.ManageBusinessProcesses> ;
