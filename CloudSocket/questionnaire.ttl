@@ -11,7 +11,7 @@
 @prefix spin: <http://spinrdf.org/spin#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://fhnw.ch/functionalOntology#Level-1-Functions>
+<http://fhnw.ch/functionalOntology#Level-1-Function>
   spin:query [
       rdf:type sp:Select ;
       sp:resultVariables (
@@ -30,7 +30,7 @@
               ] ;
           ]
           [
-            sp:object <http://fhnw.ch/functionalOntology#Level-1-Functions> ;
+            sp:object <http://fhnw.ch/functionalOntology#Level-1-Function> ;
             sp:predicate rdf:type ;
             sp:subject [
                 sp:varName "FO" ;
@@ -39,7 +39,7 @@
         ) ;
     ] ;
 .
-<http://fhnw.ch/functionalOntology#Level-2-Sub-functions>
+<http://fhnw.ch/functionalOntology#Level-2-Sub-function>
   spin:query [
       rdf:type sp:Select ;
       sp:resultVariables (
@@ -58,7 +58,7 @@
               ] ;
           ]
           [
-            sp:object <http://fhnw.ch/functionalOntology#Level-2-Sub-functions> ;
+            sp:object <http://fhnw.ch/functionalOntology#Level-2-Sub-function> ;
             sp:predicate rdf:type ;
             sp:subject [
                 sp:varName "FO" ;
@@ -67,7 +67,7 @@
         ) ;
     ] ;
 .
-<http://fhnw.ch/functionalOntology#Level-3-Processes>
+<http://fhnw.ch/functionalOntology#Level-3-Process>
   spin:query [
       rdf:type sp:Select ;
       sp:resultVariables (
@@ -86,7 +86,7 @@
               ] ;
           ]
           [
-            sp:object <http://fhnw.ch/functionalOntology#Level-3-Processes> ;
+            sp:object <http://fhnw.ch/functionalOntology#Level-3-Process> ;
             sp:predicate rdf:type ;
             sp:subject [
                 sp:varName "FO" ;
